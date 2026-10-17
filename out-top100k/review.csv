@@ -1,0 +1,14 @@
+idx,stratum,page,rating,method,note
+0,top100k-79-desktop,https://dict.leo.org/forum/index.php?lp=ende&lang=en,not assessable,auto,HTTP 403
+1,top100k-79-desktop,https://nothing.community/d/62084-show-us-your-collector,no visible change,auto,A vs B within A vs A2 noise
+2,top100k-79-desktop,https://nothing.community/,no visible change,auto,A vs B within A vs A2 noise
+3,top100k-79-desktop,https://www.athome.co.jp/,not assessable,auto,HTTP 405
+4,top100k-79-desktop,https://testing.illuminateed.com/,no visible change,auto,A vs B within A vs A2 noise
+5,top100k-79-desktop,https://criancaalfabetizada.caeddigital.net/,no visible change,auto,A vs B within A vs A2 noise
+6,top100k-79-desktop,https://dict.leo.org/,not assessable,auto,HTTP 403
+7,top100k-79-desktop,https://avaliacaoemonitoramentoriograndedosul.caeddigital.net/,no visible change,manual,"MathJax mml3.js; B blank was load timing, identical after a 10s wait on recheck"
+8,top100k-79-mobile,https://www.redalyc.org/journal/5742/574275303003/,no visible change,auto,A vs B within A vs A2 noise
+9,top100k-79-mobile,https://nothing.community/d/60225-phone-4a-pro-teardown,no visible change,auto,A vs B within A vs A2 noise
+10,top100k-79-mobile,https://criancaalfabetizada.caeddigital.net/,no visible change,manual,"MathJax mml3.js; diff was load timing, identical after a 10s wait on recheck"
+11,top100k-79-mobile,https://avaliacaoemonitoramentoriograndedosul.caeddigital.net/,no visible change,auto,A vs B within A vs A2 noise
+12,top100k-79-mobile,https://nothing.community/,no visible change,auto,A vs B within A vs A2 noise

@@ -1,0 +1,201 @@
+idx,stratum,page,rating,method,note
+0,78-desktop,https://kckl.ent.sirsi.net/,not assessable,auto,HTTP 403
+1,78-desktop,https://rerdavies.github.io/feed.xml,worse,auto,machine-readable resource shown as raw XML
+2,78-desktop,https://library.trenholmstate.edu/,not assessable,auto,load error
+3,78-desktop,https://library.gbc.edu/,no visible change,manual,EBSCO Flipster widget; diff is below the fold noise
+4,78-desktop,https://www.rajska.info/,no visible change,auto,A vs B within A vs A2 noise
+5,78-desktop,https://ejournal.jayabaya.ac.id/index.php/index/oai,worse,auto,machine-readable resource shown as raw XML
+6,78-desktop,https://silvercitypubliclibrary.org/,no visible change,auto,A vs B within A vs A2 noise
+7,78-desktop,https://legolas.md-medicus.net/,broken,manual,MD Medicus customer portal (login) shows raw XML
+8,78-desktop,https://bsprdweb.averis.biz/,not assessable,auto,load error
+9,78-desktop,https://tk.pte.hu/,broken,manual,Pécs University phone directory shows raw XML
+10,78-desktop,https://wx88bet-th.com/sitemap_index.xml,worse,auto,machine-readable resource shown as raw XML
+11,78-desktop,https://eprasaran.com/sitemap.xml,worse,auto,machine-readable resource shown as raw XML
+12,78-desktop,https://cdc.dwd.de/,broken,manual,DWD Climate Data Center portal shows raw XML
+13,78-desktop,https://muzeumpiotrkow.pl/sitemap.xml,worse,auto,machine-readable resource shown as raw XML
+14,78-desktop,https://mcpls.org/resources/,not assessable,auto,load error
+15,78-desktop,http://mycelcat.unizulu.ac.za/,not assessable,auto,load error
+16,78-desktop,https://labs.vse.gmu.edu/sitemap.xml,not assessable,auto,load error
+17,78-desktop,https://stadtplan.ludwigshafen.de/,not assessable,auto,load error
+18,78-desktop,https://www.kerstinkoenigbaumaschinen.de/sitemap.xml,worse,auto,machine-readable resource shown as raw XML
+19,78-desktop,https://mylibrary.openpolytechnic.ac.nz/,no visible change,auto,A vs B within A vs A2 noise
+20,78-desktop,https://biblio.ucaldas.edu.co/novedades-bibliograficas/,no visible change,auto,A vs B within A vs A2 noise
+21,78-desktop,https://www.coreldraw12.in/sitemap_index.xml/,worse,auto,machine-readable resource shown as raw XML
+22,78-desktop,https://evehibi.nekoweb.org/,worse,manual,"personal site; embedded RSS iframe shows raw XML, rest unchanged"
+23,78-desktop,https://uperform.sc.gov/gm/folder-1.11.361,not assessable,auto,load error
+24,78-desktop,https://www.blast2go.com/wp-sitemap.xml,worse,auto,machine-readable resource shown as raw XML
+25,78-desktop,https://rdg125726.nextgenmcs.com/,not assessable,auto,HTTP 503
+26,78-desktop,https://wildfigkitchen.com/sitemap_index.xml,not assessable,auto,load error
+27,78-desktop,https://www.mahabodhi.org/zh-TW/eflyers/2022/0722.xml,broken,manual,event flyer authored as XML shows raw XML
+28,78-desktop,https://www.zus-rumburk.cz/,no visible change,auto,A vs B within A vs A2 noise
+29,78-desktop,https://repo.uinsyahada.ac.id/cgi/oai2,not assessable,auto,load error
+30,78-desktop,https://webportal1.thedx.co.uk/,broken,manual,DX Despatch login shows raw XML
+31,78-desktop,https://mccneb.libguides.com/,no visible change,auto,A vs B within A vs A2 noise
+32,78-desktop,https://library.austincc.edu/,no visible change,auto,A vs B within A vs A2 noise
+33,78-desktop,https://cloudlogic.indiqator.com.au/,not assessable,auto,load error
+34,78-desktop,https://bsprdweb.averis.biz/RDWeb/Pages/en-US/password.aspx,not assessable,auto,load error
+35,78-desktop,https://hctkauai.org/get-involved/,no visible change,auto,A vs B within A vs A2 noise
+36,78-desktop,https://mtmary.libguides.com/home,no visible change,auto,A vs B within A vs A2 noise
+37,78-desktop,https://compliance.osu.edu/sitemap.xml,worse,auto,machine-readable resource shown as raw XML
+38,78-desktop,https://rdg125726.nextgenmcs.com/RDWeb/Pages/en-US/password.aspx,not assessable,auto,HTTP 503
+39,78-desktop,https://cdc.dwd.de/DE/impressum.xhtml,broken,manual,DWD Climate Data Center imprint shows raw XML
+40,78-desktop,https://pcremoto.up.edu.pe/,not assessable,auto,load error
+41,78-desktop,https://mtmary.libguides.com/,no visible change,auto,A vs B within A vs A2 noise
+42,78-desktop,https://libguides.lander.edu/,no visible change,auto,A vs B within A vs A2 noise
+43,78-desktop,https://mequonpublicmarket.com/sitemap_index.xml,worse,auto,machine-readable resource shown as raw XML
+44,78-desktop,https://www.epsm-metz-jury.fr/page-sitemap.xml,worse,auto,machine-readable resource shown as raw XML
+45,78-desktop,https://lib.ubru.ac.th/web,not assessable,auto,load error
+46,78-desktop,https://www.portal.eltax.lta.go.jp/,not assessable,auto,HTTP 403
+47,78-desktop,https://libguides.northshorecollege.edu/,no visible change,auto,A vs B within A vs A2 noise
+48,78-desktop,https://evyatarhome.co.il/sitemap.xml,worse,auto,machine-readable resource shown as raw XML
+49,78-desktop,https://library.rsu.ac.th/,not assessable,auto,HTTP 505
+50,78-mobile,https://kckl.ent.sirsi.net/,not assessable,auto,HTTP 403
+51,78-mobile,https://www.kazo-makidume.com/sitemap.xml,worse,auto,machine-readable resource shown as raw XML
+52,78-mobile,https://rerdavies.github.io/feed.xml,worse,auto,machine-readable resource shown as raw XML
+53,78-mobile,http://sincanchat.com/sitemap.xml,not assessable,auto,load error
+54,78-mobile,https://cityclubapp.com/sitemap_index.xml,worse,auto,machine-readable resource shown as raw XML
+55,78-mobile,https://www.latelierpaysan.org/spip.php?page=backend&id_rubrique=14,worse,auto,machine-readable resource shown as raw XML
+56,78-mobile,https://library.trenholmstate.edu/,not assessable,auto,load error
+57,78-mobile,https://www.restaurantlabelleprovince.ca/sitemap.xml,worse,auto,machine-readable resource shown as raw XML
+58,78-mobile,https://www.xnx.cam/porn-tube/sitemaps_index.xml,worse,auto,machine-readable resource shown as raw XML
+59,78-mobile,https://www.wadesdairy.com/sitemap_index.xml,worse,auto,machine-readable resource shown as raw XML
+60,78-mobile,https://blog.fontawesome.com/feed/,worse,auto,machine-readable resource shown as raw XML
+61,78-mobile,https://erkenningen.nl/sitemap.xml,worse,auto,machine-readable resource shown as raw XML
+62,78-mobile,https://awfularthursobx.com/sitemap.xml,worse,auto,machine-readable resource shown as raw XML
+63,78-mobile,https://sewamobilmedan.id/sitemap_index.xml,worse,auto,machine-readable resource shown as raw XML
+64,78-mobile,https://www.okazaki-makidume.com/sitemap.xml,worse,auto,machine-readable resource shown as raw XML
+65,78-mobile,https://www.rajska.info/,no visible change,auto,A vs B within A vs A2 noise
+66,78-mobile,https://jokerxbet.life/sitemap_index.xml,worse,auto,machine-readable resource shown as raw XML
+67,78-mobile,https://krcppms.ru/rss.xml,worse,auto,machine-readable resource shown as raw XML
+68,78-mobile,https://ejournal.jayabaya.ac.id/index.php/index/oai,worse,auto,machine-readable resource shown as raw XML
+69,78-mobile,https://responsafortoday.com/sitemap_index.xml,worse,auto,machine-readable resource shown as raw XML
+70,78-mobile,https://www.sakuragicho-makidume.yokohama/sitemap.xml,worse,auto,machine-readable resource shown as raw XML
+71,78-mobile,https://sharetec.be/sitemap.xml,worse,auto,machine-readable resource shown as raw XML
+72,78-mobile,https://www.joker-game.co/sitemap_index.xml,worse,auto,machine-readable resource shown as raw XML
+73,78-mobile,https://silvercitypubliclibrary.org/,no visible change,auto,A vs B within A vs A2 noise
+74,78-mobile,https://soft.wikielm.com/sitemap_index.xml,worse,auto,machine-readable resource shown as raw XML
+75,78-mobile,https://legolas.md-medicus.net/,broken,manual,MD Medicus customer portal (login) shows raw XML
+76,78-mobile,https://tk.pte.hu/,broken,manual,Pécs University phone directory shows raw XML
+77,78-mobile,https://lc88.sa.com/sitemap_index.xml,not assessable,auto,load error
+78,78-mobile,https://matematicaskimat.com/sitemap.xml,worse,auto,machine-readable resource shown as raw XML
+79,78-mobile,https://eprasaran.com/sitemap.xml,worse,auto,machine-readable resource shown as raw XML
+80,78-mobile,https://flirtbees.org/sitemap_index.xml,worse,auto,machine-readable resource shown as raw XML
+81,78-mobile,https://chatous.net/sitemap_index.xml,worse,auto,machine-readable resource shown as raw XML
+82,78-mobile,https://cdc.dwd.de/,broken,manual,DWD Climate Data Center portal shows raw XML
+83,78-mobile,https://www.koshigaya-makidume.com/sitemap.xml,worse,auto,machine-readable resource shown as raw XML
+84,78-mobile,https://www.longboardsgrillsb.com/sitemap_index.xml,worse,auto,machine-readable resource shown as raw XML
+85,78-mobile,https://comoencasamotril.es/sitemap_index.xml,worse,auto,machine-readable resource shown as raw XML
+86,78-mobile,https://www.strictestheadmistress.com/page-sitemap.xml,worse,auto,machine-readable resource shown as raw XML
+87,78-mobile,https://bobiko.blog/rss.xml,worse,auto,machine-readable resource shown as raw XML
+88,78-mobile,https://weskg.gr/sitemap_index.xml,worse,auto,machine-readable resource shown as raw XML
+89,78-mobile,http://mycelcat.unizulu.ac.za/,not assessable,auto,load error
+90,78-mobile,https://labs.vse.gmu.edu/sitemap.xml,not assessable,auto,load error
+91,78-mobile,https://www.makizume.yokohama/sitemap.xml,worse,auto,machine-readable resource shown as raw XML
+92,78-mobile,https://stadtplan.ludwigshafen.de/,not assessable,auto,load error
+93,78-mobile,https://kramat777x.org/sitemap.xml,worse,auto,machine-readable resource shown as raw XML
+94,78-mobile,https://gbwsap.com/sitemap_index.xml,not assessable,auto,HTTP 404
+95,78-mobile,https://www.vpnwasel.com/sitemap.xml,worse,auto,machine-readable resource shown as raw XML
+96,78-mobile,https://mylibrary.openpolytechnic.ac.nz/,no visible change,auto,A vs B within A vs A2 noise
+97,78-mobile,https://tocumwaltouristpark.com.au/sitemap.xml,worse,auto,machine-readable resource shown as raw XML
+98,78-mobile,https://biblio.ucaldas.edu.co/novedades-bibliograficas/,no visible change,auto,A vs B within A vs A2 noise
+99,78-mobile,https://evehibi.nekoweb.org/,no visible change,auto,A vs B within A vs A2 noise
+100,79-desktop,https://webboard.customs.go.th/t/00,not assessable,auto,HTTP 500
+101,79-desktop,https://forum.eastfront.se/d/953-biljettlankar-bortamatcher,worse,manual,"Flarum: extensions initialized after the error missing (tags, labels, excerpts, best answer); posts render"
+102,79-desktop,https://www.forgenex.com/comunidad,worse,manual,"Flarum: extensions initialized after the error missing (tags, labels, excerpts, best answer); posts render"
+103,79-desktop,https://eu.mydlink.com/,worse,manual,mydlink: hero banner missing
+104,79-desktop,https://community.mailcow.email/,worse,manual,"Flarum: extensions initialized after the error missing (tags, labels, excerpts, best answer); posts render"
+105,79-desktop,https://www.ontrackpharmacy.com/ontrack,no visible change,auto,A vs B within A vs A2 noise
+106,79-desktop,https://ubuntu.hu/,no visible change,auto,A vs B within A vs A2 noise
+107,79-desktop,https://bbs.liht.cc/d/68,worse,manual,"Flarum: extensions initialized after the error missing (tags, labels, excerpts, best answer); posts render"
+108,79-desktop,https://www.boojumbrewing.com/,no visible change,auto,A vs B within A vs A2 noise
+109,79-desktop,https://community.victorinox.com/,no visible change,auto,A vs B within A vs A2 noise
+110,79-desktop,https://www.acgmuse.com/,worse,manual,"Flarum: extensions initialized after the error missing (tags, labels, excerpts, best answer); posts render"
+111,79-desktop,https://shop.austrian-standards.at/?locale=de,no visible change,auto,A vs B within A vs A2 noise
+112,79-desktop,https://lms.konyang.ac.kr/lms/front/boardItem/doListView.dunet?board_no=14&mnid=20120658883,no visible change,auto,A vs B within A vs A2 noise
+113,79-desktop,https://bbs.spark-app.store/,worse,manual,"Flarum: hero, sidebar and tags missing"
+114,79-desktop,https://arfemdom.com/,no visible change,auto,A vs B within A vs A2 noise
+115,79-desktop,https://legislacao.contabil.business/1787322111,no visible change,auto,A vs B within A vs A2 noise
+116,79-desktop,https://forum.gpph.pl/d/1597-blog-samochodowy-oddzial-ratunkowy-odbudowa-blacharska-i-modyfikacje-aut,worse,manual,"Flarum: extensions initialized after the error missing (tags, labels, excerpts, best answer); posts render"
+117,79-desktop,https://air.lottejtb.com/,not assessable,auto,load error
+118,79-desktop,https://www.automall.hu/hu/auto.html?auto=1084,no visible change,auto,A vs B within A vs A2 noise
+119,79-desktop,https://lms.cnc.ac.kr/lms/class/exam2/apply/doListView.dunet,no visible change,auto,A vs B within A vs A2 noise
+120,79-desktop,https://forum.retroaction.ca/d/79-bien-demarrer-avec-retroaction,worse,manual,"Flarum: extensions initialized after the error missing (tags, labels, excerpts, best answer); posts render"
+121,79-desktop,https://www.wpzy.cc/,no visible change,auto,A vs B within A vs A2 noise
+122,79-desktop,https://teaching.gnu.ac.kr/,no visible change,auto,A vs B within A vs A2 noise
+123,79-desktop,https://avaliacaoemonitoramentoceara.caeddigital.net/,no visible change,manual,MathJax mml3.js; diff is fade-in animation noise
+124,79-desktop,https://www.vfxskill.com/,worse,manual,"Flarum-based: header nav, sidebar and card layout missing"
+125,79-desktop,https://www.hamptonsrealestate.com/,worse,manual,real-estate site: hero carousel missing
+126,79-desktop,https://portal.wochenblitz.com/d/10068-dach-th-steuer-service-pnd-91-thai-steuererklaerung-fuer-chf-650-bis-842026,no visible change,auto,A vs B within A vs A2 noise
+127,79-desktop,https://portaltransparencia.caeddigital.net/,no visible change,auto,A vs B within A vs A2 noise
+128,79-desktop,https://forum.journey.cloud/d/324-journey-desktop-2024-sneak-peek-of-new-desktop-app-for-windows-mac-linux,worse,manual,"Flarum: extensions initialized after the error missing (tags, labels, excerpts, best answer); posts render"
+129,79-desktop,https://www.nuovacaptur.it/,no visible change,auto,A vs B within A vs A2 noise
+130,79-desktop,https://forum.bela.io/d/1277-c-real-time-audio-programming-with-bela-a-free-online-course,no visible change,auto,A vs B within A vs A2 noise
+131,79-desktop,https://4play.to/,no visible change,auto,A vs B within A vs A2 noise
+132,79-desktop,https://multiplex-lp.soho-sports.com/,no visible change,auto,A vs B within A vs A2 noise
+133,79-desktop,https://forum.knightsoftheeditingtable.com/d/123-malwarebytes-flagged-quarantined-an-excalibur-file-windows,no visible change,auto,A vs B within A vs A2 noise
+134,79-desktop,https://edu.emoldova.org/d/542-manastirea-sfanta-treime-saharna,worse,manual,"Flarum: extensions initialized after the error missing (tags, labels, excerpts, best answer); posts render"
+135,79-desktop,https://www.jackarmyforum.com/,worse,manual,"Flarum: extensions initialized after the error missing (tags, labels, excerpts, best answer); posts render"
+136,79-desktop,https://yesiloda.co/d/28-esrar-yetistirirken-karsilasilan-hastaliklar-sorunlar-ve-cozumleri,worse,manual,"Flarum: extensions initialized after the error missing (tags, labels, excerpts, best answer); posts render"
+137,79-desktop,https://community.wvbtech.com/d/22,not assessable,auto,load error
+138,79-desktop,https://community.enhance.com/,worse,manual,"Flarum: extensions initialized after the error missing (tags, labels, excerpts, best answer); posts render"
+139,79-desktop,https://forum.deovr.com/d/11035-deovr-driveai-issues,worse,manual,"Flarum: extensions initialized after the error missing (tags, labels, excerpts, best answer); posts render"
+140,79-desktop,https://forum.telekomunikace.cz/d/47372-pravidla-zadavani-inzeratu-zejmena-pravidlo-uvadeni-ceny,no visible change,auto,A vs B within A vs A2 noise
+141,79-desktop,https://z22se.co.uk/d/74207-forum-migration-xenforo-flarum,worse,manual,"Flarum: extensions initialized after the error missing (tags, labels, excerpts, best answer); posts render"
+142,79-desktop,https://avaliacaoemonitoramentosantacatarina.caeddigital.net/,no visible change,manual,MathJax mml3.js; diff is fade-in animation noise
+143,79-desktop,https://www.aippt.cn/workspace,not assessable,auto,load error
+144,79-desktop,https://fahrradwagen.com/d/8245-1009-1392026-fahrrad-wohn-wagen-treffen-in-wernigerode-,worse,manual,"Flarum: extensions initialized after the error missing (tags, labels, excerpts, best answer); posts render"
+145,79-desktop,https://examsdaily.in/,no visible change,auto,A vs B within A vs A2 noise
+146,79-desktop,https://connect.tataclassedgeonline.com/,no visible change,auto,A vs B within A vs A2 noise
+147,79-desktop,https://forum.myspeedpost.com/,not assessable,auto,load error
+148,79-desktop,https://toonforum.nl/,worse,manual,"Flarum: extensions initialized after the error missing (tags, labels, excerpts, best answer); posts render"
+149,79-desktop,https://thelastsovereign.flarum.cloud/d/23-forum-guidelines,no visible change,auto,A vs B within A vs A2 noise
+150,79-mobile,https://webboard.customs.go.th/t/00,worse,manual,"Flarum: extensions initialized after the error missing (tags, labels, excerpts, best answer); posts render"
+151,79-mobile,https://community.mailcow.email/,worse,manual,"Flarum: extensions initialized after the error missing (tags, labels, excerpts, best answer); posts render"
+152,79-mobile,https://ubuntu.hu/,no visible change,auto,A vs B within A vs A2 noise
+153,79-mobile,https://kozha-translate.com/,no visible change,auto,A vs B within A vs A2 noise
+154,79-mobile,https://bbs.liht.cc/d/68,worse,manual,"Flarum: extensions initialized after the error missing (tags, labels, excerpts, best answer); posts render"
+155,79-mobile,https://www.boojumbrewing.com/,no visible change,auto,A vs B within A vs A2 noise
+156,79-mobile,https://community.victorinox.com/,no visible change,auto,A vs B within A vs A2 noise
+157,79-mobile,https://www.acgmuse.com/,worse,manual,"Flarum: extensions initialized after the error missing (tags, labels, excerpts, best answer); posts render"
+158,79-mobile,https://shop.austrian-standards.at/?locale=de,no visible change,auto,A vs B within A vs A2 noise
+159,79-mobile,https://bbs.spark-app.store/,not assessable,auto,load error
+160,79-mobile,https://arfemdom.com/,no visible change,auto,A vs B within A vs A2 noise
+161,79-mobile,https://legislacao.contabil.business/1787322111,no visible change,auto,A vs B within A vs A2 noise
+162,79-mobile,https://www.positionsstudio.com/summer-classes,no visible change,auto,A vs B within A vs A2 noise
+163,79-mobile,https://lms.cnc.ac.kr/lms/class/exam2/apply/doListView.dunet,no visible change,auto,A vs B within A vs A2 noise
+164,79-mobile,https://livermore.kobejapanrestaurant.com/lunch-and-happy-hour,broken,manual,SinglePlatform menu widget falls back to ActiveXObject and throws; menu missing
+165,79-mobile,https://forum.retroaction.ca/d/79-bien-demarrer-avec-retroaction,worse,manual,"Flarum: extensions initialized after the error missing (tags, labels, excerpts, best answer); posts render"
+166,79-mobile,https://www.wpzy.cc/,no visible change,auto,A vs B within A vs A2 noise
+167,79-mobile,https://avaliacaoemonitoramentoceara.caeddigital.net/,no visible change,auto,A vs B within A vs A2 noise
+168,79-mobile,https://tasuess.edutams.net/admission/open-admission,no visible change,auto,A vs B within A vs A2 noise
+169,79-mobile,https://www.hamptonsrealestate.com/,worse,manual,real-estate site: hero carousel missing
+170,79-mobile,https://sata.code.pro.vn/tags,broken,manual,Flarum /tags page renders empty
+171,79-mobile,https://portal.wochenblitz.com/d/10068-dach-th-steuer-service-pnd-91-thai-steuererklaerung-fuer-chf-650-bis-842026,no visible change,auto,A vs B within A vs A2 noise
+172,79-mobile,https://portaltransparencia.caeddigital.net/,no visible change,auto,A vs B within A vs A2 noise
+173,79-mobile,https://forum.journey.cloud/d/324-journey-desktop-2024-sneak-peek-of-new-desktop-app-for-windows-mac-linux,worse,manual,"Flarum: extensions initialized after the error missing (tags, labels, excerpts, best answer); posts render"
+174,79-mobile,https://www.nuovacaptur.it/,no visible change,auto,A vs B within A vs A2 noise
+175,79-mobile,https://forum.bela.io/d/1277-c-real-time-audio-programming-with-bela-a-free-online-course,no visible change,auto,A vs B within A vs A2 noise
+176,79-mobile,https://4play.to/,no visible change,auto,A vs B within A vs A2 noise
+177,79-mobile,https://multiplex-lp.soho-sports.com/,no visible change,auto,A vs B within A vs A2 noise
+178,79-mobile,https://edu.emoldova.org/d/542-manastirea-sfanta-treime-saharna,worse,manual,"Flarum: extensions initialized after the error missing (tags, labels, excerpts, best answer); posts render"
+179,79-mobile,https://www.jackarmyforum.com/,worse,manual,"Flarum: extensions initialized after the error missing (tags, labels, excerpts, best answer); posts render"
+180,79-mobile,https://yesiloda.co/d/28-esrar-yetistirirken-karsilasilan-hastaliklar-sorunlar-ve-cozumleri,broken,manual,Flarum fails to boot; no-JS fallback shown
+181,79-mobile,https://eurofo.eu/t/eurocontests,no visible change,auto,A vs B within A vs A2 noise
+182,79-mobile,https://forums.alminshawy.com/,not assessable,auto,load error
+183,79-mobile,https://community.enhance.com/,worse,manual,"Flarum: extensions initialized after the error missing (tags, labels, excerpts, best answer); posts render"
+184,79-mobile,https://forum.telekomunikace.cz/d/47372-pravidla-zadavani-inzeratu-zejmena-pravidlo-uvadeni-ceny,no visible change,auto,A vs B within A vs A2 noise
+185,79-mobile,https://z22se.co.uk/d/74207-forum-migration-xenforo-flarum,worse,manual,"Flarum: extensions initialized after the error missing (tags, labels, excerpts, best answer); posts render"
+186,79-mobile,https://forum.dbkg.de/all,worse,manual,Flarum: header title missing
+187,79-mobile,https://yumetal.net/rankings,no visible change,auto,A vs B within A vs A2 noise
+188,79-mobile,https://avaliacaoemonitoramentosantacatarina.caeddigital.net/,no visible change,auto,A vs B within A vs A2 noise
+189,79-mobile,https://daring.pkbm-binapandumandiri.or.id/,no visible change,manual,loading spinner in B was timing; identical after a 10s wait on recheck
+190,79-mobile,https://fahrradwagen.com/d/8245-1009-1392026-fahrrad-wohn-wagen-treffen-in-wernigerode-,worse,manual,"Flarum: extensions initialized after the error missing (tags, labels, excerpts, best answer); posts render"
+191,79-mobile,https://examsdaily.in/,no visible change,auto,A vs B within A vs A2 noise
+192,79-mobile,https://forum.pretpark.club/d/4253-nu-te-koop-pretparkclub-coastertracker-pin,worse,manual,"Flarum: extensions initialized after the error missing (tags, labels, excerpts, best answer); posts render"
+193,79-mobile,https://connect.tataclassedgeonline.com/,no visible change,auto,A vs B within A vs A2 noise
+194,79-mobile,https://warthunder.tr/blog/1050-yeni-guncelleme-sky-odyssey-tanitildi,not assessable,auto,load error
+195,79-mobile,https://forum.myspeedpost.com/,not assessable,auto,load error
+196,79-mobile,https://toonforum.nl/,worse,manual,"Flarum: extensions initialized after the error missing (tags, labels, excerpts, best answer); posts render"
+197,79-mobile,https://unwedchastity.org/d/1273-link-list,worse,manual,"Flarum: extensions initialized after the error missing (tags, labels, excerpts, best answer); posts render"
+198,79-mobile,https://forum.live-in-europe.org/,worse,manual,"Flarum: extensions initialized after the error missing (tags, labels, excerpts, best answer); posts render"
+199,79-mobile,https://forum.mylittlewordland.com/t/announcements,worse,manual,Flarum: tag page shows all discussions instead of the tag

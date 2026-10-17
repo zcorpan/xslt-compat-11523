@@ -1,0 +1,201 @@
+idx,stratum,page,auto_rating,reason,textRatioAA2,textRatioAB,pixAA2,pixAB,xslt_source,b_errors
+0,78-desktop,https://kckl.ent.sirsi.net/,not assessable,HTTP 403,0.966,0.962,0.0005,0.0005,,
+1,78-desktop,https://rerdavies.github.io/feed.xml,worse,machine-readable resource shown as raw XML,1.0,0.177,0.0,0.1294,,
+2,78-desktop,https://library.trenholmstate.edu/,not assessable,load error,1.0,1.0,,,,
+3,78-desktop,https://library.gbc.edu/,,differs; needs review,1.0,1.0,0.0,0.035,,
+4,78-desktop,https://www.rajska.info/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,,
+5,78-desktop,https://ejournal.jayabaya.ac.id/index.php/index/oai,worse,machine-readable resource shown as raw XML,0.998,0.111,0.0001,0.0819,,
+6,78-desktop,https://silvercitypubliclibrary.org/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.1417,0.1034,,
+7,78-desktop,https://legolas.md-medicus.net/,,raw XML; needs review,1.0,0.019,0.0,0.7381,,
+8,78-desktop,https://bsprdweb.averis.biz/,not assessable,load error,1.0,0.21,0.0,,,
+9,78-desktop,https://tk.pte.hu/,,raw XML; needs review,1.0,0.022,0.0,0.2126,,
+10,78-desktop,https://wx88bet-th.com/sitemap_index.xml,worse,machine-readable resource shown as raw XML,1.0,0.039,0.0,0.2836,,
+11,78-desktop,https://eprasaran.com/sitemap.xml,worse,machine-readable resource shown as raw XML,1.0,0.06,0.0,0.2583,,
+12,78-desktop,https://cdc.dwd.de/,,raw XML; needs review,1.0,0.255,0.0,0.3017,,
+13,78-desktop,https://muzeumpiotrkow.pl/sitemap.xml,worse,machine-readable resource shown as raw XML,1.0,0.162,0.0,0.281,,
+14,78-desktop,https://mcpls.org/resources/,not assessable,load error,1.0,1.0,,,,
+15,78-desktop,http://mycelcat.unizulu.ac.za/,not assessable,load error,1.0,1.0,,,,
+16,78-desktop,https://labs.vse.gmu.edu/sitemap.xml,not assessable,load error,1.0,0.0,,,,
+17,78-desktop,https://stadtplan.ludwigshafen.de/,not assessable,load error,1.0,1.0,,,,
+18,78-desktop,https://www.kerstinkoenigbaumaschinen.de/sitemap.xml,worse,machine-readable resource shown as raw XML,1.0,0.309,0.0,0.179,,
+19,78-desktop,https://mylibrary.openpolytechnic.ac.nz/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,,Cannot set properties of null (setting 'innerHTML') | Cannot read properties of undefined (reading 'filter')
+20,78-desktop,https://biblio.ucaldas.edu.co/novedades-bibliograficas/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,,
+21,78-desktop,https://www.coreldraw12.in/sitemap_index.xml/,worse,machine-readable resource shown as raw XML,1.0,0.075,0.0,0.0356,,
+22,78-desktop,https://evehibi.nekoweb.org/,,differs; needs review,0.086,0.052,0.0115,0.0118,,
+23,78-desktop,https://uperform.sc.gov/gm/folder-1.11.361,not assessable,load error,1.0,1.0,,,,
+24,78-desktop,https://www.blast2go.com/wp-sitemap.xml,worse,machine-readable resource shown as raw XML,1.0,0.228,0.0,0.0653,,
+25,78-desktop,https://rdg125726.nextgenmcs.com/,not assessable,HTTP 503,1.0,1.0,0.0,0.0,,
+26,78-desktop,https://wildfigkitchen.com/sitemap_index.xml,not assessable,load error,1.0,0.0,,,,
+27,78-desktop,https://www.mahabodhi.org/zh-TW/eflyers/2022/0722.xml,,raw XML; needs review,1.0,0.606,0.0,0.2152,,
+28,78-desktop,https://www.zus-rumburk.cz/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0003,,
+29,78-desktop,https://repo.uinsyahada.ac.id/cgi/oai2,not assessable,load error,1.0,1.0,,,,
+30,78-desktop,https://webportal1.thedx.co.uk/,,raw XML; needs review,1.0,0.004,0.0,0.0724,,
+31,78-desktop,https://mccneb.libguides.com/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,,
+32,78-desktop,https://library.austincc.edu/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,,$(...).foundation is not a function | $(...).foundation is not a function
+33,78-desktop,https://cloudlogic.indiqator.com.au/,not assessable,load error,1.0,0.005,0.0,,,
+34,78-desktop,https://bsprdweb.averis.biz/RDWeb/Pages/en-US/password.aspx,not assessable,load error,1.0,0.058,0.0,,,
+35,78-desktop,https://hctkauai.org/get-involved/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,,
+36,78-desktop,https://mtmary.libguides.com/home,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,,moment is not defined
+37,78-desktop,https://compliance.osu.edu/sitemap.xml,worse,machine-readable resource shown as raw XML,1.0,0.526,0.0,0.2061,,
+38,78-desktop,https://rdg125726.nextgenmcs.com/RDWeb/Pages/en-US/password.aspx,not assessable,HTTP 503,1.0,1.0,0.0,0.0,,
+39,78-desktop,https://cdc.dwd.de/DE/impressum.xhtml,,raw XML; needs review,1.0,0.5,0.0,0.2598,,
+40,78-desktop,https://pcremoto.up.edu.pe/,not assessable,load error,1.0,0.042,0.0,,,
+41,78-desktop,https://mtmary.libguides.com/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,,
+42,78-desktop,https://libguides.lander.edu/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,,Cannot read properties of null (reading 'addEventListener')
+43,78-desktop,https://mequonpublicmarket.com/sitemap_index.xml,worse,machine-readable resource shown as raw XML,1.0,0.049,0.0,0.0526,,
+44,78-desktop,https://www.epsm-metz-jury.fr/page-sitemap.xml,worse,machine-readable resource shown as raw XML,1.0,0.048,0.0,0.4039,,
+45,78-desktop,https://lib.ubru.ac.th/web,not assessable,load error,1.0,1.0,,,,
+46,78-desktop,https://www.portal.eltax.lta.go.jp/,not assessable,HTTP 403,0.904,0.901,0.0024,0.0024,,
+47,78-desktop,https://libguides.northshorecollege.edu/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,,
+48,78-desktop,https://evyatarhome.co.il/sitemap.xml,worse,machine-readable resource shown as raw XML,0.958,0.413,0.0023,0.0873,,
+49,78-desktop,https://library.rsu.ac.th/,not assessable,HTTP 505,0.976,0.981,0.0003,0.0002,,
+50,78-mobile,https://kckl.ent.sirsi.net/,not assessable,HTTP 403,0.974,0.966,0.0015,0.0019,,
+51,78-mobile,https://www.kazo-makidume.com/sitemap.xml,worse,machine-readable resource shown as raw XML,1.0,0.178,0.0,0.4849,,
+52,78-mobile,https://rerdavies.github.io/feed.xml,worse,machine-readable resource shown as raw XML,1.0,0.177,0.0,0.2355,,
+53,78-mobile,http://sincanchat.com/sitemap.xml,not assessable,load error,1.0,1.0,,,,
+54,78-mobile,https://cityclubapp.com/sitemap_index.xml,worse,machine-readable resource shown as raw XML,1.0,0.069,0.0,0.0202,,
+55,78-mobile,https://www.latelierpaysan.org/spip.php?page=backend&id_rubrique=14,worse,machine-readable resource shown as raw XML,1.0,0.233,0.0,0.3666,,
+56,78-mobile,https://library.trenholmstate.edu/,not assessable,load error,1.0,1.0,,,,
+57,78-mobile,https://www.restaurantlabelleprovince.ca/sitemap.xml,worse,machine-readable resource shown as raw XML,1.0,0.386,0.0,0.0317,,
+58,78-mobile,https://www.xnx.cam/porn-tube/sitemaps_index.xml,worse,machine-readable resource shown as raw XML,1.0,0.541,0.0,0.1352,,
+59,78-mobile,https://www.wadesdairy.com/sitemap_index.xml,worse,machine-readable resource shown as raw XML,1.0,0.024,0.0,0.0662,,
+60,78-mobile,https://blog.fontawesome.com/feed/,worse,machine-readable resource shown as raw XML,1.0,0.041,0.0,0.3062,,
+61,78-mobile,https://erkenningen.nl/sitemap.xml,worse,machine-readable resource shown as raw XML,1.0,0.063,0.0,0.0232,,
+62,78-mobile,https://awfularthursobx.com/sitemap.xml,worse,machine-readable resource shown as raw XML,1.0,0.171,0.0,0.0261,,
+63,78-mobile,https://sewamobilmedan.id/sitemap_index.xml,worse,machine-readable resource shown as raw XML,1.0,0.039,0.0,0.1283,,
+64,78-mobile,https://www.okazaki-makidume.com/sitemap.xml,worse,machine-readable resource shown as raw XML,1.0,0.172,0.0,0.4857,,
+65,78-mobile,https://www.rajska.info/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,,
+66,78-mobile,https://jokerxbet.life/sitemap_index.xml,worse,machine-readable resource shown as raw XML,1.0,0.074,0.0,0.0207,,
+67,78-mobile,https://krcppms.ru/rss.xml,worse,machine-readable resource shown as raw XML,1.0,0.464,0.0,0.2487,,
+68,78-mobile,https://ejournal.jayabaya.ac.id/index.php/index/oai,worse,machine-readable resource shown as raw XML,0.999,0.111,0.0,0.049,,
+69,78-mobile,https://responsafortoday.com/sitemap_index.xml,worse,machine-readable resource shown as raw XML,1.0,0.044,0.0,0.0345,,
+70,78-mobile,https://www.sakuragicho-makidume.yokohama/sitemap.xml,worse,machine-readable resource shown as raw XML,1.0,0.198,0.0,0.4868,,
+71,78-mobile,https://sharetec.be/sitemap.xml,worse,machine-readable resource shown as raw XML,1.0,0.178,0.0,0.016,,
+72,78-mobile,https://www.joker-game.co/sitemap_index.xml,worse,machine-readable resource shown as raw XML,1.0,0.074,0.0,0.1281,,
+73,78-mobile,https://silvercitypubliclibrary.org/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0567,0.056,,
+74,78-mobile,https://soft.wikielm.com/sitemap_index.xml,worse,machine-readable resource shown as raw XML,1.0,0.031,0.0,0.134,,
+75,78-mobile,https://legolas.md-medicus.net/,,raw XML; needs review,1.0,0.019,0.0,0.8432,,
+76,78-mobile,https://tk.pte.hu/,,raw XML; needs review,1.0,0.019,0.0,0.2698,,
+77,78-mobile,https://lc88.sa.com/sitemap_index.xml,not assessable,load error,1.0,1.0,,,,
+78,78-mobile,https://matematicaskimat.com/sitemap.xml,worse,machine-readable resource shown as raw XML,1.0,0.019,0.0,0.1279,,
+79,78-mobile,https://eprasaran.com/sitemap.xml,worse,machine-readable resource shown as raw XML,1.0,0.061,0.0,0.4766,,
+80,78-mobile,https://flirtbees.org/sitemap_index.xml,worse,machine-readable resource shown as raw XML,1.0,0.065,0.0,0.0207,,
+81,78-mobile,https://chatous.net/sitemap_index.xml,worse,machine-readable resource shown as raw XML,1.0,0.188,0.0,0.0206,,
+82,78-mobile,https://cdc.dwd.de/,,raw XML; needs review,1.0,0.255,0.0,0.4544,,
+83,78-mobile,https://www.koshigaya-makidume.com/sitemap.xml,worse,machine-readable resource shown as raw XML,0.997,0.187,0.0002,0.4857,,
+84,78-mobile,https://www.longboardsgrillsb.com/sitemap_index.xml,worse,machine-readable resource shown as raw XML,1.0,0.043,0.0,0.1257,,
+85,78-mobile,https://comoencasamotril.es/sitemap_index.xml,worse,machine-readable resource shown as raw XML,1.0,0.204,0.0,0.0209,,
+86,78-mobile,https://www.strictestheadmistress.com/page-sitemap.xml,worse,machine-readable resource shown as raw XML,1.0,0.022,0.0,0.0591,,
+87,78-mobile,https://bobiko.blog/rss.xml,worse,machine-readable resource shown as raw XML,1.0,0.035,0.0,0.9611,,
+88,78-mobile,https://weskg.gr/sitemap_index.xml,worse,machine-readable resource shown as raw XML,1.0,0.073,0.0,0.1253,,
+89,78-mobile,http://mycelcat.unizulu.ac.za/,not assessable,load error,1.0,1.0,,,,
+90,78-mobile,https://labs.vse.gmu.edu/sitemap.xml,not assessable,load error,1.0,0.0,,,,
+91,78-mobile,https://www.makizume.yokohama/sitemap.xml,worse,machine-readable resource shown as raw XML,1.0,0.179,0.0,0.4807,,
+92,78-mobile,https://stadtplan.ludwigshafen.de/,not assessable,load error,1.0,1.0,,,,
+93,78-mobile,https://kramat777x.org/sitemap.xml,worse,machine-readable resource shown as raw XML,1.0,0.046,0.0,0.034,,
+94,78-mobile,https://gbwsap.com/sitemap_index.xml,not assessable,HTTP 404,1.0,1.0,0.0,0.0,,
+95,78-mobile,https://www.vpnwasel.com/sitemap.xml,worse,machine-readable resource shown as raw XML,1.0,0.019,0.0,0.0754,,
+96,78-mobile,https://mylibrary.openpolytechnic.ac.nz/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,,Cannot set properties of null (setting 'innerHTML') | Cannot read properties of undefined (reading 'filter')
+97,78-mobile,https://tocumwaltouristpark.com.au/sitemap.xml,worse,machine-readable resource shown as raw XML,1.0,0.102,0.0,0.1213,,
+98,78-mobile,https://biblio.ucaldas.edu.co/novedades-bibliograficas/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,,
+99,78-mobile,https://evehibi.nekoweb.org/,no visible change,A vs B within A vs A2 noise,0.095,0.112,0.0134,0.0132,,
+100,79-desktop,https://webboard.customs.go.th/t/00,not assessable,HTTP 500,0.987,0.983,0.0004,0.0004,,
+101,79-desktop,https://forum.eastfront.se/d/953-biljettlankar-bortamatcher,,differs; needs review,1.0,0.888,0.0027,0.1113,https://forum.eastfront.se/d/953-biljettlankar-bortamatcher,"XSLTProcessor is not defined | Pushing object of type `tags` not allowed, as type not yet registered in the store."
+102,79-desktop,https://www.forgenex.com/comunidad,,differs; needs review,1.0,0.631,0.0,0.0503,https://comunidad.forgenex.com/assets/forum.js,XSLTProcessor is not defined
+103,79-desktop,https://eu.mydlink.com/,,differs; needs review,1.0,1.0,0.0,0.0795,https://eu.mydlink.com/js/xmlLoader.js,XSLTProcessor is not defined
+104,79-desktop,https://community.mailcow.email/,,differs; needs review,1.0,0.733,0.0,0.0913,https://community.mailcow.email/assets/forum.js,XSLTProcessor is not defined
+105,79-desktop,https://www.ontrackpharmacy.com/ontrack,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/extensions/MathML/mml3.js,
+106,79-desktop,https://ubuntu.hu/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,https://ubuntu.hu/,
+107,79-desktop,https://bbs.liht.cc/d/68,,differs; needs review,1.0,0.823,0.0001,0.0559,https://bbs.liht.cc/assets/forum.js,XSLTProcessor is not defined
+108,79-desktop,https://www.boojumbrewing.com/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,https://menus.singleplatform.co/businesses/storefront/,ActiveXObject is not defined
+109,79-desktop,https://community.victorinox.com/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0005,https://community.victorinox.com/,
+110,79-desktop,https://www.acgmuse.com/,,differs; needs review,1.0,0.856,0.0,0.0741,https://www.acgmuse.com/assets/forum.js,ActiveXObject is not defined | Cannot set properties of null (setting 'onclick')
+111,79-desktop,https://shop.austrian-standards.at/?locale=de,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,https://shop.austrian-standards.at/static202608271513/js/mathjax/3.2.2/es5/input/mml/extensions/mml3.js,Cannot read properties of undefined (reading 'initialise') | Network Error
+112,79-desktop,https://lms.konyang.ac.kr/lms/front/boardItem/doListView.dunet?board_no=14&mnid=20120658883,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,https://lms.konyang.ac.kr/js/mathjax/extensions/MathML/mml3.js,
+113,79-desktop,https://bbs.spark-app.store/,,differs; needs review,1.0,0.496,0.1126,0.375,https://bbs.spark-app.store/assets/forum.js,
+114,79-desktop,https://arfemdom.com/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,https://arfemdom.com/,
+115,79-desktop,https://legislacao.contabil.business/1787322111,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/extensions/MathML/mml3.js,adsbygoogle.push() error: No slot size for availableWidth=0 | adsbygoogle.push() error: No slot size for availableWidth=0
+116,79-desktop,https://forum.gpph.pl/d/1597-blog-samochodowy-oddzial-ratunkowy-odbudowa-blacharska-i-modyfikacje-aut,,differs; needs review,1.0,0.899,0.0,0.2697,https://forum.gpph.pl/assets/forum-2e518845.js,ActiveXObject is not defined
+117,79-desktop,https://air.lottejtb.com/,not assessable,load error,0.0,0.0,,,,Maximum call stack size exceeded | Unexpected token '<'
+118,79-desktop,https://www.automall.hu/hu/auto.html?auto=1084,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,,
+119,79-desktop,https://lms.cnc.ac.kr/lms/class/exam2/apply/doListView.dunet,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0074,0.0077,https://lms.cnc.ac.kr/js/mathjax/extensions/MathML/mml3.js,
+120,79-desktop,https://forum.retroaction.ca/d/79-bien-demarrer-avec-retroaction,,differs; needs review,1.0,0.804,0.0,0.1754,https://forum.retroaction.ca/assets/forum.js,XSLTProcessor is not defined
+121,79-desktop,https://www.wpzy.cc/,no visible change,A vs B within A vs A2 noise,0.0,0.0,0.0,0.0,,
+122,79-desktop,https://teaching.gnu.ac.kr/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,https://teaching.gnu.ac.kr/js/mathjax/extensions/MathML/mml3.js,
+123,79-desktop,https://avaliacaoemonitoramentoceara.caeddigital.net/,,differs; needs review,1.0,1.0,0.003,0.0464,https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/extensions/MathML/mml3.js,
+124,79-desktop,https://www.vfxskill.com/,,differs; needs review,1.0,0.379,0.0171,0.278,https://www.vfxskill.com/,Unexpected token '}' | XSLTProcessor is not defined
+125,79-desktop,https://www.hamptonsrealestate.com/,,differs; needs review,0.986,0.94,0.2231,0.2469,"https://static-ind-hamptonsrealestate-prod.gtsstatic.net/eng/dynamic/original,__maindomain-www.hamptonsrealestate.com__%2c010000%2cpawid-0%2cdomaintype-main%2c_responsive%2cjs%2creno%2cglobalresources%2cjquery.xsltransform.js,,22.js",XSLTProcessor is not defined
+126,79-desktop,https://portal.wochenblitz.com/d/10068-dach-th-steuer-service-pnd-91-thai-steuererklaerung-fuer-chf-650-bis-842026,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,https://portal.wochenblitz.com/d/10068-dach-th-steuer-service-pnd-91-thai-steuererklaerung-fuer-chf-650-bis-842026,Failed to fetch
+127,79-desktop,https://portaltransparencia.caeddigital.net/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/extensions/MathML/mml3.js,
+128,79-desktop,https://forum.journey.cloud/d/324-journey-desktop-2024-sneak-peek-of-new-desktop-app-for-windows-mac-linux,,differs; needs review,1.0,0.884,0.0,0.1845,https://forum.journey.cloud/assets/forum.js,XSLTProcessor is not defined
+129,79-desktop,https://www.nuovacaptur.it/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.052,0.052,https://www.nuovacaptur.it/,Failed to execute 'browsingTopics' on 'Document': document.browsingTopics() is deprecated and has be
+130,79-desktop,https://forum.bela.io/d/1277-c-real-time-audio-programming-with-bela-a-free-online-course,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,https://forum.bela.io/d/1277-c-real-time-audio-programming-with-bela-a-free-online-course,
+131,79-desktop,https://4play.to/,no visible change,A vs B within A vs A2 noise,0.994,0.993,0.0437,0.0438,https://4play.to/,
+132,79-desktop,https://multiplex-lp.soho-sports.com/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,https://cdn-js.soho-sports.com/_prod/310/so_jsLib01.js,Failed to execute 'serializeToString' on 'XMLSerializer': parameter 1 is not of type 'Node'.
+133,79-desktop,https://forum.knightsoftheeditingtable.com/d/123-malwarebytes-flagged-quarantined-an-excalibur-file-windows,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0017,0.0,https://forum.knightsoftheeditingtable.com/d/123-malwarebytes-flagged-quarantined-an-excalibur-file-windows,
+134,79-desktop,https://edu.emoldova.org/d/542-manastirea-sfanta-treime-saharna,,differs; needs review,1.0,0.991,0.0,0.1388,https://edu.emoldova.org/assets/forum.js,ActiveXObject is not defined
+135,79-desktop,https://www.jackarmyforum.com/,,differs; needs review,1.0,0.295,0.0,0.0726,https://www.jackarmyforum.com/assets/forum.js,XSLTProcessor is not defined
+136,79-desktop,https://yesiloda.co/d/28-esrar-yetistirirken-karsilasilan-hastaliklar-sorunlar-ve-cozumleri,,differs; needs review,1.0,0.985,0.0,0.2008,https://yesiloda.co/assets/forum.js,XSLTProcessor is not defined
+137,79-desktop,https://community.wvbtech.com/d/22,not assessable,load error,1.0,1.0,,,,
+138,79-desktop,https://community.enhance.com/,,differs; needs review,1.0,0.415,0.0,0.0783,https://community.enhance.com/,XSLTProcessor is not defined
+139,79-desktop,https://forum.deovr.com/d/11035-deovr-driveai-issues,,differs; needs review,1.0,0.549,0.0,0.1268,https://forum.deovr.com/assets/forum.js,XSLTProcessor is not defined
+140,79-desktop,https://forum.telekomunikace.cz/d/47372-pravidla-zadavani-inzeratu-zejmena-pravidlo-uvadeni-ceny,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,https://forum.telekomunikace.cz/d/47372-pravidla-zadavani-inzeratu-zejmena-pravidlo-uvadeni-ceny,
+141,79-desktop,https://z22se.co.uk/d/74207-forum-migration-xenforo-flarum,,differs; needs review,1.0,0.984,0.0,0.0764,https://z22se.co.uk/d/74207-forum-migration-xenforo-flarum,XSLTProcessor is not defined
+142,79-desktop,https://avaliacaoemonitoramentosantacatarina.caeddigital.net/,,differs; needs review,0.0,1.0,0.2003,0.3376,https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/extensions/MathML/mml3.js,
+143,79-desktop,https://www.aippt.cn/workspace,not assessable,load error,0.0,0.0,,,,
+144,79-desktop,https://fahrradwagen.com/d/8245-1009-1392026-fahrrad-wohn-wagen-treffen-in-wernigerode-,,differs; needs review,1.0,0.337,0.0,0.2193,https://fahrradwagen.com/assets/forum.js,XSLTProcessor is not defined
+145,79-desktop,https://examsdaily.in/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0095,https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/extensions/MathML/mml3.js,
+146,79-desktop,https://connect.tataclassedgeonline.com/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.1708,0.2036,https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/extensions/MathML/mml3.js,
+147,79-desktop,https://forum.myspeedpost.com/,not assessable,load error,1.0,1.0,,,,
+148,79-desktop,https://toonforum.nl/,,differs; needs review,1.0,0.512,0.0,0.0652,https://toonforum.nl/assets/forum.js,XSLTProcessor is not defined
+149,79-desktop,https://thelastsovereign.flarum.cloud/d/23-forum-guidelines,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0002,0.0007,https://thelastsovereign.flarum.cloud/d/23-forum-guidelines,
+150,79-mobile,https://webboard.customs.go.th/t/00,,differs; needs review,1.0,0.458,0.0,0.0431,https://webboard.customs.go.th/assets/forum-6c6784f4.js,ActiveXObject is not defined | moment is not defined
+151,79-mobile,https://community.mailcow.email/,,differs; needs review,1.0,0.777,0.0,0.2605,https://community.mailcow.email/assets/forum.js,XSLTProcessor is not defined
+152,79-mobile,https://ubuntu.hu/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,https://ubuntu.hu/,
+153,79-mobile,https://kozha-translate.com/,no visible change,A vs B within A vs A2 noise,0.991,0.991,0.0,0.0,,
+154,79-mobile,https://bbs.liht.cc/d/68,,differs; needs review,1.0,0.819,0.0,0.1635,https://bbs.liht.cc/assets/forum.js,XSLTProcessor is not defined
+155,79-mobile,https://www.boojumbrewing.com/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,https://menus.singleplatform.co/businesses/storefront/,ActiveXObject is not defined
+156,79-mobile,https://community.victorinox.com/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0006,0.0006,https://community.victorinox.com/,
+157,79-mobile,https://www.acgmuse.com/,,differs; needs review,1.0,0.87,0.0,0.2172,https://www.acgmuse.com/assets/forum.js,ActiveXObject is not defined | Cannot set properties of null (setting 'onclick')
+158,79-mobile,https://shop.austrian-standards.at/?locale=de,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,https://shop.austrian-standards.at/static202608271513/js/mathjax/3.2.2/es5/input/mml/extensions/mml3.js,Cannot read properties of undefined (reading 'initialise') | Network Error
+159,79-mobile,https://bbs.spark-app.store/,not assessable,load error,0.0,0.0,,,,
+160,79-mobile,https://arfemdom.com/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,https://arfemdom.com/,
+161,79-mobile,https://legislacao.contabil.business/1787322111,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/extensions/MathML/mml3.js,adsbygoogle.push() error: No slot size for availableWidth=0 | adsbygoogle.push() error: No slot size for availableWidth=0
+162,79-mobile,https://www.positionsstudio.com/summer-classes,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,,BusinessView is not defined
+163,79-mobile,https://lms.cnc.ac.kr/lms/class/exam2/apply/doListView.dunet,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0058,0.0059,https://lms.cnc.ac.kr/js/mathjax/extensions/MathML/mml3.js,
+164,79-mobile,https://livermore.kobejapanrestaurant.com/lunch-and-happy-hour,,differs; needs review,1.0,0.229,0.0,0.5087,https://menus.singleplatform.co/businesses/storefront/,ActiveXObject is not defined
+165,79-mobile,https://forum.retroaction.ca/d/79-bien-demarrer-avec-retroaction,,differs; needs review,1.0,0.792,0.0,0.2342,https://forum.retroaction.ca/assets/forum.js,XSLTProcessor is not defined
+166,79-mobile,https://www.wpzy.cc/,no visible change,A vs B within A vs A2 noise,0.0,0.0,0.0,0.0,,
+167,79-mobile,https://avaliacaoemonitoramentoceara.caeddigital.net/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.4666,0.4686,https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/extensions/MathML/mml3.js,
+168,79-mobile,https://tasuess.edutams.net/admission/open-admission,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/extensions/MathML/mml3.js,
+169,79-mobile,https://www.hamptonsrealestate.com/,,differs; needs review,0.986,0.962,0.1722,0.3535,"https://static-ind-hamptonsrealestate-prod.gtsstatic.net/eng/dynamic/original,__maindomain-www.hamptonsrealestate.com__%2c010000%2cpawid-0%2cdomaintype-main%2c_responsive%2cjs%2creno%2cglobalresources%2cjquery.xsltransform.js,,22.js",XSLTProcessor is not defined
+170,79-mobile,https://sata.code.pro.vn/tags,,differs; needs review,1.0,0.066,0.0,0.1762,https://sata.code.pro.vn/assets/forum.js,ActiveXObject is not defined
+171,79-mobile,https://portal.wochenblitz.com/d/10068-dach-th-steuer-service-pnd-91-thai-steuererklaerung-fuer-chf-650-bis-842026,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,https://portal.wochenblitz.com/d/10068-dach-th-steuer-service-pnd-91-thai-steuererklaerung-fuer-chf-650-bis-842026,Failed to fetch
+172,79-mobile,https://portaltransparencia.caeddigital.net/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/extensions/MathML/mml3.js,
+173,79-mobile,https://forum.journey.cloud/d/324-journey-desktop-2024-sneak-peek-of-new-desktop-app-for-windows-mac-linux,,differs; needs review,1.0,0.842,0.0,0.2666,https://forum.journey.cloud/assets/forum.js,XSLTProcessor is not defined
+174,79-mobile,https://www.nuovacaptur.it/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,https://www.nuovacaptur.it/,Failed to execute 'browsingTopics' on 'Document': document.browsingTopics() is deprecated and has be
+175,79-mobile,https://forum.bela.io/d/1277-c-real-time-audio-programming-with-bela-a-free-online-course,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,https://forum.bela.io/d/1277-c-real-time-audio-programming-with-bela-a-free-online-course,
+176,79-mobile,https://4play.to/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.3394,0.3453,,
+177,79-mobile,https://multiplex-lp.soho-sports.com/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0001,https://cdn-js.soho-sports.com/_prod/310/so_jsLib01.js,Failed to execute 'serializeToString' on 'XMLSerializer': parameter 1 is not of type 'Node'.
+178,79-mobile,https://edu.emoldova.org/d/542-manastirea-sfanta-treime-saharna,,differs; needs review,1.0,0.993,0.0,0.2109,https://edu.emoldova.org/assets/forum.js,ActiveXObject is not defined
+179,79-mobile,https://www.jackarmyforum.com/,,differs; needs review,0.999,0.409,0.0,0.2555,https://www.jackarmyforum.com/assets/forum.js,XSLTProcessor is not defined
+180,79-mobile,https://yesiloda.co/d/28-esrar-yetistirirken-karsilasilan-hastaliklar-sorunlar-ve-cozumleri,,differs; needs review,1.0,0.96,0.0,0.9147,https://yesiloda.co/assets/forum.js,Cannot read properties of undefined (reading 'app') | Cannot read properties of undefined (reading 'app')
+181,79-mobile,https://eurofo.eu/t/eurocontests,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,https://eurofo.eu/t/eurocontests,
+182,79-mobile,https://forums.alminshawy.com/,not assessable,load error,1.0,1.0,,,,
+183,79-mobile,https://community.enhance.com/,,differs; needs review,1.0,0.47,0.0,0.2164,https://community.enhance.com/,XSLTProcessor is not defined
+184,79-mobile,https://forum.telekomunikace.cz/d/47372-pravidla-zadavani-inzeratu-zejmena-pravidlo-uvadeni-ceny,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,https://forum.telekomunikace.cz/d/47372-pravidla-zadavani-inzeratu-zejmena-pravidlo-uvadeni-ceny,
+185,79-mobile,https://z22se.co.uk/d/74207-forum-migration-xenforo-flarum,,differs; needs review,1.0,0.984,0.0,0.1574,https://z22se.co.uk/d/74207-forum-migration-xenforo-flarum,XSLTProcessor is not defined
+186,79-mobile,https://forum.dbkg.de/all,,differs; needs review,1.0,0.947,0.0,0.0036,https://forum.dbkg.de/assets/forum-5aefd6f6.js,ActiveXObject is not defined
+187,79-mobile,https://yumetal.net/rankings,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,https://yumetal.net/rankings,
+188,79-mobile,https://avaliacaoemonitoramentosantacatarina.caeddigital.net/,no visible change,A vs B within A vs A2 noise,0.0,0.0,0.4355,0.5803,https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/extensions/MathML/mml3.js,
+189,79-mobile,https://daring.pkbm-binapandumandiri.or.id/,,differs; needs review,1.0,0.999,0.0,0.1765,https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/extensions/MathML/mml3.js,
+190,79-mobile,https://fahrradwagen.com/d/8245-1009-1392026-fahrrad-wohn-wagen-treffen-in-wernigerode-,,differs; needs review,1.0,0.279,0.0,0.3926,https://fahrradwagen.com/assets/forum.js,XSLTProcessor is not defined
+191,79-mobile,https://examsdaily.in/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/extensions/MathML/mml3.js,
+192,79-mobile,https://forum.pretpark.club/d/4253-nu-te-koop-pretparkclub-coastertracker-pin,,differs; needs review,1.0,0.895,0.0,0.337,https://forum.pretpark.club/assets/forum.js,XSLTProcessor is not defined
+193,79-mobile,https://connect.tataclassedgeonline.com/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.6051,0.6053,https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/extensions/MathML/mml3.js,
+194,79-mobile,https://warthunder.tr/blog/1050-yeni-guncelleme-sky-odyssey-tanitildi,not assessable,load error,1.0,1.0,,,,
+195,79-mobile,https://forum.myspeedpost.com/,not assessable,load error,1.0,1.0,,,,
+196,79-mobile,https://toonforum.nl/,,differs; needs review,1.0,0.558,0.0,0.1974,https://toonforum.nl/assets/forum.js,XSLTProcessor is not defined
+197,79-mobile,https://unwedchastity.org/d/1273-link-list,,differs; needs review,1.0,0.997,0.0,0.2308,https://unwedchastity.org/assets/forum.js,XSLTProcessor is not defined
+198,79-mobile,https://forum.live-in-europe.org/,,differs; needs review,1.0,0.858,0.0,0.14,https://forum.live-in-europe.org/assets/forum.js,XSLTProcessor is not defined
+199,79-mobile,https://forum.mylittlewordland.com/t/announcements,,differs; needs review,1.0,0.988,0.0,0.2241,https://forum.mylittlewordland.com/assets/forum.js,XSLTProcessor is not defined

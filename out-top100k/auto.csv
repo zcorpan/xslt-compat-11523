@@ -1,0 +1,14 @@
+idx,stratum,page,auto_rating,reason,textRatioAA2,textRatioAB,pixAA2,pixAB,xslt_source,b_errors
+0,top100k-79-desktop,https://dict.leo.org/forum/index.php?lp=ende&lang=en,not assessable,HTTP 403,0.99,0.987,0.0025,0.0028,,
+1,top100k-79-desktop,https://nothing.community/d/62084-show-us-your-collector,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0026,0.0026,https://nothing.community/d/62084-show-us-your-collector,
+2,top100k-79-desktop,https://nothing.community/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0029,0.0,https://nothing.community/,
+3,top100k-79-desktop,https://www.athome.co.jp/,not assessable,HTTP 405,0.996,0.996,0.0007,0.0001,,showBlockPage is not defined
+4,top100k-79-desktop,https://testing.illuminateed.com/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,https://cdn1.illuminateed.com/sa/libraries/MathJax-v2.6/extensions/MathML/mml3.js,
+5,top100k-79-desktop,https://criancaalfabetizada.caeddigital.net/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.1512,0.1514,https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/extensions/MathML/mml3.js,
+6,top100k-79-desktop,https://dict.leo.org/,not assessable,HTTP 403,0.988,0.988,0.0028,0.0027,,
+7,top100k-79-desktop,https://avaliacaoemonitoramentoriograndedosul.caeddigital.net/,,differs; needs review,1.0,0.0,0.001,0.0116,https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/extensions/MathML/mml3.js,
+8,top100k-79-mobile,https://www.redalyc.org/journal/5742/574275303003/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,https://www.redalyc.org/journal/math/extensions/MathML/content-mathml.js,
+9,top100k-79-mobile,https://nothing.community/d/60225-phone-4a-pro-teardown,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0,https://nothing.community/d/60225-phone-4a-pro-teardown,
+10,top100k-79-mobile,https://criancaalfabetizada.caeddigital.net/,,differs; needs review,1.0,1.0,0.0,0.2429,https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/extensions/MathML/mml3.js,
+11,top100k-79-mobile,https://avaliacaoemonitoramentoriograndedosul.caeddigital.net/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0151,0.0018,https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/extensions/MathML/mml3.js,
+12,top100k-79-mobile,https://nothing.community/,no visible change,A vs B within A vs A2 noise,1.0,1.0,0.0,0.0002,https://nothing.community/,
