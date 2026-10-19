@@ -1,0 +1,27 @@
+i,page,in2026,rating,note
+0,https://bobexpress.bankbahamas.com/,,not assessable,load timed out
+1,https://edt.univ-nantes.fr/la-roche-sur-yon/,desktop:78 mobile:78,still broken,CELCAT Web Publisher timetable: intro frame shows unstyled text
+2,https://jadual.ums.edu.my/ExamSD,,fine now,redirects to a login page without XSLT
+3,https://www.sudoc.abes.fr/,desktop:78 mobile:78,still broken,raw XML
+4,https://www.sudoc.abes.fr/cbs//DB=2.1/,desktop:78 mobile:78,still broken,raw XML
+5,https://acu.aviontego.com/,desktop:78 mobile:78,fine now,RD Web Access login page renders the same without XSLT
+6,https://api.intra-mart.jp/v72/index.html,desktop:78,still broken,main frame shows unstyled text
+7,https://cds.aviontego.com/,,fine now,RD Web Access login page renders the same without XSLT
+8,https://debopgip01.bomag.com/goIdentity/passwordReset,desktop:78 mobile:78,not assessable,HTTP 500 (blocked)
+9,https://foc.aviontego.com/,desktop:78 mobile:78,fine now,RD Web Access login page renders the same without XSLT
+10,https://hpg.aviontego.com/,desktop:78 mobile:78,fine now,RD Web Access login page renders the same without XSLT
+11,https://mdr.aviontego.com/,,fine now,RD Web Access login page renders the same without XSLT
+12,https://my.yomiuri.co.jp/,,fine now,no XSLT used
+13,https://plany.wel.wat.edu.pl/,,not assessable,DNS failure
+14,https://puzzlewillbeplayed.com/-/polyomino-sq.xml,desktop:78,not assessable,DNS failure
+15,https://timetable.dut.ac.za/,,not assessable,HTTP 401
+16,https://tt.ecc.edu.jm/,desktop:78 mobile:78,still broken,CELCAT Web Publisher timetable: intro frame shows unstyled text
+17,https://ultramarin-breizhchrono.livetrail.run/,,still broken,raw XML; with XSLT the page redirects to the new site
+18,https://ultramarin-breizhchrono.livetrail.run/coureur.php?rech=3062,,still broken,raw XML; with XSLT the page redirects to the new site
+19,https://www.dikrom.com/,desktop:78 mobile:78,still broken,raw XML
+20,https://www.mahabodhi.org/,desktop:78 mobile:78,still broken,raw XML
+21,https://www.np2c.edu.hk/,desktop:78 mobile:78,fine now,no XSLT used; the news iframe is gone
+22,https://www.olrb.gov.on.ca/,desktop:78 mobile:78,still broken,Notices to Community frame shows unstyled text
+23,https://www.rs-r.co.jp/,desktop:78 mobile:78,still broken,new items frames show unstyled text
+24,https://www.saxonica.com/,desktop:78 mobile:78,fine now,feature-detects XSLTProcessor and redirects to an HTML version (already did in July 2025 per the Wayback Machine)
+25,https://www.saxonica.com/download/download_page.xml,desktop:78 mobile:78,still broken,raw XML

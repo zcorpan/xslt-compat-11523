@@ -24,6 +24,9 @@ processing instruction and the `XSLTProcessor` API.
   loads in October 2026) is several times the crawl's, likely from feeds, sitemaps, deep links,
   intranets, and logged-in pages that the crawl mostly doesn't visit.
 
+- Of the 26 pages the August 2025 analysis rated broken, 12 still break, 9 are fine now, and 5
+  don't load (section 4).
+
 ## 1. HTTP Archive
 
 `hits.sql` lists every page in the 2026-09-01 crawl (`httparchive.crawl.pages`, both clients, root
@@ -115,6 +118,28 @@ nothing.community on Flarum, seemingly with the polyfill; redalyc; illuminateed)
 and athome.co.jp return 403/405). Two needed a recheck with `recheck.py`
 (`out-top100k/review/*-recheck.png`): the differences were page timing.
 
+## 4. Pages rated broken in August 2025
+
+The [August 2025 analysis](https://github.com/whatwg/html/issues/11523#issuecomment-3200690662)
+(desktop, `XSLProcessingInstruction` only) rated 26 pages as having essential functionality broken
+without XSLT (`followup-2025/sheet-2025.csv`, exported from its spreadsheet). `select.py` lists them
+with whether they hit the counters in the 2026-09-01 crawl (17 did). `check.py` loads each one
+desktop-sized in Chrome Canary 158.0.8108.0 with XSLT on and off, on 2026-10-19
+(`results.jsonl`, `review/`). Ratings in `review.csv`:
+
+- 12 still broken: raw XML as the page (sudoc.abes.fr twice, dikrom.com, mahabodhi.org, Saxonica's
+  download page, two livetrail pages, whose transform now redirects to a new site), or unstyled
+  text in an iframe (two CELCAT Web Publisher timetables, intra-mart's API docs, olrb.gov.on.ca's
+  notices, rs-r.co.jp's new items).
+- 9 fine now: 5 Avionté RD Web Access login pages render the same without XSLT; my.yomiuri.co.jp
+  and np2c.edu.hk no longer use XSLT; jadual.ums.edu.my redirects to a login page without it;
+  saxonica.com's root redirects to an HTML version when `XSLTProcessor` is missing (it already did
+  in July 2025, per the Wayback Machine).
+- 5 not assessable: timeout, DNS failure (2), HTTP 401, HTTP 500.
+
+Microsoft says RD Web Access stops rendering as expected without XSLT (MC1491832, KB5130994,
+October 2026), presumably beyond the login page, which neither the crawl nor this check reaches.
+
 ## Not covered
 
 - Pages the crawl rarely visits: feeds, sitemaps, deep links, intranets, logged-in pages.
@@ -145,6 +170,9 @@ CHROME="/Applications/Google Chrome Canary.app/Contents/MacOS/Google Chrome Cana
 # review out/review/*.png by hand and record ratings in out/review.csv
 python3 extrapolate.py out/review.csv sample.jsonl > out/summary.md
 .venv/bin/python recheck.py "$CHROME" <url> <360|1366> <out.png>
+cd followup-2025
+python3 select.py sheet-2025.csv ../hits.csv broken-2025.csv
+../.venv/bin/python check.py "$CHROME" broken-2025.csv . > results.jsonl
 ```
 
 Any Chrome with the `XSLT` feature works; check that `compare.py`'s sanity check passes for both

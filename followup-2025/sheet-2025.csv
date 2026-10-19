@@ -1,0 +1,361 @@
+page,rank,Works today?,Is page primarily for humans?,Would essential/main functionality be broken without XSLT?,Notes
+http://zoonphra.com/knowledge/Knowledge.xml,500000,No,Unknown,N/A,XSLT is broken (wrong namespace)
+https://bobexpress.bankbahamas.com/,500000,Yes,Yes,Yes,
+https://journal.ummat.ac.id/index.php/index/oai,500000,Yes,No,No,OAI 2.0
+https://journal.unismuh.ac.id/index.php/index/oai,500000,Yes,No,No,OAI 2.0
+https://jurnal.umt.ac.id/index.php/index/oai,500000,Yes,No,No,OAI 2.0
+https://jurnal.unigal.ac.id/index.php/index/oai?verb=Identify,500000,Yes,No,No,OAI 2.0
+https://ojs.unm.ac.id/JESSI/oai?verb=Identify,500000,Yes,No,No,OAI 2.0
+https://www.oney.es/sitemap.xml,500000,Yes,No,No,Sitemap
+https://edt.univ-nantes.fr/la-roche-sur-yon/,1000000,Yes,Yes,Yes,Education portal
+https://improve.topspeedgolf.com/sitemap.xml,1000000,Yes,No,No,Sitemap
+https://jadual.ums.edu.my/ExamSD,1000000,Yes,Yes,Yes,Education portal
+https://osceola.librarycatalog.info/,1000000,Yes,Yes,No,Flipster carousel
+https://snaptik.com.br/sitemap.xml,1000000,Yes,No,No,Sitemap
+https://www.sudoc.abes.fr/,1000000,Yes,Yes,Yes,Education portal
+https://www.sudoc.abes.fr/cbs//DB=2.1/,1000000,Yes,Yes,Yes,Education portal
+https://acu.aviontego.com/,5000000,Yes,Yes,Yes,Avionté Application Portal
+https://api.intra-mart.jp/v72/index.html,5000000,Yes,Yes,Yes,API documentation
+https://bayweb.bayalarm.com/,5000000,Unknown,Unknown,Unknown,Not responding
+https://bazoocam.app/sitemap_index.xml,5000000,Yes,No,No,Sitemap
+https://bazoocam.io/sitemap_index.xml,5000000,Yes,No,No,Sitemap
+https://biblioteca.udem.edu.mx/,5000000,Yes,Yes,No,Flipster carousel
+https://bracz.edu.pl/page-sitemap.xml,5000000,Yes,No,No,Sitemap
+https://callmechat.org/sitemap_index.xml,5000000,Yes,No,No,Sitemap
+https://cc-alsacerhinbrisach.fr/sitemap_index.xml,5000000,Yes,No,No,Sitemap
+https://cds.aviontego.com/,5000000,Yes,Yes,Yes,Avionté Application Portal
+https://chatalternative.app/sitemap_index.xml,5000000,Yes,No,No,Sitemap
+https://cocochat.app/sitemap_index.xml,5000000,Yes,No,No,Sitemap
+https://compliance.osu.edu/sitemap.xml,5000000,Yes,No,No,Sitemap
+https://dclogisticsbrasil.com/sitemap_index.xml,5000000,Yes,No,No,Sitemap
+https://dcs1.noaa.gov/op_notices/rss.xml,5000000,No,No,No,RSS feed. Content is transformed but shows HTML markup as text.
+https://debopgip01.bomag.com/goIdentity/passwordReset,5000000,Yes,Yes,Yes,
+https://flirtbees.org/sitemap_index.xml,5000000,Yes,No,No,Sitemap
+https://foc.aviontego.com/,5000000,Yes,Yes,Yes,Avionté Application Portal
+https://gomeet.chat/sitemap_index.xml,5000000,Yes,No,No,Sitemap
+https://gsf.aviontego.com/,5000000,Yes,No,No,Avionté Application Portal
+https://guides.matc.edu/,5000000,Yes,Yes,No,Flipster carousel
+https://headneckbrainspine.com/sitemap_index.xml,5000000,Yes,No,No,Sitemap
+https://hpg.aviontego.com/,5000000,Yes,Yes,Yes,Avionté Application Portal
+https://ijc.ilearning.co/index.php/TMJ/oai?verb=ListRecords&metadataPrefix=oai_dc,5000000,Yes,No,No,OAI 2.0
+https://jobs.gmu.edu/sitemap.xml,5000000,Yes,No,No,Sitemap
+https://joingy.app/sitemap_index.xml,5000000,Yes,No,No,Sitemap
+https://kckl.ent.sirsi.net/,5000000,Yes,Yes,No,Flipster carousel
+https://lepicabulot.com/sitemap_index.xml,5000000,Yes,No,No,Sitemap
+https://lib.de.us/,5000000,Yes,Yes,No,Flipster carousel
+https://lib.nankai.edu.cn/,5000000,Yes,Yes,No,eBooks carousel
+https://library.austincc.edu/,5000000,Yes,Yes,No,Flipster carousel
+https://library.hccs.edu/,5000000,Yes,Yes,No,Flipster carousel
+https://library.rsu.ac.th/,5000000,N/A,N/A,N/A,No XSLT?
+https://library.rsu.ac.th/index.html,5000000,Yes,Yes,No,eBooks carousel
+https://luckycrush.tv/sitemap_index.xml,5000000,Yes,No,No,Sitemap
+https://mavel168.com/sitemap_index.xml,5000000,Yes,No,No,Sitemap
+https://mdr.aviontego.com/,5000000,Yes,Yes,Yes,Avionté Application Portal
+https://members.rozstrategies.com/sitemap.xml,5000000,Yes,No,No,Sitemap
+https://my.yomiuri.co.jp/,5000000,Yes,Yes,Yes,
+https://mykanow.pl/wp-sitemap.xml,5000000,Yes,No,No,Sitemap
+https://mylibrary.openpolytechnic.ac.nz/,5000000,Yes,Yes,No,Flipster carousel
+https://niewidacpomnie.org/sitemap_index.xml,5000000,Yes,No,No,Sitemap
+https://nysroads.com/rss.xml,5000000,Yes,No,No,RSS feed. Has instruction on how to subscribe to the feed.
+https://plany.wel.wat.edu.pl/,5000000,Yes,Yes,Yes,Education portal
+https://psp2i.wiki/,5000000,N/A,N/A,N/A,No XSLT?
+https://psp2i.wiki/w/Main_Page,5000000,N/A,N/A,N/A,No XSLT?
+https://puzzlewillbeplayed.com/-/polyomino-sq.xml,5000000,Yes,Yes,Yes,
+https://repo.uinsyahada.ac.id/cgi/oai2,5000000,Yes,No,No,OAI 2.0
+https://repository.ung.ac.id/feed/oai?verb=Identify,5000000,Yes,No,No,OAI 2.0
+https://service.pflege-durch-angehoerige.de/sitemap_index.xml,5000000,Yes,No,No,Sitemap
+https://soj.consultant.ru/,5000000,Yes,Yes,No,Error page
+https://stratfordlibrary.org/,5000000,Yes,Yes,No,Flipster carousel
+https://stratfordlibrary.org/summer-reading-2025/,5000000,Yes,Yes,No,Flipster carousel
+https://tamil.easytyping.co/sitemap_index.xml,5000000,Yes,No,No,Sitemap
+https://timetable.dut.ac.za/,5000000,Yes,Yes,Yes,Education portal
+https://treatmentadvisors.info/sitemap_index.xml,5000000,Yes,No,No,Sitemap
+https://tt.ecc.edu.jm/,5000000,Yes,Yes,Yes,Education portal
+https://ultramarin-breizhchrono.livetrail.run/,5000000,Yes,Yes,Yes,
+https://ultramarin-breizhchrono.livetrail.run/coureur.php?rech=3062,5000000,Yes,Yes,Yes,
+https://whatisnuclear.com/feed.xml,5000000,Yes,No,No,RSS feed. Has instruction on how to subscribe to the feed.
+https://www.coreldraw12.in/sitemap_index.xml/,5000000,Yes,No,No,Sitemap
+https://www.dikrom.com/,5000000,Yes,Yes,Yes,
+https://www.dukestreetmarket.com/sitemap.xml,5000000,Yes,No,No,Sitemap
+https://www.epsm-metz-jury.fr/page-sitemap.xml,5000000,Yes,No,No,Sitemap
+https://www.gdc.co.ke/page-sitemap.xml,5000000,Yes,No,No,Sitemap
+https://www.hutchpl.org/,5000000,Yes,Yes,No,Flipster carousel
+https://www.mahabodhi.org/,5000000,Yes,Yes,Yes,
+https://www.man-scandinavia.com/sitemap_index.xml,5000000,Yes,No,No,Sitemap
+https://www.matadorbet.cam/sitemap_index.xml,5000000,Yes,No,No,Sitemap
+https://www.mindmaple.com/sitemap_index.xml,5000000,Yes,No,No,Sitemap
+https://www.np2c.edu.hk/,5000000,Yes,Yes,Yes,"""News"" in iframe"
+https://www.olrb.gov.on.ca/,5000000,Yes,Yes,Yes,
+https://www.portal.eltax.lta.go.jp/,5000000,N/A,N/A,N/A,404 error
+https://www.predicasbiblicas.com/sitemap.xml,5000000,Yes,No,No,Sitemap
+https://www.reidasbombas.com/,5000000,Unknown,Unknown,Unknown,
+https://www.reidasbombas.com/ListaProdutos.asp?IDLoja=26622&IDProduto=5377557,5000000,Unknown,Unknown,Unknown,
+https://www.rs-r.co.jp/,5000000,Yes,Yes,Yes,
+https://www.saxonica.com/,5000000,Yes,Yes,Yes,
+https://www.saxonica.com/download/download_page.xml,5000000,Yes,Yes,Yes,
+https://www.visitmelendugno.com/sitemap.xml,5000000,Yes,No,No,Sitemap
+https://1v1chat.co/sitemap_index.xml,10000000,Yes,No,No,Sitemap
+https://arb.consultant.ru/,10000000,,,,
+https://ati.aviontego.com/,10000000,,,,
+https://ayudaenlinea.bccr.fi.cr/,10000000,,,,
+https://ayudaenlinea.bccr.fi.cr/gm/folder-1.11.4614?format=EU_EditAnonymousLanguageXML.shtml,10000000,,,,
+https://balconcauteret.livetrail.run/,10000000,,,,
+https://balconcauteret.livetrail.run/coureur.php?rech=962,10000000,,,,
+https://barspero.com/sitemap_index.xml,10000000,,,,
+https://cateredbydesign.com/page-sitemap.xml,10000000,,,,
+https://cdc.dwd.de/,10000000,,,,
+https://cdc.dwd.de/DE/impressum.xhtml,10000000,,,,
+https://chateasy.app/sitemap_index.xml,10000000,,,,
+https://chatiw.io/sitemap_index.xml,10000000,,,,
+https://crs.aviontego.com/,10000000,,,,
+https://documental.celam.org/,10000000,,,,
+https://dvspallc.com/sitemap_index.xml,10000000,,,,
+https://ejournal.politeknikpu.ac.id/index.php/jik/oai?verb=Identify,10000000,,,,
+https://elecciones2024.ceepur.org/,10000000,,,,
+https://emeraldchat.app/sitemap_index.xml,10000000,,,,
+https://foon.uk/feeds/rss.xml,10000000,Yes,No,No,RSS feed. Has instruction on how to subscribe to the feed.
+https://guides.library.emerson.edu/,10000000,,,,
+https://libguides.middlesex.mass.edu/,10000000,,,,
+https://libguides.middlesex.mass.edu/c.php?g=1146110&p=10160040,10000000,,,,
+https://library.ccbcmd.edu/,10000000,,,,
+https://library.swtxc.edu/,10000000,,,,
+https://library.uhv.edu/,10000000,,,,
+https://library.uniquindio.edu.co/,10000000,,,,
+https://maya.go2c.info/whatsnew.xml,10000000,,,,
+https://mccneb.libguides.com/,10000000,,,,
+https://mesbulletins.fr/RDWeb/Pages/fr-FR/login.aspx?ReturnUrl=/RDWeb/Pages/fr-FR/Default.aspx,10000000,,,,
+https://mirror.cedia.org.ec/,10000000,,,,
+https://mm.suub.uni-bremen.de/,10000000,,,,
+https://muzicons.com/sitemap_index.xml,10000000,,,,
+https://nearme2day.com/sitemap_index.xml,10000000,,,,
+https://operalloguers.com/sitemap.xml,10000000,,,,
+https://pls.aviontego.com/,10000000,,,,
+https://portondinosilhas.gov.cv/,10000000,,,,
+https://portondinosilhas.gov.cv/portonprd/porton.portoncv_v3?p=AACEC7BDB7C4B9BBB5B9BAC4C4,10000000,,,,
+https://repcenter.skf.com/,10000000,,,,
+https://saqramart.com/sitemap_index.xml,10000000,,,,
+https://sctylib.org/services/downloadables/,10000000,,,,
+https://stardewcommunitywiki.com/sitemap_index.xml,10000000,,,,
+https://strangerchat.org/sitemap_index.xml,10000000,,,,
+https://sushithaicary.com/sitemap.xml,10000000,,,,
+https://thewanderingwanderluster.com/sitemap_index.xml,10000000,,,,
+https://tk.pte.hu/,10000000,,,,
+https://toiohomai.mykoha.co.nz/,10000000,,,,
+https://url.skr.jp/whatsnew/rss20.xml,10000000,Yes,No,No,RSS feed. Has instruction on how to subscribe to the feed.
+https://webapps.prod.there.com/,10000000,,,,
+https://webapps.prod.there.com/clubs/clubs?id=14942491&op=home,10000000,,,,
+https://webportal1.thedx.co.uk/,10000000,,,,
+https://www.amaru-design.com/sitemap_index.xml,10000000,,,,
+https://www.ap123.plus/sitemap_index.xml,10000000,,,,
+https://www.blanketisd.net/sitemap_index.xml,10000000,,,,
+https://www.cooslibraries.org/,10000000,,,,
+https://www.ibcpace.com/,10000000,,,,
+https://www.jacklopresti.com/sitemap_index.xml,10000000,,,,
+https://www.myslot777.co/sitemap_index.xml,10000000,,,,
+https://www.pigspin.guru/sitemap_index.xml,10000000,,,,
+https://www.restaurantlabelleprovince.ca/sitemap.xml,10000000,,,,
+https://www.sosyaltribun.com/sitemap_index.xml,10000000,,,,
+https://www.zus-rumburk.cz/,10000000,,,,
+https://xseek-qm.net/rss.xml,10000000,No,No,No,XSLT is not well-formed
+https://zumo55.pro/sitemap_index.xml,10000000,,,,
+http://aakashjapi.com/feed.xml,50000000,,,,
+http://cib.cf.ocha.ac.jp/,50000000,,,,
+http://elezioni.comune.verbania.it/2506Ref/referendum/index.htm,50000000,,,,
+http://library.dlis.gov.dm/,50000000,,,,
+http://library.dlis.gov.dm/cgi-bin/koha/opac-main.pl,50000000,,,,
+http://stratfordlibrary.org/,50000000,,,,
+http://stratfordlibrary.org/summer-reading-2025/,50000000,,,,
+https://59gx.org/sitemap_index.xml,50000000,,,,
+https://888mjb.com/sitemap_index.xml,50000000,,,,
+https://ajm1slotx.net/sitemap_index.xml,50000000,,,,
+https://ajstd.org/sitemap_index.xml,50000000,,,,
+https://andesadventures.com/sitemap_index.xml,50000000,,,,
+https://apps.0install.net/,50000000,,,,
+https://arabspeedreading.com/sitemap_index.xml,50000000,,,,
+https://baccaratxgame.com/sitemap_index.xml,50000000,,,,
+https://bananasurfandclub.com/index.php/page-sitemap.xml,50000000,,,,
+https://betgit.top/sitemap_index.xml,50000000,,,,
+https://bg.precastconcretemagnet.com/sitemap.xml,50000000,,,,
+https://blog.darylsun.page/,50000000,,,,
+https://brantfordribfest.com/sitemap.xml,50000000,,,,
+https://cars.subaruofenglewood.com/sitemap_index.xml,50000000,,,,
+https://cash2hero.com/sitemap_index.xml,50000000,,,,
+https://chartviper.com/performance-statistics-3/,50000000,,,,
+https://chatavenue.app/sitemap_index.xml,50000000,,,,
+https://chatib.app/sitemap_index.xml,50000000,,,,
+https://cloudlogic.coxautoinc.com.au/,50000000,,,,
+https://cn.libguides.com/,50000000,,,,
+https://coastalalabama.bywatersolutions.com/,50000000,,,,
+https://content.sitemasonry.gmu.edu/sitemap.xml,50000000,,,,
+https://dxo20.ez-data.com/,50000000,,,,
+https://dxo20.ez-data.com/dxoapp/jsp/forgotusername.jsp,50000000,,,,
+https://earthdaytx.org/sitemap_index.xml,50000000,,,,
+https://eas.aviontego.com/,50000000,,,,
+https://edificiosdavivienda.com/sitemap_index.xml,50000000,,,,
+https://edunextstudio.com/sitemap_index.xml,50000000,,,,
+https://ejournal.jayabaya.ac.id/index.php/index/oai,50000000,,,,
+https://elecciones2020.ceepur.org/,50000000,,,,
+https://elezioni.comune.fano.pu.it/,50000000,,,,
+https://elezioni.comune.fano.pu.it/web2506/referendum/SCRSEZ_1_41013.xml,50000000,,,,
+https://elezioni.comune.messina.it/referendum/index.htm,50000000,,,,
+https://elignera.lt/sitemap.xml,50000000,,,,
+https://emerilairfryer360.com/sitemap_index.xml,50000000,,,,
+https://eparticipa.gov.cv/sobre/,50000000,,,,
+https://es.esi-xrf.com/sitemap.xml,50000000,,,,
+https://expertus.lib.uni.lodz.pl/exp00014.xml,50000000,,,,
+https://fencing.secureworkswa.com.au/sitemap_index.xml,50000000,,,,
+https://filetrking.com/sitemap_index.xml,50000000,,,,
+https://forestbaracoa.edicionescervantes.com/index.php/fb/oai,50000000,,,,
+https://gaia.ari.uni-heidelberg.de/tap/tables,50000000,,,,
+https://gbc.libguides.com/,50000000,,,,
+https://gbc.libguides.com/c.php?g=1392601&p=10300566,50000000,,,,
+https://geoportal-worms.de/,50000000,,,,
+https://gmercyu.libguides.com/,50000000,,,,
+https://guidetoethiopia.com/sitemap_index.xml,50000000,,,,
+https://hackstore.io/sitemap_index.xml,50000000,,,,
+https://harrington.lib.de.us/,50000000,,,,
+https://hazelwoodgreen.com/sitemap.xml,50000000,,,,
+https://hotel-impact.jp/sitemap_index.xml,50000000,,,,
+https://hotel-moliere.net/sitemap_index.xml,50000000,,,,
+https://hotellforsen.se/sitemap_index.xml,50000000,,,,
+https://htv.livetrail.net/,50000000,,,,
+https://htv.livetrail.net/coureur.php?rech=5354,50000000,,,,
+https://insp.gov.cv/eixos-estrategicos/vigilancia-em-saude-publica/,50000000,,,,
+https://k9win.chat/sitemap_index.xml,50000000,,,,
+https://kekkorfutas.hu/elsofutas/index.xml,50000000,,,,
+https://ko.precastconcretemagnet.com/sitemap.xml,50000000,,,,
+https://kspic.lt/sitemap_index.xml,50000000,,,,
+https://kulrdweb.averis.biz/RDWeb/Pages/en-US/password.aspx,50000000,,,,
+https://kutuphane.bandirma.edu.tr/,50000000,,,,
+https://lankaanews.com/sitemap_index.xml,50000000,,,,
+https://lib.ubru.ac.th/,50000000,,,,
+https://lib.ubru.ac.th/web,50000000,,,,
+https://libguides.lander.edu/,50000000,,,,
+https://libguides.montgomerybell.edu/digitalmagazines,50000000,,,,
+https://libguides.washjeff.edu/,50000000,,,,
+https://library.fontbonne.edu/,50000000,,,,
+https://library.gc.edu/,50000000,,,,
+https://library.myforefront.org/,50000000,,,,
+https://loyalistlibrary.com/,50000000,,,,
+https://madds.co.za/sitemap_index.xml,50000000,,,,
+https://manga-titan.com/sitemap_index.xml,50000000,,,,
+https://mdscappadocia.livetrail.net/,50000000,,,,
+https://mdscappadocia.livetrail.net/coureur.php?rech=14,50000000,,,,
+https://mequonpublicmarket.com/sitemap_index.xml,50000000,,,,
+https://mirahotelsgroup.com/sitemap_index.xml,50000000,,,,
+https://movie-disney.com/sitemap_index.xml,50000000,,,,
+https://movolunteers.org/sitemap_index.xml,50000000,,,,
+https://mtmary.libguides.com/,50000000,,,,
+https://mtmary.libguides.com/home,50000000,,,,
+https://nepali.easytyping.co/sitemap_index.xml,50000000,,,,
+https://nivod5.com/sitemap_index.xml,50000000,,,,
+https://nyesracingengines.com/sitemap_index.xml,50000000,,,,
+https://opac.rgub.ru/opacg/guest.html,50000000,,,,
+https://opp.aviontego.com/,50000000,,,,
+https://otk.aviontego.com/,50000000,,,,
+https://pacificcetaceans.org/sitemap_index.xml,50000000,,,,
+https://patoutrail.livetrail.run/,50000000,,,,
+https://patoutrail.livetrail.run/coureur.php?rech=45002,50000000,,,,
+https://pgslot.lt/sitemap_index.xml,50000000,,,,
+https://porshinagar.in/index.php/sitemap_index.xml,50000000,,,,
+https://premed.oregonstate.edu/sitemap.xml,50000000,,,,
+https://prezzariollpp.calabriasue.it/sitemap.xml,50000000,,,,
+https://prosoft.canon-mcmillan.org/,50000000,,,,
+https://prosoft.canon-mcmillan.org/rdweb/pages/en-us/password.aspx,50000000,,,,
+https://prosoftapp.richlandsd.net/,50000000,,,,
+https://prosoftapp.richlandsd.net/rdweb/pages/en-us/password.aspx,50000000,,,,
+https://regio.zettl-folientechnik.de/sitemap.xml,50000000,,,,
+https://rentalog.com.br/sitemap_index.xml,50000000,,,,
+https://sas.sui-online.com/,50000000,,,,
+https://silvercitypubliclibrary.org/,50000000,,,,
+https://sim-kzn-baltyk.pl/wp-sitemap-posts-page-1.xml,50000000,,,,
+https://site-enfejar-iranbet.com/sitemap_index.xml,50000000,,,,
+https://slope.org/sitemap_index.xml,50000000,,,,
+https://stadtplan.ludwigshafen.de/,50000000,,,,
+https://suche.suub.uni-bremen.de/,50000000,,,,
+https://superiormhi.com/sitemaps.xml,50000000,,,,
+https://svn.dcc.fceia.unr.edu.ar/svn/lcc,50000000,,,,
+https://sy-solar.com/sitemap_index.xml,50000000,,,,
+https://tabnabber.com/sitemap_index.xml,50000000,,,,
+https://talktostrangers.co/sitemap_index.xml,50000000,,,,
+https://tcboyle.com/,50000000,,,,
+https://textbook.com.co/sitemap.php,50000000,,,,
+https://th.precastconcretemagnet.com/sitemap.xml,50000000,,,,
+https://thaidessertss.com/sitemap_index.xml,50000000,,,,
+https://tickets.mariinsky.ru/,50000000,,,,
+https://tickets.mariinsky.ru/ru/client/recoverypwd/,50000000,,,,
+https://trd.aviontego.com/,50000000,,,,
+https://trialinsider.com/sitemap_index.xml,50000000,,,,
+https://tsugumon.net/,50000000,,,,
+https://tsugumon.net/adpage.xhtml,50000000,,,,
+https://twincitiespawn.com/index.php?xml_sitemap=params=.,50000000,,,,
+https://uperform.sc.gov/,50000000,,,,
+https://uperform.sc.gov/gm/folder-1.11.361,50000000,,,,
+https://ustimenow.com/sitemap.xml,50000000,,,,
+https://vadviragalapitvany.hu/sitemap.xml,50000000,,,,
+https://vape-bkk.com/sitemap_index.xml,50000000,,,,
+https://villapolis.info/sitemap_index.xml,50000000,,,,
+https://vocali.net/sitemap_index.xml,50000000,,,,
+https://wiivv.com/sitemap_index.xml,50000000,,,,
+https://winxbet.co/sitemap_index.xml,50000000,,,,
+https://womensplace.osu.edu/sitemap.xml,50000000,,,,
+https://work.dentalsuite.dk/,50000000,,,,
+https://www.aerobusbcn.com/sitemap_index.xml,50000000,,,,
+https://www.africanholocaust.net/sitemap_index.xml/,50000000,,,,
+https://www.autismsupportnetwork.com/sitemap_index.xml,50000000,,,,
+https://www.bandonlibrary.org/digitalresources,50000000,,,,
+https://www.beroomers.com/sitemap_index.xml,50000000,,,,
+https://www.bigfootdiscoveryproject.com/sitemap_index.xml,50000000,,,,
+https://www.blast2go.com/wp-sitemap.xml,50000000,,,,
+https://www.casadereposoelalmendral.cl/sitemap.xml,50000000,,,,
+https://www.chassis-plans.com/sitemap_index.xml,50000000,,,,
+https://www.cjascience.com/index.php/CJAS/oai,50000000,,,,
+https://www.clinicadelpieponferrada.es/sitemap_index.xml,50000000,,,,
+https://www.darliefacts.com/sitemap_index.xml,50000000,,,,
+https://www.europe-israel.org/sitemap_index.xml,50000000,,,,
+https://www.feerc.ru/,50000000,,,,
+https://www.fishotopia.com.au/,50000000,,,,
+https://www.franquiciasbaratita.cl/sitemap_index.xml,50000000,,,,
+https://www.fundaciontecsos.es/sitemap_index.xml,50000000,,,,
+https://www.gimphelp.org/sitemap_index.xml,50000000,,,,
+https://www.houstondinnershow.com/page-sitemap.xml,50000000,,,,
+https://www.hpipark.org/sitemap_index.xml,50000000,,,,
+https://www.istitutogris.it/trasparenza/PubblicazioneFtp/DL33/pubblicazione.xml,50000000,,,,
+https://www.kerstinkoenigbaumaschinen.de/sitemap.xml,50000000,,,,
+https://www.klementinum.com/sitemap_index.xml,50000000,,,,
+https://www.kralbetegir.xyz/sitemap_index.xml,50000000,,,,
+https://www.loyalistlibrary.com/,50000000,,,,
+https://www.mexigoexpress.ca/sitemap.xml,50000000,,,,
+https://www.mrinsta.io/sitemap_index.xml,50000000,,,,
+https://www.nababkebab.com/sitemap_index.xml,50000000,,,,
+https://www.notariaesmirnavidalm.cl/wp-sitemap.xml,50000000,,,,
+https://www.nysroads.com/rss.xml,50000000,,,,
+https://www.offshore.org.gr/,50000000,,,,
+https://www.offshore.org.gr/index.php?type=hoc&x=news_hoc.xsl,50000000,,,,
+https://www.olio-bty.co.il/wp-sitemap.xml,50000000,,,,
+https://www.pollardml.org/sitemap_index.xml,50000000,,,,
+https://www.rangehoodsstore.com/sitemap_index.xml,50000000,,,,
+https://www.reliancehomefinance.com/sitemap_index.xml,50000000,,,,
+https://www.rgagnon.com/feed.xml,50000000,,,,
+https://www.skyonebd.com/sitemap_index.xml,50000000,,,,
+https://www.sofacamafuton.com.br/,50000000,,,,
+https://www.sofacamafuton.com.br/banner-redir.ehc?idbanner=14986&url=https%3A%2F%2Fwww%2Esofacamafuton%2Ecom%2Ebr%2FAjuda%2Easp%3FIDLoja%3D9255%23Pagamento,50000000,,,,
+https://www.sqdi.org/sitemap_index.xml,50000000,,,,
+https://www.tcboyle.com/,50000000,,,,
+https://www.thepeacockmarket.com/sitemap_index.xml,50000000,,,,
+https://www.thisoldtile.com/series.xml,50000000,,,,
+https://www.tintazul.com.pt/julio.reis/fcf.xml,50000000,,,,
+https://www.tomfw.com/sitemap_index.xml,50000000,,,,
+https://www.twin.gr/sitemap_index.xml,50000000,,,,
+https://www.utexaspressjournals.org/sitemap_index.xml,50000000,,,,
+https://www.webpraxis.ab.ca/,50000000,,,,
+https://www.woinrpg.com/sitemap_index.xml,50000000,,,,
+https://www.xxcopy.in/sitemap_index.xml/,50000000,,,,
+https://yealink.co.il/sitemap_index.xml,50000000,,,,
+https://yellowwiz.com/sitemap_index.xml,50000000,,,,
+https://yes.aviontego.com/,50000000,,,,
+https://yggapi.eu/rss?id=2183&passkey=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,50000000,,,,
+https://yumurtaliekmek.com/sitemap_index.xml,50000000,,,,
+,Total Yes,89,40,26,
+,Total No,3,51,65,
+,Percent Yes,97%,44%,29%,
