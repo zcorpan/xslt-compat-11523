@@ -180,3 +180,7 @@ settings. The run used Playwright 1.64.0 and Pillow 13.0.0. The first 191 pages 
 `compare.py` had its 90s per-visit timeout; three pages hung and stalled the run, which was then
 resumed for the remaining nine (`run.log`). Live pages change, so a rerun won't match exactly.
 Full-page screenshots (`out/shots/`, 190 MB) aren't committed; `compare.py` regenerates them.
+
+Browser output was scrubbed for publishing with `scrub.py` (`python3 scrub.py 'hits.csv,sample.jsonl,top100k.jsonl,followup-2025/*.csv' 'out/results.jsonl,out-top100k/results.jsonl,followup-2025/results.jsonl' <IP>`):
+the tester's IP replaced with `[client IP]`, and query strings and fragments stripped from URLs
+other than crawl URLs and script URLs in `xsltStacks`. The analysis outputs are unchanged.
