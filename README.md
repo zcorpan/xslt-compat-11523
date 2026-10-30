@@ -20,9 +20,10 @@ processing instruction and the `XSLTProcessor` API.
   flarum/framework#4359 (2.x) and flarum/framework#4644 (1.x); these sites haven't updated.
 - No visible change: MathJax 2.x's `mml3.js` (feature detection handles it) and EBSCO's Flipster
   widget, which seems to transform server-side now.
-- The crawl undercounts. Chrome's field rate for `XSLTProcessor` (chromestatus, 0.01–0.08% of page
-  loads in October 2026) is several times the crawl's, likely from feeds, sitemaps, deep links,
-  intranets, and logged-in pages that the crawl mostly doesn't visit.
+- Chrome's field rate for `XSLTProcessor` (chromestatus, 0.01–0.08% of page loads in October 2026)
+  is several times the crawl's. That may mean the crawl undercounts (it mostly doesn't visit feeds,
+  sitemaps, deep links, intranets, and logged-in pages), or that `XSLTProcessor` is on a few heavily
+  used pages; field rates count page loads, not pages.
 
 - Of the 26 pages the August 2025 analysis rated broken, 12 still break, 9 are fine now, and 5
   don't load (section 4).
