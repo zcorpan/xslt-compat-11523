@@ -22,8 +22,9 @@ class H(http.server.SimpleHTTPRequestHandler):
 srv = http.server.ThreadingHTTPServer(('127.0.0.1', 0), functools.partial(H, directory=WWW))
 threading.Thread(target=srv.serve_forever, daemon=True).start()
 BASE = f'http://127.0.0.1:{srv.server_port}/'
-PAGES = ['event.xml', 'font.xml', 'type-text-xml.xml', 'type-application-xml.xml', 'cp1251.xml', 'latin1.xml', 'blank-iframe.html', 'post-form.html', 'csp.html', 'csp-none.html', 'script-source.xml', 'quirks-nodoctype.xml', 'quirks-doctype.xml']
-M = "(() => { const t = document.getElementById('t'); return (t ? t.textContent : (document.documentElement.textContent || '').trim().slice(0, 80)) })()"
+PAGES = ['event.xml', 'font.xml', 'type-text-xml.xml', 'type-application-xml.xml', 'cp1251.xml', 'latin1.xml', 'blank-iframe.html', 'post-form.html', 'csp.html', 'csp-none.html', 'script-source.xml', 'quirks-nodoctype.xml', 'quirks-doctype.xml',
+         'utf16.xml', 'xsl1251.xml', 'doc1251.xml', 'bad-utf8.xml', 'bad-sjis.xml', 'bad-xsl.xml']
+M = "(() => { const t = document.getElementById('t'); return (t ? t.textContent : !document.documentElement ? '(empty document)' : (document.documentElement.textContent || '').trim().slice(0, 80)) })()"
 browser, ext = sys.argv[1], sys.argv[2]
 
 async def chrome():
