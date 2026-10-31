@@ -1,0 +1,4 @@
+chrome nocsp.html | main compile ok | isolated started | isolated sync compile ok | got [object WebAssembly.Module] | instantiate passed module: 42 | posted module
+chrome csp.html | main compile: CompileError | isolated started | isolated sync compile: CompileError: WebAssembly.Module(): 
+firefox nocsp.html | main compile ok | isolated started | isolated sync compile ok | got [object WebAssembly.Module] | posted module | instantiate passed module: 42
+firefox csp.html | main compile: CompileError | isolated started | isolated sync compile ok | messageerror | posted module

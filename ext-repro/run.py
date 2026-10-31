@@ -24,7 +24,7 @@ threading.Thread(target=srv.serve_forever, daemon=True).start()
 BASE = f'http://127.0.0.1:{srv.server_port}/'
 PAGES = ['event.xml', 'font.xml', 'type-text-xml.xml', 'type-application-xml.xml', 'cp1251.xml', 'latin1.xml', 'blank-iframe.html', 'post-form.html', 'csp.html', 'csp-none.html', 'script-source.xml', 'quirks-nodoctype.xml', 'quirks-doctype.xml',
          'utf16.xml', 'xsl1251.xml', 'doc1251.xml', 'bad-utf8.xml', 'bad-sjis.xml', 'bad-xsl.xml',
-         'pi-css-then-xsl.xml', 'pi-alternate-then-xsl.xml', 'pi-alternate-title-then-xsl.xml', 'pi-bogus-then-xsl.xml', 'pi-nohref-then-xsl.xml', 'pi-two-xsl.xml', 'pi-type-application-xml.xml', 'pi-type-application-xslt.xml', 'pi-type-atom.xml', 'pi-type-missing.xml', 'pi-type-params.xml', 'pi-type-rss.xml', 'pi-type-space.xml', 'pi-type-text-xml.xml', 'pi-type-text-xsl.xml', 'pi-type-upper.xml', 'pi-type-xhtml.xml', 'case.xml', 'reset-viewer.xml', 'reset-noviewer.xml', 'reset-margin.xml']
+         'pi-css-then-xsl.xml', 'pi-alternate-then-xsl.xml', 'pi-alternate-title-then-xsl.xml', 'pi-bogus-then-xsl.xml', 'pi-nohref-then-xsl.xml', 'pi-two-xsl.xml', 'pi-type-application-xml.xml', 'pi-type-application-xslt.xml', 'pi-type-atom.xml', 'pi-type-missing.xml', 'pi-type-params.xml', 'pi-type-rss.xml', 'pi-type-space.xml', 'pi-type-text-xml.xml', 'pi-type-text-xsl.xml', 'pi-type-upper.xml', 'pi-type-xhtml.xml', 'case.xml', 'reset-viewer.xml', 'reset-noviewer.xml', 'reset-margin.xml', 'frame-parent.html', 'v2.xml', 'script-source2.xml', 'frames.html']
 M = "(() => { const t = document.getElementById('t'); return (t ? t.textContent : !document.documentElement ? '(empty document)' : (document.documentElement.textContent || '').trim().slice(0, 80)) })()"
 browser, ext = sys.argv[1], sys.argv[2]
 

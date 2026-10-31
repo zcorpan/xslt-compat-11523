@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "CSP Wasm probe",
+  "version": "1.0",
+  "content_scripts": [
+    {"matches": ["<all_urls>"], "js": ["isolated.js"], "run_at": "document_start"},
+    {"matches": ["<all_urls>"], "js": ["main.js"], "run_at": "document_start", "world": "MAIN"}
+  ],
+  "browser_specific_settings": {"gecko": {"id": "csp-wasm-probe@example.com"}}
+}

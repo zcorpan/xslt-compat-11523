@@ -1,0 +1,13 @@
+<!doctype html><title>t</title><p id="t">x</p>
+<script>
+const t0 = performance.now();
+for (let i = 0; i < 20; i++) document.body.append(document.createElement('iframe'));
+addEventListener('load', () => {
+  const loadAt = Math.round(performance.now() - t0);
+  setTimeout(() => {
+    let n = 0; for (let i = 0; i < frames.length; i++) if (typeof frames[i].XSLTProcessor === 'function' && String(frames[i].XSLTProcessor).indexOf('native code') < 0) n++;
+    const mem = performance.memory ? Math.round(performance.memory.usedJSHeapSize / 1e6) + 'MB JS heap' : '';
+    document.getElementById('t').textContent = 'polyfill in ' + n + '/20 frames, load at ' + loadAt + 'ms ' + mem;
+  }, 500);
+});
+</script>

@@ -1,0 +1,10 @@
+<!doctype html><title>t</title><p id="t">no load yet</p>
+<script>
+var calls = [];
+function loaded(f) {
+  var d = f.contentDocument, b = d && d.body;
+  calls.push(b ? 'body ' + (b.textContent.trim() || '(empty)') : 'no body (' + (d && d.documentElement && d.documentElement.localName) + ')');
+  document.getElementById('t').textContent = 'iframe onload calls: ' + calls.join('; ');
+}
+</script>
+<iframe src="frame-child.xml" onload="loaded(this)"></iframe>
