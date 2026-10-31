@@ -39,6 +39,9 @@ A pi-type-upper.xml | /* Copyright 2014 The Chromium Authors
  * Use of this source code is governed by | []
 A pi-type-xhtml.xml | transformed by first | []
 A case.xml | BODY font monospace, P color rgb(0, 0, 255), qS('P') true, gEBTN('P') 1, getAttribute('CLASS') X, getAttribute('align') right, document.write ok | []
+A reset-viewer.xml | body margin 8px, td font monospace 10px, td valign middle, valign=top top, td padding 1px, table spacing 2px, table width 52.0312px, pre in table pre | []
+A reset-noviewer.xml | body margin 8px, td font monospace 10px, td valign middle, valign=top top, td padding 1px, table spacing 2px, table width 52.0312px, pre in table pre | []
+A reset-margin.xml | body margin 0px, td font monospace 10px, td valign middle, valign=top top, td padding 1px, table spacing 2px, table width 52.0312px, pre in table pre | []
 E event.xml | transformed: hello | ['console: Failed to load resource: the server responded with a status of 404 (File not found)', "Failed to execute 'dispatchEvent' on 'EventTarget': parameter 1 is not of type 'Event'."]
 E font.xml | transformed td font: Times | []
 E type-text-xml.xml | /* Copyright 2014 The Chromium Authors
@@ -87,3 +90,6 @@ E pi-type-upper.xml | transformed by first | []
 E pi-type-xhtml.xml | /* Copyright 2014 The Chromium Authors
  * Use of this source code is governed by | []
 E case.xml | BODY font Times, P color rgb(0, 0, 0), qS('P') false, gEBTN('P') 0, getAttribute('CLASS') null, getAttribute('align') right, document.write throws | []
+E reset-viewer.xml | body margin 8px, td font Times 16px, td valign baseline, valign=top baseline, td padding 1px, table spacing 2px, table width 53.5469px, pre in table normal | []
+E reset-noviewer.xml | body margin 8px, td font Times 16px, td valign baseline, valign=top baseline, td padding 1px, table spacing 2px, table width 53.5469px, pre in table normal | []
+E reset-margin.xml | body margin 8px, td font Times 16px, td valign baseline, valign=top baseline, td padding 1px, table spacing 2px, table width 53.5469px, pre in table normal | []
