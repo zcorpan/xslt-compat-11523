@@ -38,6 +38,7 @@ A pi-type-text-xsl.xml | transformed by first | []
 A pi-type-upper.xml | /* Copyright 2014 The Chromium Authors
  * Use of this source code is governed by | []
 A pi-type-xhtml.xml | transformed by first | []
+A case.xml | BODY font monospace, P color rgb(0, 0, 255), qS('P') true, gEBTN('P') 1, getAttribute('CLASS') X, getAttribute('align') right, document.write ok | []
 E event.xml | transformed: hello | ['console: Failed to load resource: the server responded with a status of 404 (File not found)', "Failed to execute 'dispatchEvent' on 'EventTarget': parameter 1 is not of type 'Event'."]
 E font.xml | transformed td font: Times | []
 E type-text-xml.xml | /* Copyright 2014 The Chromium Authors
@@ -85,3 +86,4 @@ E pi-type-text-xsl.xml | transformed by first | []
 E pi-type-upper.xml | transformed by first | []
 E pi-type-xhtml.xml | /* Copyright 2014 The Chromium Authors
  * Use of this source code is governed by | []
+E case.xml | BODY font Times, P color rgb(0, 0, 0), qS('P') false, gEBTN('P') 0, getAttribute('CLASS') null, getAttribute('align') right, document.write throws | []
