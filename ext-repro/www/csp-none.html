@@ -1,0 +1,13 @@
+<!doctype html><title>t</title><p id="t">x</p>
+<script>
+addEventListener('load', async () => {
+  const p = new DOMParser();
+  const xml = p.parseFromString('<root><item>hello</item></root>', 'application/xml');
+  const xsl = p.parseFromString(`<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"><xsl:template match="/"><b><xsl:value-of select="root/item"/></b></xsl:template></xsl:stylesheet>`, 'application/xml');
+  try {
+    if (window.xsltPolyfillReady) await xsltPolyfillReady();
+    const proc = new XSLTProcessor(); proc.importStylesheet(xsl);
+    document.getElementById('t').textContent = 'transformed: ' + proc.transformToFragment(xml, document).textContent;
+  } catch (e) { document.getElementById('t').textContent = 'error: ' + e; }
+});
+</script>

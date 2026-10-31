@@ -1,0 +1,241 @@
+id,set,client,page,auto_rating,flags,e_only_messages,e_polyfill_log,textRatioAA2,textRatioAE,pixAA2,pixAE
+f00,followup-2025,desktop,https://bobexpress.bankbahamas.com/,same,,,,1.0,1.0,0.0,0.0
+f01,followup-2025,desktop,https://edt.univ-nantes.fr/la-roche-sur-yon/,not assessable,HTTP 403,,,1.0,1.0,0.0,0.0
+f02,followup-2025,desktop,https://jadual.ums.edu.my/ExamSD,same,,,,1.0,1.0,0.0,0.0
+f03,followup-2025,desktop,https://www.sudoc.abes.fr/,same,,,,1.0,1.0,0.0,0.0
+f04,followup-2025,desktop,https://www.sudoc.abes.fr/cbs//DB=2.1/,needs review,"differs (text 0.966 vs noise 1.0, pixels 0.1147 vs noise 0.0)",,,1.0,0.966,0.0,0.1147
+f05,followup-2025,desktop,https://acu.aviontego.com/,same,,,,1.0,1.0,0.0,0.0
+f06,followup-2025,desktop,https://api.intra-mart.jp/v72/index.html,needs review,"raw XML in 1 frame(s) in E | differs (text 1.0 vs noise 1.0, pixels 0.0869 vs noise 0.0)","error: 		                ^ | error: 		<category name="" | error: Bytes: NxNA NxNA NxN NxAD | error: Error displaying XML file: Error processing XML/XSLT: Error: XSLT Transformation failed. See console for details. | error: xml:N: I/O error : Invalid bytes in character encoding",XSLT Transformation Error: Failed to parse XML document. | Error displaying XML file: Error processing XML/XSLT: Error: XSLT Transformation failed. See console for details.,1.0,1.0,0.0,0.0869
+f07,followup-2025,desktop,https://cds.aviontego.com/,same,,,,1.0,1.0,0.0,0.0
+f08,followup-2025,desktop,https://debopgip01.bomag.com/goIdentity/passwordReset,same,,,,1.0,1.0,0.0,0.0
+f09,followup-2025,desktop,https://foc.aviontego.com/,same,,,,1.0,1.0,0.0,0.0
+f10,followup-2025,desktop,https://hpg.aviontego.com/,same,,,,1.0,1.0,0.0,0.0
+f11,followup-2025,desktop,https://mdr.aviontego.com/,same,,,,1.0,1.0,0.0,0.0
+f12,followup-2025,desktop,https://my.yomiuri.co.jp/,same,,,,1.0,1.0,0.0,0.0
+f13,followup-2025,desktop,https://plany.wel.wat.edu.pl/,same,,,,1.0,1.0,0.0,0.0
+f14,followup-2025,desktop,https://puzzlewillbeplayed.com/-/polyomino-sq.xml,same,,,Loading external document from URL https://puzzlewillbeplayed.com/-/xsl/params.xsl... | Done loading https://puzzlewillbeplayed.com/-/xsl/params.xsl. | Loading external document from URL https://puzzlewillbeplayed.com/-/xsl/index.xsl... | Done loading https://puzzlewillbeplayed.com/-/xsl/index.xsl. | Loading external document from URL https://puzzlewillbeplayed.com/-/xsl/about.xsl...,1.0,1.0,0.0,0.0046
+f15,followup-2025,desktop,https://timetable.dut.ac.za/,not assessable,HTTP 401,,,1.0,1.0,0.0,0.0
+f16,followup-2025,desktop,https://tt.ecc.edu.jm/,same,,,,1.0,1.0,0.0,0.0
+f17,followup-2025,desktop,https://ultramarin-breizhchrono.livetrail.run/,same,,,,1.0,1.0,0.0,0.0
+f18,followup-2025,desktop,https://ultramarin-breizhchrono.livetrail.run/coureur.php?rech=3062,needs review,,exception: Cookie “_fbp” has been rejected for invalid domain.,,1.0,1.0,0.0,0.0
+f19,followup-2025,desktop,https://www.dikrom.com/,same,,,,1.0,0.997,0.0333,0.0373
+f20,followup-2025,desktop,https://www.mahabodhi.org/,needs review,"raw XML in E | differs (text 0.025 vs noise 1.0, pixels 0.5993 vs noise 0.0)",error: 		       ^ | error: 		<title> | error: Bytes: NxAC NxFC NxBN NxEA | error: Error displaying XML file: Error processing XML/XSLT: Error: XSLT Transformation failed. See console for details. | error: xml:N: I/O error : Invalid bytes in character encoding,XSLT Transformation Error: Failed to parse XML document. | Error displaying XML file: Error processing XML/XSLT: Error: XSLT Transformation failed. See console for details.,1.0,0.025,0.0,0.5993
+f21,followup-2025,desktop,https://www.np2c.edu.hk/,same,,,,1.0,1.0,0.0063,0.007
+f22,followup-2025,desktop,https://www.olrb.gov.on.ca/,needs review,"differs (text 1.0 vs noise 1.0, pixels 0.0526 vs noise 0.0)","exception: TypeError: can't access property ""scrollHeight"", iframe.contentWindow.document.body is null",,1.0,1.0,0.0,0.0526
+f23,followup-2025,desktop,https://www.rs-r.co.jp/,same,,,,1.0,1.0,0.1341,0.1366
+f24,followup-2025,desktop,https://www.saxonica.com/,same,,,,1.0,1.0,0.0,0.0
+f25,followup-2025,desktop,https://www.saxonica.com/download/download_page.xml,same,,,,1.0,1.0,0.0,0.0
+s000,sample,desktop,https://kckl.ent.sirsi.net/,not assessable,HTTP 403,,,0.97,0.97,0.0005,0.0004
+s001,sample,desktop,https://rerdavies.github.io/feed.xml,needs review,,error: compilation error: file https://rerdavies.github.io/feed.xsl line N element stylesheet | error: xsl:version: only N.N features are supported,compilation error: file https://rerdavies.github.io/feed.xsl line 2 element stylesheet | xsl:version: only 1.1 features are supported,1.0,1.0,0.0,0.0
+s002,sample,desktop,https://library.trenholmstate.edu/,same,,,,1.0,1.0,0.0,0.0
+s003,sample,desktop,https://library.gbc.edu/,same,,,,1.0,1.0,0.0,0.0
+s004,sample,desktop,https://www.rajska.info/,same,,,,1.0,1.0,0.0,0.0
+s005,sample,desktop,https://ejournal.jayabaya.ac.id/index.php/index/oai,same,,,,0.998,0.998,0.0001,0.0001
+s006,sample,desktop,https://silvercitypubliclibrary.org/,same,,,,1.0,1.0,0.0242,0.0329
+s007,sample,desktop,https://legolas.md-medicus.net/,needs review,"differs (text 0.98 vs noise 1.0, pixels 0.6191 vs noise 0.0)","exception: TypeError: can't access property ""test"", type is undefined",,1.0,0.98,0.0,0.6191
+s008,sample,desktop,https://bsprdweb.averis.biz/,needs review,"differs (text 0.999 vs noise 1.0, pixels 0.0244 vs noise 0.0)",,,1.0,0.999,0.0,0.0244
+s009,sample,desktop,https://tk.pte.hu/,same,,,,1.0,1.0,0.0,0.0
+s010,sample,desktop,https://wx88bet-th.com/sitemap_index.xml,needs review,"differs (text 1.0 vs noise 1.0, pixels 0.0206 vs noise 0.0)",error: compilation error: file https://wxNbet-th.com/main-sitemap.xsl line N element stylesheet | error: xsl:version: only N.N features are supported,compilation error: file https://wx88bet-th.com/main-sitemap.xsl line 2 element stylesheet | xsl:version: only 1.1 features are supported,1.0,1.0,0.0,0.0206
+s011,sample,desktop,https://eprasaran.com/sitemap.xml,needs review,"differs (text 1.0 vs noise 1.0, pixels 0.0121 vs noise 0.0)",error: compilation error: file https://eprasaran.com/default-sitemap.xsl line N element stylesheet | error: xsl:version: only N.N features are supported,compilation error: file https://eprasaran.com/default-sitemap.xsl line 2 element stylesheet | xsl:version: only 1.1 features are supported,1.0,1.0,0.0,0.0121
+s012,sample,desktop,https://cdc.dwd.de/,same,,,,1.0,0.994,0.0,0.0018
+s013,sample,desktop,https://muzeumpiotrkow.pl/sitemap.xml,needs review,"differs (text 1.0 vs noise 1.0, pixels 0.033 vs noise 0.0)",error: compilation error: file https://muzeumpiotrkow.pl/default-sitemap.xsl line N element stylesheet | error: xsl:version: only N.N features are supported,compilation error: file https://muzeumpiotrkow.pl/default-sitemap.xsl line 2 element stylesheet | xsl:version: only 1.1 features are supported,1.0,1.0,0.0,0.033
+s014,sample,desktop,https://mcpls.org/resources/,same,,,,1.0,1.0,0.0,0.0
+s015,sample,desktop,http://mycelcat.unizulu.ac.za/,same,,,,1.0,1.0,0.0,0.0
+s016,sample,desktop,https://labs.vse.gmu.edu/sitemap.xml,not assessable,load error with native XSLT,error: Error displaying XML file: Failed to fetch XSLT file: https://labs.cec.gmu.edu/wp-sitemap-index.xsl,Error displaying XML file: Failed to fetch XSLT file: https://labs.cec.gmu.edu/wp-sitemap-index.xsl,1.0,0.0,,
+s017,sample,desktop,https://stadtplan.ludwigshafen.de/,same,,,,1.0,1.0,0.0,0.0
+s018,sample,desktop,https://www.kerstinkoenigbaumaschinen.de/sitemap.xml,needs review,"differs (text 1.0 vs noise 1.0, pixels 0.1963 vs noise 0.0)",error: compilation error: file https://www.kerstinkoenigbaumaschinen.de/Module/Darstellung/CSS/sitemap.xml.xsl line N element stylesheet | error: xsl:version: only N.N features are supported,compilation error: file https://www.kerstinkoenigbaumaschinen.de/Module/Darstellung/CSS/sitemap.xml.xsl line 2 element stylesheet | xsl:version: only 1.1 features are supported,1.0,1.0,0.0,0.1963
+s019,sample,desktop,https://mylibrary.openpolytechnic.ac.nz/,same,,,,1.0,1.0,0.0,0.0
+s020,sample,desktop,https://biblio.ucaldas.edu.co/novedades-bibliograficas/,same,,,,1.0,1.0,0.0,0.0023
+s021,sample,desktop,https://www.coreldraw12.in/sitemap_index.xml/,needs review,"differs (text 0.998 vs noise 1.0, pixels 0.0256 vs noise 0.0)",error: compilation error: file https://www.coreldrawN.in/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl line N element stylesheet | error: xsl:version: only N.N features are supported,compilation error: file https://www.coreldraw12.in/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl line 2 element stylesheet | xsl:version: only 1.1 features are supported,1.0,0.998,0.0,0.0256
+s022,sample,desktop,https://evehibi.nekoweb.org/,needs review,"differs (text 0.092 vs noise 0.099, pixels 0.1143 vs noise 0.1138)",,,0.099,0.092,0.1138,0.1143
+s023,sample,desktop,https://uperform.sc.gov/gm/folder-1.11.361,same,,,,1.0,1.0,0.0,0.0
+s024,sample,desktop,https://www.blast2go.com/wp-sitemap.xml,needs review,"differs (text 1.0 vs noise 1.0, pixels 0.0134 vs noise 0.0)",,,1.0,1.0,0.0,0.0134
+s025,sample,desktop,https://rdg125726.nextgenmcs.com/,needs review,"differs (text 1.0 vs noise 1.0, pixels 0.0138 vs noise 0.0)",,,1.0,1.0,0.0,0.0138
+s026,sample,desktop,https://wildfigkitchen.com/sitemap_index.xml,not assessable,load error with native XSLT,error: Error displaying XML file: Failed to fetch XSLT file: https://wildfigkitchen.falconz.org/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl,Error displaying XML file: Failed to fetch XSLT file: https://wildfigkitchen.falconz.org/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl,1.0,0.0,,
+s027,sample,desktop,https://www.mahabodhi.org/zh-TW/eflyers/2022/0722.xml,same,,,Loading external document from URL https://www.mahabodhi.org/xsl/navigation.xsl... | Done loading https://www.mahabodhi.org/xsl/navigation.xsl. | Loading external document from URL https://www.mahabodhi.org/xsl/document_inline.xsl... | Done loading https://www.mahabodhi.org/xsl/document_inline.xsl.,1.0,0.995,0.0,0.0005
+s028,sample,desktop,https://www.zus-rumburk.cz/,same,,,,1.0,1.0,0.0026,0.0026
+s029,sample,desktop,https://repo.uinsyahada.ac.id/cgi/oai2,same,,,,1.0,1.0,0.0,0.0
+s030,sample,desktop,https://webportal1.thedx.co.uk/,needs review,"raw XML in E | differs (text 0.021 vs noise 1.0, pixels 0.9955 vs noise 0.0)",error: Error during XSLT transformation: TypeError: NetworkError when attempting to fetch resource. | exception: Blocked loading mixed active content “http://webportal.thedx.co.uk/”,Error during XSLT transformation: TypeError: NetworkError when attempting to fetch resource.,1.0,0.021,0.0,0.9955
+s031,sample,desktop,https://mccneb.libguides.com/,same,,,,1.0,1.0,0.0,0.0
+s032,sample,desktop,https://library.austincc.edu/,same,,,,1.0,1.0,0.0054,0.0
+s033,sample,desktop,https://cloudlogic.indiqator.com.au/,same,,,,1.0,1.0,0.0,0.0025
+s034,sample,desktop,https://bsprdweb.averis.biz/RDWeb/Pages/en-US/password.aspx,same,,,,1.0,1.0,0.0,0.0083
+s035,sample,desktop,https://hctkauai.org/get-involved/,needs review,,error: Error loading XSLT Wasm module: Object(N) | exception: CompileError: call to WebAssembly.Module() blocked by CSP | exception: Content-Security-Policy: (Report-Only policy) The page’s settings would block WebAssembly (script-src) from being executed because it violates the fol | exception: Content-Security-Policy: The page’s settings blocked WebAssembly (script-src) from being executed because it violates the following directive: “script,Error loading XSLT Wasm module: Object(0) | Error loading XSLT Wasm module: Object(0),1.0,1.0,0.0,0.0
+s036,sample,desktop,https://mtmary.libguides.com/home,same,,,,1.0,1.0,0.0656,0.0656
+s037,sample,desktop,https://compliance.osu.edu/sitemap.xml,needs review,"differs (text 1.0 vs noise 1.0, pixels 0.3111 vs noise 0.0)",error: compilation error: file https://compliance.osu.edu/sitemap_generator/default/sitemap.xsl line N element stylesheet | error: xsl:version: only N.N features are supported,compilation error: file https://compliance.osu.edu/sitemap_generator/default/sitemap.xsl line 2 element stylesheet | xsl:version: only 1.1 features are supported,1.0,1.0,0.0,0.3111
+s038,sample,desktop,https://rdg125726.nextgenmcs.com/RDWeb/Pages/en-US/password.aspx,needs review,"differs (text 1.0 vs noise 1.0, pixels 0.0141 vs noise 0.0)",,,1.0,1.0,0.0,0.0141
+s039,sample,desktop,https://cdc.dwd.de/DE/impressum.xhtml,same,,,,1.0,0.987,0.0,0.0014
+s040,sample,desktop,https://pcremoto.up.edu.pe/,same,,,,1.0,1.0,0.0,0.0083
+s041,sample,desktop,https://mtmary.libguides.com/,same,,,,1.0,1.0,0.0,0.0
+s042,sample,desktop,https://libguides.lander.edu/,same,,,,1.0,1.0,0.0,0.0
+s043,sample,desktop,https://mequonpublicmarket.com/sitemap_index.xml,needs review,"differs (text 0.999 vs noise 1.0, pixels 0.0421 vs noise 0.0)",error: compilation error: file https://mequonpublicmarket.com/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl line N element stylesheet | error: xsl:version: only N.N features are supported,compilation error: file https://mequonpublicmarket.com/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl line 2 element stylesheet | xsl:version: only 1.1 features are supported,1.0,0.999,0.0,0.0421
+s044,sample,desktop,https://www.epsm-metz-jury.fr/page-sitemap.xml,needs review,"differs (text 1.0 vs noise 1.0, pixels 0.5606 vs noise 0.0)",error: compilation error: file https://www.epsm-metz-jury.fr/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl line N element stylesheet | error: xsl:version: only N.N features are supported,compilation error: file https://www.epsm-metz-jury.fr/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl line 2 element stylesheet | xsl:version: only 1.1 features are supported,1.0,1.0,0.0,0.5606
+s045,sample,desktop,https://lib.ubru.ac.th/web,same,,,,1.0,1.0,0.0,0.0
+s046,sample,desktop,https://www.portal.eltax.lta.go.jp/,same,,,,1.0,1.0,0.0,0.0
+s047,sample,desktop,https://libguides.northshorecollege.edu/,same,,,,1.0,1.0,0.0,0.0
+s048,sample,desktop,https://evyatarhome.co.il/sitemap.xml,needs review,"differs (text 0.975 vs noise 0.949, pixels 0.0187 vs noise 0.002)",,,0.949,0.975,0.002,0.0187
+s049,sample,desktop,https://library.rsu.ac.th/,needs review,"differs (text 1.0 vs noise 1.0, pixels 0.0218 vs noise 0.0)",,,1.0,1.0,0.0,0.0218
+s050,sample,mobile,https://kckl.ent.sirsi.net/,not assessable,HTTP 403,,,0.966,0.962,0.0019,0.0015
+s051,sample,mobile,https://www.kazo-makidume.com/sitemap.xml,needs review,"differs (text 0.996 vs noise 0.996, pixels 0.0179 vs noise 0.0002)",error: compilation error: file https://www.kazo-makidume.com/default-sitemap.xsl line N element stylesheet | error: xsl:version: only N.N features are supported,compilation error: file https://www.kazo-makidume.com/default-sitemap.xsl line 2 element stylesheet | xsl:version: only 1.1 features are supported,0.996,0.996,0.0002,0.0179
+s052,sample,mobile,https://rerdavies.github.io/feed.xml,needs review,,error: compilation error: file https://rerdavies.github.io/feed.xsl line N element stylesheet | error: xsl:version: only N.N features are supported,compilation error: file https://rerdavies.github.io/feed.xsl line 2 element stylesheet | xsl:version: only 1.1 features are supported,1.0,1.0,0.0,0.0
+s053,sample,mobile,http://sincanchat.com/sitemap.xml,not assessable,load error with native XSLT,error: Error displaying XML file: Failed to fetch XSLT file: http://www.sincanchat.com/wp-content/plugins/google-sitemap-generator/sitemap.xsl,Error displaying XML file: Failed to fetch XSLT file: http://www.sincanchat.com/wp-content/plugins/google-sitemap-generator/sitemap.xsl,1.0,0.0,,
+s054,sample,mobile,https://cityclubapp.com/sitemap_index.xml,needs review,"differs (text 0.998 vs noise 1.0, pixels 0.0418 vs noise 0.0)",error: compilation error: file https://cityclubapp.com/main-sitemap.xsl line N element stylesheet | error: xsl:version: only N.N features are supported,compilation error: file https://cityclubapp.com/main-sitemap.xsl line 2 element stylesheet | xsl:version: only 1.1 features are supported,1.0,0.998,0.0,0.0418
+s055,sample,mobile,https://www.latelierpaysan.org/spip.php?page=backend&id_rubrique=14,same,,,,1.0,1.0,0.0,0.0
+s056,sample,mobile,https://library.trenholmstate.edu/,same,,,,1.0,1.0,0.0,0.0
+s057,sample,mobile,https://www.restaurantlabelleprovince.ca/sitemap.xml,same,,,,1.0,1.0,0.0,0.0
+s058,sample,mobile,https://www.xnx.cam/porn-tube/sitemaps_index.xml,needs review,"differs (text 1.0 vs noise 1.0, pixels 0.1036 vs noise 0.0)",error: compilation error: file https://www.xnx.cam/porn-tube/site-map/css/xml-stylesheet.xsl line N element stylesheet | error: xsl:version: only N.N features are supported,compilation error: file https://www.xnx.cam/porn-tube/site-map/css/xml-stylesheet.xsl line 2 element stylesheet | xsl:version: only 1.1 features are supported,1.0,1.0,0.0,0.1036
+s059,sample,mobile,https://www.wadesdairy.com/sitemap_index.xml,needs review,"differs (text 0.999 vs noise 1.0, pixels 0.1524 vs noise 0.0)",error: compilation error: file https://www.wadesdairy.com/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl line N element stylesheet | error: xsl:version: only N.N features are supported,compilation error: file https://www.wadesdairy.com/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl line 2 element stylesheet | xsl:version: only 1.1 features are supported,1.0,0.999,0.0,0.1524
+s060,sample,mobile,https://blog.fontawesome.com/feed/,needs review,"differs (text 1.0 vs noise 1.0, pixels 0.1379 vs noise 0.0)",error: compilation error: file https://blog.fontawesome.com/feed/pretty-atom-feed.xsl line N element stylesheet | error: xsl:version: only N.N features are supported,compilation error: file https://blog.fontawesome.com/feed/pretty-atom-feed.xsl line 14 element stylesheet | xsl:version: only 1.1 features are supported,1.0,1.0,0.0,0.1379
+s061,sample,mobile,https://erkenningen.nl/sitemap.xml,needs review,"differs (text 0.999 vs noise 1.0, pixels 0.0437 vs noise 0.0)",error: compilation error: file https://erkenningen.nl/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl line N element stylesheet | error: xsl:version: only N.N features are supported,compilation error: file https://erkenningen.nl/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl line 2 element stylesheet | xsl:version: only 1.1 features are supported,1.0,0.999,0.0,0.0437
+s062,sample,mobile,https://awfularthursobx.com/sitemap.xml,needs review,"raw XML in E | differs (text 0.009 vs noise 1.0, pixels 0.9802 vs noise 0.0)",warn: XSLT Polyfill: No XSLT processing instruction found in https://awfularthursobx.com/sitemap.xml,XSLT Polyfill: No XSLT processing instruction found in https://awfularthursobx.com/sitemap.xml,1.0,0.009,0.0,0.9802
+s063,sample,mobile,https://sewamobilmedan.id/sitemap_index.xml,needs review,"differs (text 1.0 vs noise 1.0, pixels 0.0551 vs noise 0.0)",error: compilation error: file https://sewamobilmedan.id/main-sitemap.xsl line N element stylesheet | error: xsl:version: only N.N features are supported,compilation error: file https://sewamobilmedan.id/main-sitemap.xsl line 2 element stylesheet | xsl:version: only 1.1 features are supported,1.0,1.0,0.0,0.0551
+s064,sample,mobile,https://www.okazaki-makidume.com/sitemap.xml,needs review,"differs (text 1.0 vs noise 1.0, pixels 0.0181 vs noise 0.0)",error: compilation error: file https://www.okazaki-makidume.com/default-sitemap.xsl line N element stylesheet | error: xsl:version: only N.N features are supported,compilation error: file https://www.okazaki-makidume.com/default-sitemap.xsl line 2 element stylesheet | xsl:version: only 1.1 features are supported,1.0,1.0,0.0,0.0181
+s065,sample,mobile,https://www.rajska.info/,same,,,,1.0,1.0,0.0,0.0
+s066,sample,mobile,https://jokerxbet.life/sitemap_index.xml,needs review,"differs (text 0.998 vs noise 1.0, pixels 0.0418 vs noise 0.0)",error: compilation error: file https://jokerxbet.life/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl line N element stylesheet | error: xsl:version: only N.N features are supported,compilation error: file https://jokerxbet.life/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl line 2 element stylesheet | xsl:version: only 1.1 features are supported,1.0,0.998,0.0,0.0418
+s067,sample,mobile,https://krcppms.ru/rss.xml,needs review,"raw XML in E | differs (text 0.008 vs noise 1.0, pixels 0.1904 vs noise 0.0)",error: 		           ^ | error: 		<generator> | error: Bytes: NxCA NxEE NxED NxFN | error: Error displaying XML file: Error processing XML/XSLT: Error: XSLT Transformation failed. See console for details. | error: xml:N: I/O error : Invalid bytes in character encoding,XSLT Transformation Error: Failed to parse XML document. | Error displaying XML file: Error processing XML/XSLT: Error: XSLT Transformation failed. See console for details.,1.0,0.008,0.0,0.1904
+s068,sample,mobile,https://ejournal.jayabaya.ac.id/index.php/index/oai,same,,,,0.998,0.998,0.0003,0.0003
+s069,sample,mobile,https://responsafortoday.com/sitemap_index.xml,needs review,"differs (text 0.999 vs noise 1.0, pixels 0.0709 vs noise 0.0)",error: compilation error: file https://responsafortoday.com/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl line N element stylesheet | error: xsl:version: only N.N features are supported,compilation error: file https://responsafortoday.com/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl line 2 element stylesheet | xsl:version: only 1.1 features are supported,1.0,0.999,0.0,0.0709
+s070,sample,mobile,https://www.sakuragicho-makidume.yokohama/sitemap.xml,needs review,"differs (text 1.0 vs noise 1.0, pixels 0.0199 vs noise 0.0)",error: compilation error: file https://www.sakuragicho-makidume.yokohama/default-sitemap.xsl line N element stylesheet | error: xsl:version: only N.N features are supported,compilation error: file https://www.sakuragicho-makidume.yokohama/default-sitemap.xsl line 2 element stylesheet | xsl:version: only 1.1 features are supported,1.0,1.0,0.0,0.0199
+s071,sample,mobile,https://sharetec.be/sitemap.xml,needs review,,error: compilation error: file https://sharetec.be/sitemap.xsl line N element stylesheet | error: xsl:version: only N.N features are supported,compilation error: file https://sharetec.be/sitemap.xsl line 24 element stylesheet | xsl:version: only 1.1 features are supported,1.0,1.0,0.0,0.0026
+s072,sample,mobile,https://www.joker-game.co/sitemap_index.xml,needs review,"differs (text 1.0 vs noise 1.0, pixels 0.0542 vs noise 0.0)",error: compilation error: file https://www.joker-game.co/main-sitemap.xsl line N element stylesheet | error: xsl:version: only N.N features are supported,compilation error: file https://www.joker-game.co/main-sitemap.xsl line 2 element stylesheet | xsl:version: only 1.1 features are supported,1.0,1.0,0.0,0.0542
+s073,sample,mobile,https://silvercitypubliclibrary.org/,same,,,,1.0,1.0,0.0467,0.0545
+s074,sample,mobile,https://soft.wikielm.com/sitemap_index.xml,needs review,"differs (text 1.0 vs noise 1.0, pixels 0.0451 vs noise 0.0)",error: compilation error: file https://soft.wikielm.com/main-sitemap.xsl line N element stylesheet | error: xsl:version: only N.N features are supported,compilation error: file https://soft.wikielm.com/main-sitemap.xsl line 2 element stylesheet | xsl:version: only 1.1 features are supported,1.0,1.0,0.0,0.0451
+s075,sample,mobile,https://legolas.md-medicus.net/,needs review,"differs (text 0.98 vs noise 1.0, pixels 0.3648 vs noise 0.0)","exception: TypeError: can't access property ""test"", type is undefined",,1.0,0.98,0.0,0.3648
+s076,sample,mobile,https://tk.pte.hu/,same,,,,1.0,1.0,0.0,0.0
+s077,sample,mobile,https://lc88.sa.com/sitemap_index.xml,same,,,,1.0,1.0,0.0,0.0
+s078,sample,mobile,https://matematicaskimat.com/sitemap.xml,same,,,,1.0,1.0,0.0,0.0
+s079,sample,mobile,https://eprasaran.com/sitemap.xml,needs review,"differs (text 1.0 vs noise 1.0, pixels 0.0309 vs noise 0.0)",error: compilation error: file https://eprasaran.com/default-sitemap.xsl line N element stylesheet | error: xsl:version: only N.N features are supported,compilation error: file https://eprasaran.com/default-sitemap.xsl line 2 element stylesheet | xsl:version: only 1.1 features are supported,1.0,1.0,0.0,0.0309
+s080,sample,mobile,https://flirtbees.org/sitemap_index.xml,needs review,"differs (text 0.998 vs noise 1.0, pixels 0.0418 vs noise 0.0)",error: compilation error: file https://flirtbees.org/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl line N element stylesheet | error: xsl:version: only N.N features are supported,compilation error: file https://flirtbees.org/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl line 2 element stylesheet | xsl:version: only 1.1 features are supported,1.0,0.998,0.0,0.0418
+s081,sample,mobile,https://chatous.net/sitemap_index.xml,needs review,"differs (text 0.998 vs noise 1.0, pixels 0.0418 vs noise 0.0)",error: compilation error: file https://chatous.net/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl line N element stylesheet | error: xsl:version: only N.N features are supported,compilation error: file https://chatous.net/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl line 2 element stylesheet | xsl:version: only 1.1 features are supported,1.0,0.998,0.0,0.0418
+s082,sample,mobile,https://cdc.dwd.de/,same,,,,1.0,0.994,0.0,0.0059
+s083,sample,mobile,https://www.koshigaya-makidume.com/sitemap.xml,needs review,"differs (text 0.997 vs noise 0.997, pixels 0.0186 vs noise 0.0002)",error: compilation error: file https://www.koshigaya-makidume.com/default-sitemap.xsl line N element stylesheet | error: xsl:version: only N.N features are supported,compilation error: file https://www.koshigaya-makidume.com/default-sitemap.xsl line 2 element stylesheet | xsl:version: only 1.1 features are supported,0.997,0.997,0.0002,0.0186
+s084,sample,mobile,https://www.longboardsgrillsb.com/sitemap_index.xml,needs review,"differs (text 1.0 vs noise 1.0, pixels 0.045 vs noise 0.0)",error: compilation error: file https://www.longboardsgrillsb.com/main-sitemap.xsl line N element stylesheet | error: xsl:version: only N.N features are supported,compilation error: file https://www.longboardsgrillsb.com/main-sitemap.xsl line 2 element stylesheet | xsl:version: only 1.1 features are supported,1.0,1.0,0.0,0.045
+s085,sample,mobile,https://comoencasamotril.es/sitemap_index.xml,needs review,"differs (text 0.998 vs noise 1.0, pixels 0.0418 vs noise 0.0)",error: compilation error: file https://comoencasamotril.es/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl line N element stylesheet | error: xsl:version: only N.N features are supported,compilation error: file https://comoencasamotril.es/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl line 2 element stylesheet | xsl:version: only 1.1 features are supported,1.0,0.998,0.0,0.0418
+s086,sample,mobile,https://www.strictestheadmistress.com/page-sitemap.xml,needs review,"differs (text 0.999 vs noise 1.0, pixels 0.1258 vs noise 0.0)",error: compilation error: file https://www.strictestheadmistress.com/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl line N element stylesheet | error: xsl:version: only N.N features are supported,compilation error: file https://www.strictestheadmistress.com/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl line 2 element stylesheet | xsl:version: only 1.1 features are supported,1.0,0.999,0.0,0.1258
+s087,sample,mobile,https://bobiko.blog/rss.xml,needs review,,error: compilation error: file https://bobiko.blog/rss.xsl line N element stylesheet | error: xsl:version: only N.N features are supported,compilation error: file https://bobiko.blog/rss.xsl line 2 element stylesheet | xsl:version: only 1.1 features are supported,1.0,1.0,0.0,0.0
+s088,sample,mobile,https://weskg.gr/sitemap_index.xml,needs review,"differs (text 1.0 vs noise 1.0, pixels 0.0231 vs noise 0.0)",error: compilation error: file https://weskg.gr/main-sitemap.xsl line N element stylesheet | error: xsl:version: only N.N features are supported,compilation error: file https://weskg.gr/main-sitemap.xsl line 2 element stylesheet | xsl:version: only 1.1 features are supported,1.0,1.0,0.0,0.0231
+s089,sample,mobile,http://mycelcat.unizulu.ac.za/,same,,,,1.0,1.0,0.0,0.0
+s090,sample,mobile,https://labs.vse.gmu.edu/sitemap.xml,not assessable,load error with native XSLT,error: Error displaying XML file: Failed to fetch XSLT file: https://labs.cec.gmu.edu/wp-sitemap-index.xsl,Error displaying XML file: Failed to fetch XSLT file: https://labs.cec.gmu.edu/wp-sitemap-index.xsl,1.0,0.0,,
+s091,sample,mobile,https://www.makizume.yokohama/sitemap.xml,needs review,"differs (text 0.996 vs noise 1.0, pixels 0.0181 vs noise 0.0)",error: compilation error: file https://www.makizume.yokohama/default-sitemap.xsl line N element stylesheet | error: xsl:version: only N.N features are supported,compilation error: file https://www.makizume.yokohama/default-sitemap.xsl line 2 element stylesheet | xsl:version: only 1.1 features are supported,1.0,0.996,0.0,0.0181
+s092,sample,mobile,https://stadtplan.ludwigshafen.de/,same,,,,1.0,1.0,0.0,0.0
+s093,sample,mobile,https://kramat777x.org/sitemap.xml,needs review,"differs (text 0.999 vs noise 1.0, pixels 0.071 vs noise 0.0)",error: compilation error: file https://kramatNx.org/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl line N element stylesheet | error: xsl:version: only N.N features are supported,compilation error: file https://kramat777x.org/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl line 2 element stylesheet | xsl:version: only 1.1 features are supported,1.0,0.999,0.0,0.071
+s094,sample,mobile,https://gbwsap.com/sitemap_index.xml,same,,,,1.0,1.0,0.0,0.0
+s095,sample,mobile,https://www.vpnwasel.com/sitemap.xml,needs review,"differs (text 1.0 vs noise 1.0, pixels 0.0714 vs noise 0.0)",,,1.0,1.0,0.0,0.0714
+s096,sample,mobile,https://mylibrary.openpolytechnic.ac.nz/,same,,,,1.0,1.0,0.0,0.0
+s097,sample,mobile,https://tocumwaltouristpark.com.au/sitemap.xml,needs review,"differs (text 1.0 vs noise 1.0, pixels 0.0257 vs noise 0.0)",error: compilation error: file https://tocumwaltouristpark.com.au/main-sitemap.xsl line N element stylesheet | error: xsl:version: only N.N features are supported,compilation error: file https://tocumwaltouristpark.com.au/main-sitemap.xsl line 2 element stylesheet | xsl:version: only 1.1 features are supported,1.0,1.0,0.0,0.0257
+s098,sample,mobile,https://biblio.ucaldas.edu.co/novedades-bibliograficas/,same,,,,0.246,0.246,0.2388,0.2397
+s099,sample,mobile,https://evehibi.nekoweb.org/,needs review,"differs (text 0.123 vs noise 0.178, pixels 0.0126 vs noise 0.011)",,,0.178,0.123,0.011,0.0126
+s100,sample,desktop,https://webboard.customs.go.th/t/00,not assessable,HTTP 404,,,1.0,1.0,0.0,0.0
+s101,sample,desktop,https://forum.eastfront.se/d/953-biljettlankar-bortamatcher,same,,,,1.0,1.0,0.0,0.0
+s102,sample,desktop,https://www.forgenex.com/comunidad,same,,,,1.0,1.0,0.0,0.0
+s103,sample,desktop,https://eu.mydlink.com/,same,,,,1.0,1.0,0.0,0.0
+s104,sample,desktop,https://community.mailcow.email/,same,,,,1.0,1.0,0.0,0.0
+s105,sample,desktop,https://www.ontrackpharmacy.com/ontrack,same,,,,1.0,1.0,0.0,0.0
+s106,sample,desktop,https://ubuntu.hu/,same,,,,1.0,1.0,0.0,0.0
+s107,sample,desktop,https://bbs.liht.cc/d/68,same,,,,1.0,1.0,0.0,0.0
+s108,sample,desktop,https://www.boojumbrewing.com/,needs review,,exception: ReferenceError: ActiveXObject is not defined,,1.0,1.0,0.0,0.0
+s109,sample,desktop,https://community.victorinox.com/,same,,,,1.0,1.0,0.0,0.0
+s110,sample,desktop,https://www.acgmuse.com/,same,,,,1.0,1.0,0.0,0.0
+s111,sample,desktop,https://shop.austrian-standards.at/?locale=de,same,,,,1.0,1.0,0.0,0.0
+s112,sample,desktop,https://lms.konyang.ac.kr/lms/front/boardItem/doListView.dunet?board_no=14&mnid=20120658883,same,,,,1.0,1.0,0.0,0.0
+s113,sample,desktop,https://bbs.spark-app.store/,same,,,,1.0,1.0,0.0,0.0
+s114,sample,desktop,https://arfemdom.com/,same,,,,1.0,1.0,0.0349,0.0011
+s115,sample,desktop,https://legislacao.contabil.business/1787322111,same,,,,1.0,1.0,0.0,0.0
+s116,sample,desktop,https://forum.gpph.pl/d/1597-blog-samochodowy-oddzial-ratunkowy-odbudowa-blacharska-i-modyfikacje-aut,same,,,,1.0,1.0,0.0001,0.0
+s117,sample,desktop,https://air.lottejtb.com/,needs review,"differs (text 0.932 vs noise 1.0, pixels 0.013 vs noise 0.0)",error: 파일 로드 실패 (error): /air/xsl/agent/AIR/AAA/AIRAAALGNN.xsl,파일 로드 실패 (error): /air/xsl/agent/AIR/AAA/AIRAAALGN0100000005.xsl,1.0,0.932,0.0,0.013
+s118,sample,desktop,https://www.automall.hu/hu/auto.html?auto=1084,needs review,,error: Error loading XSLT Wasm module: Object(N) | exception: CompileError: call to WebAssembly.Module() blocked by CSP | exception: Content-Security-Policy: The page’s settings blocked WebAssembly (script-src) from being executed because it violates the following directive: “script,Error loading XSLT Wasm module: Object(0),1.0,1.0,0.0,0.0
+s119,sample,desktop,https://lms.cnc.ac.kr/lms/class/exam2/apply/doListView.dunet,same,,,,0.735,0.735,0.0,0.0
+s120,sample,desktop,https://forum.retroaction.ca/d/79-bien-demarrer-avec-retroaction,same,,,,1.0,1.0,0.0,0.0
+s121,sample,desktop,https://www.wpzy.cc/,same,,,,1.0,1.0,0.0013,0.0
+s122,sample,desktop,https://teaching.gnu.ac.kr/,needs review,"differs (text 0.0 vs noise 1.0, pixels 0.0083 vs noise 0.0)",,,1.0,0.0,0.0,0.0083
+s123,sample,desktop,https://avaliacaoemonitoramentoceara.caeddigital.net/,same,,,,1.0,1.0,0.0,0.0
+s124,sample,desktop,https://www.vfxskill.com/,same,,,,1.0,1.0,0.0,0.0
+s125,sample,desktop,https://www.hamptonsrealestate.com/,same,,,,0.984,0.985,0.1898,0.1972
+s126,sample,desktop,https://portal.wochenblitz.com/d/10068-dach-th-steuer-service-pnd-91-thai-steuererklaerung-fuer-chf-650-bis-842026,needs review,"differs (text 0.988 vs noise 1.0, pixels 0.0197 vs noise 0.0)",,,1.0,0.988,0.0,0.0197
+s127,sample,desktop,https://portaltransparencia.caeddigital.net/,same,,,,1.0,1.0,0.0,0.0
+s128,sample,desktop,https://forum.journey.cloud/d/324-journey-desktop-2024-sneak-peek-of-new-desktop-app-for-windows-mac-linux,not assessable,HTTP 404,,,1.0,1.0,0.0,0.0
+s129,sample,desktop,https://www.nuovacaptur.it/,same,,,,1.0,1.0,0.0,0.0
+s130,sample,desktop,https://forum.bela.io/d/1277-c-real-time-audio-programming-with-bela-a-free-online-course,same,,,,1.0,1.0,0.0,0.0
+s131,sample,desktop,https://4play.to/,needs review,"differs (text 0.944 vs noise 0.95, pixels 0.0549 vs noise 0.0439)",,,0.95,0.944,0.0439,0.0549
+s132,sample,desktop,https://multiplex-lp.soho-sports.com/,same,,,,0.963,0.963,0.0,0.0
+s133,sample,desktop,https://forum.knightsoftheeditingtable.com/d/123-malwarebytes-flagged-quarantined-an-excalibur-file-windows,same,,,,1.0,1.0,0.0,0.0
+s134,sample,desktop,https://edu.emoldova.org/d/542-manastirea-sfanta-treime-saharna,same,,,,1.0,1.0,0.0,0.0
+s135,sample,desktop,https://www.jackarmyforum.com/,same,,,,1.0,1.0,0.0,0.0
+s136,sample,desktop,https://yesiloda.co/d/28-esrar-yetistirirken-karsilasilan-hastaliklar-sorunlar-ve-cozumleri,same,,,,1.0,1.0,0.0,0.0
+s137,sample,desktop,https://community.wvbtech.com/d/22,not assessable,HTTP 403,,,0.967,0.97,0.0005,0.0004
+s138,sample,desktop,https://community.enhance.com/,same,,,,1.0,1.0,0.0,0.0
+s139,sample,desktop,https://forum.deovr.com/d/11035-deovr-driveai-issues,same,,,,1.0,1.0,0.0,0.0
+s140,sample,desktop,https://forum.telekomunikace.cz/d/47372-pravidla-zadavani-inzeratu-zejmena-pravidlo-uvadeni-ceny,same,,,,1.0,1.0,0.0,0.0
+s141,sample,desktop,https://z22se.co.uk/d/74207-forum-migration-xenforo-flarum,same,,,,1.0,1.0,0.0,0.0
+s142,sample,desktop,https://avaliacaoemonitoramentosantacatarina.caeddigital.net/,same,,,,1.0,1.0,0.0,0.0
+s143,sample,desktop,https://www.aippt.cn/workspace,same,,,,1.0,1.0,0.0035,0.0041
+s144,sample,desktop,https://fahrradwagen.com/d/8245-1009-1392026-fahrrad-wohn-wagen-treffen-in-wernigerode-,same,,,,1.0,1.0,0.0,0.0
+s145,sample,desktop,https://examsdaily.in/,same,,,,1.0,1.0,0.0181,0.0194
+s146,sample,desktop,https://connect.tataclassedgeonline.com/,same,,,,1.0,1.0,0.0,0.0
+s147,sample,desktop,https://forum.myspeedpost.com/,not assessable,HTTP 522,,,1.0,1.0,0.0,0.0
+s148,sample,desktop,https://toonforum.nl/,same,,,,1.0,1.0,0.0,0.0
+s149,sample,desktop,https://thelastsovereign.flarum.cloud/d/23-forum-guidelines,same,,,,1.0,1.0,0.0,0.0
+s150,sample,mobile,https://webboard.customs.go.th/t/00,not assessable,HTTP 404,,,1.0,1.0,0.0,0.0
+s151,sample,mobile,https://community.mailcow.email/,same,,,,1.0,1.0,0.0,0.0
+s152,sample,mobile,https://ubuntu.hu/,same,,,,1.0,1.0,0.0,0.0
+s153,sample,mobile,https://kozha-translate.com/,same,,,,1.0,1.0,0.0,0.0
+s154,sample,mobile,https://bbs.liht.cc/d/68,same,,,,1.0,1.0,0.0,0.0
+s155,sample,mobile,https://www.boojumbrewing.com/,needs review,,exception: ReferenceError: ActiveXObject is not defined,,1.0,1.0,0.1049,0.1213
+s156,sample,mobile,https://community.victorinox.com/,same,,,,1.0,1.0,0.0,0.0
+s157,sample,mobile,https://www.acgmuse.com/,same,,,,1.0,1.0,0.0,0.0
+s158,sample,mobile,https://shop.austrian-standards.at/?locale=de,same,,,,1.0,1.0,0.0,0.0
+s159,sample,mobile,https://bbs.spark-app.store/,same,,,,1.0,1.0,0.0069,0.0072
+s160,sample,mobile,https://arfemdom.com/,same,,,,0.998,0.998,0.0489,0.0489
+s161,sample,mobile,https://legislacao.contabil.business/1787322111,same,,,,1.0,1.0,0.0,0.0
+s162,sample,mobile,https://www.positionsstudio.com/summer-classes,same,,,,1.0,1.0,0.0,0.0
+s163,sample,mobile,https://lms.cnc.ac.kr/lms/class/exam2/apply/doListView.dunet,same,,,,1.0,1.0,0.0,0.0
+s164,sample,mobile,https://livermore.kobejapanrestaurant.com/lunch-and-happy-hour,needs review,"differs (text 0.975 vs noise 1.0, pixels 0.0 vs noise 0.0)",,,1.0,0.975,0.0,0.0
+s165,sample,mobile,https://forum.retroaction.ca/d/79-bien-demarrer-avec-retroaction,same,,,,1.0,1.0,0.0,0.0
+s166,sample,mobile,https://www.wpzy.cc/,same,,,,1.0,1.0,0.0,0.0
+s167,sample,mobile,https://avaliacaoemonitoramentoceara.caeddigital.net/,same,,,,1.0,1.0,0.0,0.0
+s168,sample,mobile,https://tasuess.edutams.net/admission/open-admission,same,,,,1.0,1.0,0.0,0.0
+s169,sample,mobile,https://www.hamptonsrealestate.com/,same,,,,0.123,0.984,0.1795,0.1636
+s170,sample,mobile,https://sata.code.pro.vn/tags,same,,,,1.0,1.0,0.6738,0.0
+s171,sample,mobile,https://portal.wochenblitz.com/d/10068-dach-th-steuer-service-pnd-91-thai-steuererklaerung-fuer-chf-650-bis-842026,same,,,,1.0,1.0,0.0,0.0
+s172,sample,mobile,https://portaltransparencia.caeddigital.net/,same,,,,1.0,1.0,0.0,0.0
+s173,sample,mobile,https://forum.journey.cloud/d/324-journey-desktop-2024-sneak-peek-of-new-desktop-app-for-windows-mac-linux,not assessable,HTTP 404,,,1.0,1.0,0.0,0.0
+s174,sample,mobile,https://www.nuovacaptur.it/,same,,,,1.0,1.0,0.0,0.0
+s175,sample,mobile,https://forum.bela.io/d/1277-c-real-time-audio-programming-with-bela-a-free-online-course,same,,,,1.0,1.0,0.0,0.0
+s176,sample,mobile,https://4play.to/,needs review,"differs (text 0.941 vs noise 0.978, pixels 0.1011 vs noise 0.0179)",,,0.978,0.941,0.0179,0.1011
+s177,sample,mobile,https://multiplex-lp.soho-sports.com/,needs review,,"warn: [GPT] Div ID passed to googletag.display() does not match any defined slots: div-gpt-ad-mobile-sticky.
+https://goo.gle/gpt-message",,1.0,1.0,0.0,0.0
+s178,sample,mobile,https://edu.emoldova.org/d/542-manastirea-sfanta-treime-saharna,same,,,,1.0,1.0,0.0,0.0
+s179,sample,mobile,https://www.jackarmyforum.com/,same,,,,1.0,1.0,0.0,0.0
+s180,sample,mobile,https://yesiloda.co/d/28-esrar-yetistirirken-karsilasilan-hastaliklar-sorunlar-ve-cozumleri,same,,,,1.0,1.0,0.0,0.0
+s181,sample,mobile,https://eurofo.eu/t/eurocontests,same,,,,1.0,1.0,0.0,0.0
+s182,sample,mobile,https://forums.alminshawy.com/,same,,,,1.0,1.0,0.0,0.0
+s183,sample,mobile,https://community.enhance.com/,same,,,,1.0,1.0,0.0,0.0
+s184,sample,mobile,https://forum.telekomunikace.cz/d/47372-pravidla-zadavani-inzeratu-zejmena-pravidlo-uvadeni-ceny,same,,,,1.0,1.0,0.0,0.0
+s185,sample,mobile,https://z22se.co.uk/d/74207-forum-migration-xenforo-flarum,same,,,,1.0,1.0,0.0,0.0
+s186,sample,mobile,https://forum.dbkg.de/all,same,,,,1.0,1.0,0.0,0.0
+s187,sample,mobile,https://yumetal.net/rankings,same,,,,1.0,1.0,0.0,0.0
+s188,sample,mobile,https://avaliacaoemonitoramentosantacatarina.caeddigital.net/,same,,,,1.0,1.0,0.0,0.0
+s189,sample,mobile,https://daring.pkbm-binapandumandiri.or.id/,same,,,,1.0,1.0,0.141,0.0684
+s190,sample,mobile,https://fahrradwagen.com/d/8245-1009-1392026-fahrrad-wohn-wagen-treffen-in-wernigerode-,same,,,,1.0,1.0,0.0,0.0
+s191,sample,mobile,https://examsdaily.in/,same,,,,1.0,1.0,0.0,0.0
+s192,sample,mobile,https://forum.pretpark.club/d/4253-nu-te-koop-pretparkclub-coastertracker-pin,same,,,,1.0,1.0,0.0,0.0
+s193,sample,mobile,https://connect.tataclassedgeonline.com/,same,,,,1.0,1.0,0.0,0.0
+s194,sample,mobile,https://warthunder.tr/blog/1050-yeni-guncelleme-sky-odyssey-tanitildi,same,,,,1.0,1.0,0.0,0.0
+s195,sample,mobile,https://forum.myspeedpost.com/,not assessable,HTTP 522,,,1.0,1.0,0.0,0.0
+s196,sample,mobile,https://toonforum.nl/,same,,,,1.0,1.0,0.0,0.0
+s197,sample,mobile,https://unwedchastity.org/d/1273-link-list,same,,,,1.0,1.0,0.0,0.0
+s198,sample,mobile,https://forum.live-in-europe.org/,same,,,,1.0,1.0,0.0,0.0
+s199,sample,mobile,https://forum.mylittlewordland.com/t/announcements,same,,,,1.0,1.0,0.0,0.0
+t00,top100k,desktop,https://dict.leo.org/forum/index.php?lp=ende&lang=en,same,,,Mitigating XSLT bug: disabled,1.0,1.0,0.0,0.0
+t01,top100k,desktop,https://nothing.community/d/62084-show-us-your-collector,same,,,,1.0,1.0,0.0,0.0
+t02,top100k,desktop,https://nothing.community/,same,,,,1.0,1.0,0.0001,0.0001
+t03,top100k,desktop,https://www.athome.co.jp/,same,,,,0.014,0.014,0.1297,0.1297
+t04,top100k,desktop,https://testing.illuminateed.com/,same,,,,1.0,1.0,0.0,0.0
+t05,top100k,desktop,https://criancaalfabetizada.caeddigital.net/,same,,,,1.0,1.0,0.0,0.0
+t06,top100k,desktop,https://dict.leo.org/,same,,,Mitigating XSLT bug: disabled,1.0,1.0,0.0,0.0
+t07,top100k,desktop,https://avaliacaoemonitoramentoriograndedosul.caeddigital.net/,same,,,,1.0,1.0,0.0,0.0
+t08,top100k,mobile,https://www.redalyc.org/journal/5742/574275303003/,same,,,,1.0,1.0,0.0006,0.0
+t09,top100k,mobile,https://nothing.community/d/60225-phone-4a-pro-teardown,same,,,,1.0,1.0,0.0,0.0
+t10,top100k,mobile,https://criancaalfabetizada.caeddigital.net/,same,,,,1.0,1.0,0.0,0.0
+t11,top100k,mobile,https://avaliacaoemonitoramentoriograndedosul.caeddigital.net/,same,,,,1.0,1.0,0.0,0.0
+t12,top100k,mobile,https://nothing.community/,same,,,,1.0,1.0,0.0,0.0

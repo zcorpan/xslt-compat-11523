@@ -141,6 +141,46 @@ desktop-sized in Chrome Canary 158.0.8108.0 with XSLT on and off, on 2026-10-19
 Microsoft says RD Web Access stops rendering as expected without XSLT (MC1491832, KB5130994,
 October 2026), presumably beyond the login page, which neither the crawl nor this check reaches.
 
+## 5. XSLT polyfill extensions
+
+To find bugs in the [XSLT polyfill](https://github.com/mfreed7/xslt_polyfill) and the extensions
+that ship it, `ext-compare.py` loads all 239 pages from sections 2–4 (`sample.jsonl`,
+`top100k.jsonl`, `followup-2025/broken-2025.csv`) on 2026-10-31, each in a fresh profile:
+
+- Chrome Canary 158.0.8110.0 via Playwright. **A**, **A2**: `--enable-features=XSLT`, no
+  extension. **E**: `--disable-features=XSLT` with
+  [mfreed7/xslt_extension](https://github.com/mfreed7/xslt_extension) 1.0.26 (polyfill 1.0.33),
+  loaded with CDP `Extensions.loadUnpacked`, since Chrome ignores `--load-extension`.
+- Firefox Nightly 161.0a1 via geckodriver. **A**, **A2**: `dom.xslt.enabled` true, no extension.
+  **E**: `dom.xslt.enabled` false with [zcorpan/xslt_extension](https://github.com/zcorpan/xslt_extension)
+  1.0.26 (the same content script and polyfill) as a temporary add-on. Mobile pages get a mobile
+  UA and a 360×640 window, but no meta viewport.
+
+It records the same measurements as `compare.py`, waiting 5s after `load`, plus console messages,
+exceptions, whether `XSLTProcessor` is native or the polyfill, and whether the polyfill's spinner
+is still shown. `ext-analyze.py` flags pages where E differs from A beyond the A vs A2 noise, shows
+raw XML in the page or a frame, still shows the spinner, or logs errors or exceptions that A and A2
+don't (`out-ext-*/auto.csv`), and writes A|E pairs for them to `out-ext-*/review/`:
+
+| | Chrome | Firefox |
+|---|---|---|
+| Flagged | 72 | 66 |
+| Same as native | 118 | 158 |
+| Not assessable | 49 | 15 |
+
+Chrome has more not assessable mostly because it counts navigation and screenshot timeouts as
+load errors, while the Firefox path measures the page anyway.
+
+I spot-checked the flagged pairs and traced them to distinct causes. Most flagged pages are
+sitemaps and feeds with small rendering differences. Others are pages where the transform fails
+and raw XML or an error shows, or where page scripts throw only with the extension. Some were page
+noise or server failures. Each cause was reproduced in both browsers on a minimal page in
+`ext-repro/www/` (`ext-repro/run.py`, output in `ext-repro/results-*.txt`).
+
+The findings are reported with `xslt-compat-11523` in the title:
+[polyfill issues](https://github.com/mfreed7/xslt_polyfill/issues?q=is%3Aissue%20%22xslt-compat-11523%22%20in%3Atitle),
+[extension issues](https://github.com/mfreed7/xslt_extension/issues?q=is%3Aissue%20%22xslt-compat-11523%22%20in%3Atitle).
+
 ## Not covered
 
 - Pages the crawl rarely visits: feeds, sitemaps, deep links, intranets, logged-in pages.
@@ -174,6 +214,16 @@ python3 extrapolate.py out/review.csv sample.jsonl > out/summary.md
 cd followup-2025
 python3 select.py sheet-2025.csv ../hits.csv broken-2025.csv
 ../.venv/bin/python check.py "$CHROME" broken-2025.csv . > results.jsonl
+cd ..
+.venv/bin/pip install selenium
+FIREFOX="/Applications/Firefox Nightly.app/Contents/MacOS/firefox"
+export GECKODRIVER=<path to geckodriver>
+.venv/bin/python ext-compare.py chrome "$CHROME" ../../mfreed7/xslt_extension out-ext-chrome
+.venv/bin/python ext-compare.py firefox "$FIREFOX" ../xslt_extension out-ext-firefox
+.venv/bin/python ext-analyze.py out-ext-chrome
+.venv/bin/python ext-analyze.py out-ext-firefox
+.venv/bin/python ext-repro/run.py chrome ../../mfreed7/xslt_extension
+.venv/bin/python ext-repro/run.py firefox ../xslt_extension
 ```
 
 Any Chrome with the `XSLT` feature works; check that `compare.py`'s sanity check passes for both
@@ -185,3 +235,7 @@ Full-page screenshots (`out/shots/`, 190 MB) aren't committed; `compare.py` rege
 Browser output was scrubbed for publishing with `scrub.py` (`python3 scrub.py 'hits.csv,sample.jsonl,top100k.jsonl,followup-2025/*.csv' 'out/results.jsonl,out-top100k/results.jsonl,followup-2025/results.jsonl' <IP>`):
 the tester's IP replaced with `[client IP]`, and query strings and fragments stripped from URLs
 other than crawl URLs and script URLs in `xsltStacks`. The analysis outputs are unchanged.
+`out-ext-chrome/results.jsonl` and `out-ext-firefox/results.jsonl` were scrubbed the same way
+before `ext-analyze.py` ran; stripping query strings made two console messages match A, so
+Chrome had 74 flagged pages before scrubbing. The extension runs used Playwright 1.64.1, Selenium
+4.52.0, and geckodriver 0.37.1.

@@ -1,0 +1,7 @@
+<!doctype html><title>t</title><p id="t">top</p>
+<script>
+const f = document.createElement('iframe');
+document.body.append(f);
+const r = f.contentWindow.eval('typeof XSLTProcessor');
+document.getElementById('t').textContent = 'about:blank iframe XSLTProcessor: ' + r + ', top: ' + typeof XSLTProcessor;
+</script>
