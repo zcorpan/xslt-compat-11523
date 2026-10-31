@@ -8,6 +8,7 @@ A blank-iframe.html | about:blank iframe XSLTProcessor: function, top: function 
 A post-form.html | transformed: posted | []
 A csp.html | transformed: hello | []
 A csp-none.html | transformed: hello | []
+A script-source.xml | items: original, source script ran: no | []
 E event.xml | transformed: hello | ['console: Failed to load resource: the server responded with a status of 404 (File not found)', "Failed to execute 'dispatchEvent' on 'EventTarget': parameter 1 is not of type 'Event'."]
 E font.xml | transformed td font: Times | []
 E type-text-xml.xml | /* Copyright 2014 The Chromium Authors
@@ -21,3 +22,4 @@ E post-form.html | /* Copyright 2014 The Chromium Authors
  * Use of this source code is governed by | ['console: Failed to load resource: the server responded with a status of 405 (Method Not Allowed)']
 E csp.html | error: CompileError: WebAssembly.Module(): Compiling or instantiating WebAssembly module violates the following Content Security policy directive because 'unsafe-eval' is not an allowed source of script in the following Content Security Policy directive: "script-src 'self' 'unsafe-inline'". | ['console: Error loading XSLT Wasm module: CompileError: WebAssembly.Module(): Compiling or instantiating WebAs', 'WebAssembly.Module(): Compiling or instantiating WebAssembly module violates the following Content S']
 E csp-none.html | transformed: hello | []
+E script-source.xml | items: original, source script ran: yes | []
