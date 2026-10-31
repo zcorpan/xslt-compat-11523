@@ -17,6 +17,27 @@ A doc1251.xml | document(): привет | []
 A bad-utf8.xml | (empty document) | []
 A bad-sjis.xml | (empty document) | []
 A bad-xsl.xml | (empty document) | ['console: Premature end of data in tag p line 3\n']
+A pi-css-then-xsl.xml | transformed by second | []
+A pi-alternate-then-xsl.xml | (empty document) | []
+A pi-alternate-title-then-xsl.xml | transformed by first | []
+A pi-bogus-then-xsl.xml | transformed by second | []
+A pi-nohref-then-xsl.xml | (empty document) | []
+A pi-two-xsl.xml | transformed by first | []
+A pi-type-application-xml.xml | transformed by first | []
+A pi-type-application-xslt.xml | /* Copyright 2014 The Chromium Authors
+ * Use of this source code is governed by | []
+A pi-type-atom.xml | transformed by first | []
+A pi-type-missing.xml | raw | []
+A pi-type-params.xml | /* Copyright 2014 The Chromium Authors
+ * Use of this source code is governed by | []
+A pi-type-rss.xml | transformed by first | []
+A pi-type-space.xml | /* Copyright 2014 The Chromium Authors
+ * Use of this source code is governed by | []
+A pi-type-text-xml.xml | transformed by first | []
+A pi-type-text-xsl.xml | transformed by first | []
+A pi-type-upper.xml | /* Copyright 2014 The Chromium Authors
+ * Use of this source code is governed by | []
+A pi-type-xhtml.xml | transformed by first | []
 E event.xml | transformed: hello | ['console: Failed to load resource: the server responded with a status of 404 (File not found)', "Failed to execute 'dispatchEvent' on 'EventTarget': parameter 1 is not of type 'Event'."]
 E font.xml | transformed td font: Times | []
 E type-text-xml.xml | /* Copyright 2014 The Chromium Authors
@@ -40,3 +61,27 @@ E doc1251.xml | document(): ������ | []
 E bad-utf8.xml | Error processing XML/XSLT: Error: XSLT Transformation failed. See console for de | ['console: xml:3: I/O error : Invalid bytes in character encoding', 'console: Bytes: 0xFF 0x20 0x62 0x79', 'console: <root><item>bad ']
 E bad-sjis.xml | Error processing XML/XSLT: Error: XSLT Transformation failed. See console for de | ['console: xml:3: I/O error : Invalid bytes in character encoding', 'console: Bytes: 0x81 0x20 0x20 0x62', 'console: <root><item>bad ']
 E bad-xsl.xml | bad � byte hello | []
+E pi-css-then-xsl.xml | transformed by second | []
+E pi-alternate-then-xsl.xml | transformed by first | []
+E pi-alternate-title-then-xsl.xml | transformed by first | []
+E pi-bogus-then-xsl.xml | transformed by second | []
+E pi-nohref-then-xsl.xml | transformed by second | []
+E pi-two-xsl.xml | transformed by first | []
+E pi-type-application-xml.xml | /* Copyright 2014 The Chromium Authors
+ * Use of this source code is governed by | []
+E pi-type-application-xslt.xml | transformed by first | []
+E pi-type-atom.xml | /* Copyright 2014 The Chromium Authors
+ * Use of this source code is governed by | []
+E pi-type-missing.xml | raw | []
+E pi-type-params.xml | /* Copyright 2014 The Chromium Authors
+ * Use of this source code is governed by | []
+E pi-type-rss.xml | /* Copyright 2014 The Chromium Authors
+ * Use of this source code is governed by | []
+E pi-type-space.xml | /* Copyright 2014 The Chromium Authors
+ * Use of this source code is governed by | []
+E pi-type-text-xml.xml | /* Copyright 2014 The Chromium Authors
+ * Use of this source code is governed by | []
+E pi-type-text-xsl.xml | transformed by first | []
+E pi-type-upper.xml | transformed by first | []
+E pi-type-xhtml.xml | /* Copyright 2014 The Chromium Authors
+ * Use of this source code is governed by | []
