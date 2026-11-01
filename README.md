@@ -175,7 +175,22 @@ I spot-checked the flagged pairs and traced them to distinct causes. Most flagge
 sitemaps and feeds with small rendering differences. Others are pages where the transform fails
 and raw XML or an error shows, or where page scripts throw only with the extension. Some were page
 noise or server failures. Each cause was reproduced in both browsers on a minimal page in
-`ext-repro/www/` (`ext-repro/run.py`, output in `ext-repro/results-*.txt`).
+`ext-repro/www/` (`ext-repro/run.py`, output in `ext-repro/results-*.txt`), or with the probe
+extension in `ext-repro/csp-wasm-probe/` for the CSP case.
+
+To size the causes and check suggested fixes, `ext-scan/` loads the 126 rows with XSLT processing
+instructions (`pages.jsonl`: the `XSLProcessingInstruction` strata of `sample.jsonl` and the 2025
+list) with native XSLT in Chrome Canary 158 on 2026-10-31. In documents that XSLT produced, it
+records DOM calls and CSS selectors that rely on HTML case-insensitivity (`scan-case.py`), patterns
+the polyfill's reset stylesheet changes (`scan-reset.py`), and `document.write` calls
+(`scan-write.py`). `live.py` fetches the same pages without a browser and records their
+`xml-stylesheet` PIs and whether they contain scripts, and `cc-pi.py` counts `xml-stylesheet` PI
+types in 12 local CC-MAIN-2026-39 WARCs (`cc-pi.txt`). `summarize.py` prints the counts the issues
+cite.
+
+Building the PI test pages also turned up a Firefox bug: with XSLT disabled, an XML document with
+a CSS PI before an XSLT PI renders blank and never finishes loading
+([bug 2087763](https://bugzilla.mozilla.org/show_bug.cgi?id=2087763)).
 
 The findings are reported with `xslt-compat-11523` in the title:
 [polyfill issues](https://github.com/mfreed7/xslt_polyfill/issues?q=is%3Aissue%20%22xslt-compat-11523%22%20in%3Atitle),
@@ -224,6 +239,14 @@ export GECKODRIVER=<path to geckodriver>
 .venv/bin/python ext-analyze.py out-ext-firefox
 .venv/bin/python ext-repro/run.py chrome ../../mfreed7/xslt_extension
 .venv/bin/python ext-repro/run.py firefox ../xslt_extension
+.venv/bin/python ext-repro/csp-wasm-probe/run.py
+.venv/bin/python ext-scan/scan-case.py ext-scan/pages.jsonl ext-scan/case.jsonl
+.venv/bin/python ext-scan/scan-reset.py ext-scan/pages.jsonl ext-scan/reset.jsonl
+.venv/bin/python ext-scan/scan-write.py ext-scan/pages.jsonl ext-scan/write.jsonl
+python3 ext-scan/live.py ext-scan/pages.jsonl ext-scan/live.jsonl
+.venv/bin/pip install warcio
+.venv/bin/python ext-scan/cc-pi.py ~/git/commoncrawl/cc-data/CC-MAIN-2026-39/*.warc.gz > ext-scan/cc-pi.txt
+python3 ext-scan/summarize.py ext-scan
 ```
 
 Any Chrome with the `XSLT` feature works; check that `compare.py`'s sanity check passes for both
@@ -235,7 +258,7 @@ Full-page screenshots (`out/shots/`, 190 MB) aren't committed; `compare.py` rege
 Browser output was scrubbed for publishing with `scrub.py` (`python3 scrub.py 'hits.csv,sample.jsonl,top100k.jsonl,followup-2025/*.csv' 'out/results.jsonl,out-top100k/results.jsonl,followup-2025/results.jsonl' <IP>`):
 the tester's IP replaced with `[client IP]`, and query strings and fragments stripped from URLs
 other than crawl URLs and script URLs in `xsltStacks`. The analysis outputs are unchanged.
-`out-ext-chrome/results.jsonl` and `out-ext-firefox/results.jsonl` were scrubbed the same way
-before `ext-analyze.py` ran; stripping query strings made two console messages match A, so
+`out-ext-chrome/results.jsonl`, `out-ext-firefox/results.jsonl`, and the `ext-scan/*.jsonl` output
+were scrubbed the same way before `ext-analyze.py` and `summarize.py` ran; stripping query strings made two console messages match A, so
 Chrome had 74 flagged pages before scrubbing. The extension runs used Playwright 1.64.1, Selenium
 4.52.0, and geckodriver 0.37.1.
