@@ -215,6 +215,8 @@ All on the 2026-09-01 crawl, run on 2026-10-17:
 
 ## Reproduce
 
+This run was done with the [`httparchive` skill](https://github.com/zcorpan/web-platform-skills/blob/main/docs/httparchive.md). The steps below are standalone and rerun the same analysis without the skill.
+
 ```sh
 bq query --use_legacy_sql=false --format=csv --max_rows=1000000 < hits.sql > hits.csv
 bq query --use_legacy_sql=false --format=csv < totals.sql > totals.csv
