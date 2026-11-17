@@ -1,0 +1,13 @@
+Rank,URL,Root,Clients,Delivery,Status,Token origin,Subdomains,3P,Expiry
+500000,https://www.portalempleado.net/,yes,desktop mobile,header,ok,https://portalempleado.net:443,yes,,2027-08-31
+1000000,https://www.mfwbooks.com/,yes,desktop mobile,meta,ok,https://www.mfwbooks.com:443,,,2027-08-31
+5000000,https://a3innuva-nomina.wolterskluwer.es/,yes,desktop,header,ok,https://wolterskluwer.es:443,yes,,2027-08-31
+5000000,https://ac-connectivity.cz/,yes,desktop mobile,header,ok,https://ac-connectivity.cz:443,,,2027-08-31
+5000000,https://ac-connectivity.cz/register,,desktop mobile,header,ok,https://ac-connectivity.cz:443,,,2027-08-31
+5000000,https://artisanmanagementgroup.onesite.realpage.com/,yes,desktop mobile,header,ok,https://onesite.realpage.com:443,yes,,2027-08-31
+5000000,https://portalempleado.net/,yes,desktop mobile,header,ok,https://portalempleado.net:443,yes,,2027-08-31
+5000000,https://rdg125726.nextgenmcs.com/,yes,desktop,header,ok,https://nextgenmcs.com:443,yes,,2027-08-31
+5000000,https://rdg125726.nextgenmcs.com/RDWeb/Pages/en-US/password.aspx,,desktop,header,ok,https://nextgenmcs.com:443,yes,,2027-08-31
+10000000,https://rdg126712.nextgenmcs.com/,yes,desktop,header,ok,https://nextgenmcs.com:443,yes,,2027-08-31
+10000000,https://rdg126712.nextgenmcs.com/RDWeb/Pages/en-US/password.aspx,,desktop,header,ok,https://nextgenmcs.com:443,yes,,2027-08-31
+50000000,https://opac.tverlib.ru/,yes,desktop mobile,header,ok,https://tverlib.ru:443,yes,,2027-08-31

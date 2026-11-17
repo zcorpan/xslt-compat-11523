@@ -1,0 +1,10 @@
+<!doctype html>
+<title>XSLTProcessor use</title>
+<script>
+if (typeof XSLTProcessor === 'function') {
+  const p = new XSLTProcessor();
+  p.importStylesheet(new DOMParser().parseFromString(
+    '<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"><xsl:template match="/"><p>ok</p></xsl:template></xsl:stylesheet>',
+    'application/xml'));
+}
+</script>

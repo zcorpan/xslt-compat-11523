@@ -27,6 +27,9 @@ processing instruction and the `XSLTProcessor` API.
 
 - Of the 26 pages the August 2025 analysis rated broken, 12 still break, 9 are fine now, and 5
   don't load (section 4).
+- Of the 12 pages in the 2026-11-01 crawl serving a Chrome `XSLT` origin-trial token, none is
+  broken in Firefox Nightly without XSLT while fine in Chrome Canary: 7 render the same and use no
+  XSLT at load (login and landing pages), 5 aren't assessable (section 6).
 
 ## 1. HTTP Archive
 
@@ -196,12 +199,63 @@ The findings are reported with `xslt-compat-11523` in the title:
 [polyfill issues](https://github.com/mfreed7/xslt_polyfill/issues?q=is%3Aissue%20%22xslt-compat-11523%22%20in%3Atitle),
 [extension issues](https://github.com/mfreed7/xslt_extension/issues?q=is%3Aissue%20%22xslt-compat-11523%22%20in%3Atitle).
 
+## 6. Pages with a Chrome XSLT origin-trial token
+
+Chrome's `XSLT` deprecation origin trial lets sites keep XSLT in Chrome; Firefox has no such
+opt-in. `chrome-origin-trials/XSLT-urls-<crawl date>.csv` lists pages in that HTTP Archive crawl
+serving a valid `XSLT` token (in the `Origin-Trial` header or a meta tag), with the token's origin
+and expiry. A new list is checked each month.
+
+`chrome-origin-trials/check.py` loads each page desktop-sized (1366×768 viewport), in a fresh
+context or profile per visit, in four setups:
+
+- **C**: Chrome Canary at default (XSLT off unless a token turns it on).
+- **C0**: the same, with `Origin-Trial` headers and meta tags stripped from documents, as after the
+  trial ends. (`--disable-origin-trial-controlled-blink-features` leaves the `XSLT` trial enabled.)
+- **F**: Firefox Nightly with `dom.xslt.enabled` false.
+- **F1**: Firefox Nightly with `dom.xslt.enabled` true, to separate XSLT from other Firefox
+  differences.
+
+It records the same measurements as `ext-compare.py`, the `XSLT` trial's status from CDP
+`Page.getOriginTrials` (C, C0), and every `XSLTProcessor` construction, `importStylesheet` and
+`transform*` call with its top stack frames, in every frame. Before the pages it checks each setup
+on `sanity/doc.xml` (transformed in F1 only) and the logging on `sanity/proc.html`. Output is in
+`chrome-origin-trials/<crawl date>/`: `meta.json` (run date, browser versions), `results.jsonl`,
+`review/` (C | C0 | F | F1 viewports), and ratings in `review.csv`. `report.py` prints the table
+below. No interaction: login pages stay at the form.
+
+On every page that loaded, the trial was enabled in C and `XSLTProcessor` was native in C and F1
+and missing in C0 and F. No page constructed an `XSLTProcessor` or had an XSLT processing
+instruction at load, so the token seems to protect pages behind the login (RealPage OneSite's
+script feature-detects `XSLTProcessor`; mfwbooks.com loads IBM Portal's XSLT module), which this
+check doesn't reach.
+
+| Page | 2026-11-01 |
+|---|---|
+| https://a3innuva-nomina.wolterskluwer.es/ | not assessable |
+| https://ac-connectivity.cz/ | same in both |
+| https://ac-connectivity.cz/register | same in both |
+| https://artisanmanagementgroup.onesite.realpage.com/ | same in both |
+| https://opac.tverlib.ru/ | same in both |
+| https://portalempleado.net/ | same in both |
+| https://rdg125726.nextgenmcs.com/ | not assessable |
+| https://rdg125726.nextgenmcs.com/RDWeb/Pages/en-US/password.aspx | not assessable |
+| https://rdg126712.nextgenmcs.com/ | not assessable |
+| https://rdg126712.nextgenmcs.com/RDWeb/Pages/en-US/password.aspx | not assessable |
+| https://www.mfwbooks.com/ | same in both |
+| https://www.portalempleado.net/ | same in both |
+
+2026-11-01 (run 2026-11-17, Chrome Canary 160.0.8165.0, Firefox Nightly 162.0a1): the
+wolterskluwer.es app shows its own error page in every setup, and the four nextgenmcs.com RD Web
+Access pages return HTTP 503 from their load balancer.
+
 ## Not covered
 
 - Pages the crawl rarely visits: feeds, sitemaps, deep links, intranets, logged-in pages.
 - Interaction: logged-in Flarum use, such as the composer, which likely uses the same formatter.
 - CAP emergency alerts: not in the sample. Chrome special-cases them until Chrome 176.
-- Engines other than Chromium. Firefox has its own XSLT implementation (`dom.xslt.enabled`).
+- Engines other than Chromium, except section 6 (and Firefox in section 5). Firefox has its own
+  XSLT implementation (`dom.xslt.enabled`).
 
 ## Query bytes
 
@@ -249,6 +303,10 @@ python3 ext-scan/live.py ext-scan/pages.jsonl ext-scan/live.jsonl
 .venv/bin/pip install warcio
 .venv/bin/python ext-scan/cc-pi.py ~/git/commoncrawl/cc-data/CC-MAIN-2026-39/*.warc.gz > ext-scan/cc-pi.txt
 python3 ext-scan/summarize.py ext-scan
+.venv/bin/python chrome-origin-trials/check.py "$CHROME" "$FIREFOX" chrome-origin-trials/XSLT-urls-2026-11-01.csv
+# review chrome-origin-trials/2026-11-01/review/*.png by hand and record ratings in its review.csv
+python3 scrub.py 'chrome-origin-trials/XSLT-urls-*.csv' chrome-origin-trials/2026-11-01/results.jsonl <IP>
+python3 chrome-origin-trials/report.py
 ```
 
 Any Chrome with the `XSLT` feature works; check that `compare.py`'s sanity check passes for both

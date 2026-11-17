@@ -1,0 +1,13 @@
+id,page,rating,note
+00,https://www.portalempleado.net/,same in both,login frames behind a consent dialog; no XSLTProcessor use at load
+01,https://www.mfwbooks.com/,same in both,loads IBM Portal's ibm.portal.xml.xslt module but constructs no XSLTProcessor at load
+02,https://a3innuva-nomina.wolterskluwer.es/,not assessable,redirects to the app's own error page in every setup
+03,https://ac-connectivity.cz/,same in both,login form; no XSLTProcessor use at load
+04,https://ac-connectivity.cz/register,same in both,registration form; no XSLTProcessor use at load
+05,https://artisanmanagementgroup.onesite.realpage.com/,same in both,login page; its script feature-detects XSLTProcessor but uses none at load
+06,https://portalempleado.net/,same in both,same as 00
+07,https://rdg125726.nextgenmcs.com/,not assessable,HTTP 503 from the load balancer in every setup
+08,https://rdg125726.nextgenmcs.com/RDWeb/Pages/en-US/password.aspx,not assessable,HTTP 503 from the load balancer in every setup
+09,https://rdg126712.nextgenmcs.com/,not assessable,HTTP 503 from the load balancer in every setup
+10,https://rdg126712.nextgenmcs.com/RDWeb/Pages/en-US/password.aspx,not assessable,HTTP 503 from the load balancer in every setup
+11,https://opac.tverlib.ru/,same in both,catalog home; its script passes .xsl names to the search service (server-side); no XSLTProcessor use at load
