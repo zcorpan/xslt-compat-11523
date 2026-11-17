@@ -327,5 +327,6 @@ the tester's IP replaced with `[client IP]`, and query strings and fragments str
 other than crawl URLs and script URLs in `xsltStacks`. The analysis outputs are unchanged.
 `out-ext-chrome/results.jsonl`, `out-ext-firefox/results.jsonl`, and the `ext-scan/*.jsonl` output
 were scrubbed the same way before `ext-analyze.py` and `summarize.py` ran; stripping query strings made two console messages match A, so
-Chrome had 74 flagged pages before scrubbing. The extension runs used Playwright 1.64.1, Selenium
+Chrome had 74 flagged pages before scrubbing. `chrome-origin-trials/*/results.jsonl` were scrubbed the same way, also
+stripping `;` parameters (as in ad-frame URLs). The extension runs used Playwright 1.64.1, Selenium
 4.52.0, and geckodriver 0.37.1.

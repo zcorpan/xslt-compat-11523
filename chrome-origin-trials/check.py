@@ -149,7 +149,7 @@ async def chrome_visit(browsers, url, tag, shot):
                                for t in trials]
         rec['frames'] = await chrome_frames(page)
         await page.screenshot(path=shot, timeout=20000)
-        rec['shot'] = shot
+        rec['shot'] = os.path.relpath(shot, os.path.dirname(HERE))
         rec['after'] = []
         for n, step in enumerate(INTERACT.get(url, [])):
             await page.evaluate('() => {' + step + '}')
@@ -210,7 +210,7 @@ def firefox_visit_sync(url, tag, shot, holder):
         rec['frames'] = firefox_frames()
         with open(shot, 'wb') as f:
             f.write(d.get_screenshot_as_png())
-        rec['shot'] = shot
+        rec['shot'] = os.path.relpath(shot, os.path.dirname(HERE))
         rec['after'] = []
         for n, step in enumerate(INTERACT.get(url, [])):
             d.execute_script(step)

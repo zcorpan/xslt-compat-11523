@@ -1,5 +1,5 @@
-"""Scrub committed browser output: the tester's IP, and query strings/fragments of URLs that aren't
-crawl URLs. Crawl URLs = `page` values plus URLs found in the crawl input files given as args."""
+"""Scrub committed browser output: the tester's IP, and query strings, fragments and `;` parameters
+of URLs that aren't crawl URLs. Crawl URLs = `page` values plus URLs found in the crawl input files given as args."""
 import csv, glob, json, re, sys
 csv.field_size_limit(sys.maxsize)
 IP = sys.argv[3]  # the tester's public IP, as shown on block and captcha pages
@@ -27,7 +27,7 @@ def strip_url(m):
     u = m.group(0)
     if u in allowed or u.rstrip('.,;)') in allowed:
         return u
-    return re.split(r'[?#]', u, maxsplit=1)[0]
+    return re.split(r'[?#;]', u, maxsplit=1)[0]
 def s(x, key=None):
     if isinstance(x, str):
         x = x.replace(IP, '[client IP]')
