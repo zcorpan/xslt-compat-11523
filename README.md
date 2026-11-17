@@ -27,9 +27,10 @@ processing instruction and the `XSLTProcessor` API.
 
 - Of the 26 pages the August 2025 analysis rated broken, 12 still break, 9 are fine now, and 5
   don't load (section 4).
-- Of the 12 pages in the 2026-11-01 crawl serving a Chrome `XSLT` origin-trial token, none is
-  broken in Firefox Nightly without XSLT while fine in Chrome Canary: 7 render the same and use no
-  XSLT at load (login and landing pages), 5 aren't assessable (section 6).
+- Of the 12 pages in the 2026-11-01 crawl serving a Chrome `XSLT` origin-trial token, one is
+  broken in Firefox Nightly without XSLT while fine in Chrome Canary: the Tver regional library's
+  catalog shows a record card as untransformed XML. 6 render the same and use no XSLT (login and
+  landing pages), 5 aren't assessable (section 6).
 
 ## 1. HTTP Archive
 
@@ -222,13 +223,19 @@ It records the same measurements as `ext-compare.py`, the `XSLT` trial's status 
 on `sanity/doc.xml` (transformed in F1 only) and the logging on `sanity/proc.html`. Output is in
 `chrome-origin-trials/<crawl date>/`: `meta.json` (run date, browser versions), `results.jsonl`,
 `review/` (C | C0 | F | F1 viewports), and ratings in `review.csv`. `report.py` prints the table
-below. No interaction: login pages stay at the form.
+below. Login pages stay at the form. For opac.tverlib.ru, the one site usable without an account,
+it then searches the catalog for `Пушкин` and opens the first result's record card
+(`INTERACT` in `check.py`), measuring frames again after each step (`review/11-after0.png`,
+`review/11-after1.png`).
 
 On every page that loaded, the trial was enabled in C and `XSLTProcessor` was native in C and F1
 and missing in C0 and F. No page constructed an `XSLTProcessor` or had an XSLT processing
-instruction at load, so the token seems to protect pages behind the login (RealPage OneSite's
-script feature-detects `XSLTProcessor`; mfwbooks.com loads IBM Portal's XSLT module), which this
-check doesn't reach.
+instruction at load. On opac.tverlib.ru, search results are the same in all setups, but the record
+card loads XML with an `xml-stylesheet` PI (`bibcard.xsl`) in a frame: C and F1 show the
+formatted card, F shows the XML untransformed and C0 an empty box (`review/11-after1.png`). On the
+other sites, the token seems to protect pages behind the login (RealPage OneSite's script
+feature-detects `XSLTProcessor`; mfwbooks.com loads IBM Portal's XSLT module), which this check
+doesn't reach.
 
 | Page | 2026-11-01 |
 |---|---|
@@ -236,7 +243,7 @@ check doesn't reach.
 | https://ac-connectivity.cz/ | same in both |
 | https://ac-connectivity.cz/register | same in both |
 | https://artisanmanagementgroup.onesite.realpage.com/ | same in both |
-| https://opac.tverlib.ru/ | same in both |
+| https://opac.tverlib.ru/ | broken in Firefox only |
 | https://portalempleado.net/ | same in both |
 | https://rdg125726.nextgenmcs.com/ | not assessable |
 | https://rdg125726.nextgenmcs.com/RDWeb/Pages/en-US/password.aspx | not assessable |

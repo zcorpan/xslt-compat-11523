@@ -9,9 +9,11 @@
 #   F1  Firefox, dom.xslt.enabled true
 # Writes <crawl date>/results.jsonl, review/<id>.png (C | C0 | F | F1 viewports), meta.json, and
 # review.csv (rows added for new ids only, prefilled from the previous month's ratings).
+# For pages in INTERACT, it then runs each step (read-only actions such as a catalog search), waits,
+# and records the measurements again in `after`, with review/<id>-after<n>.png.
 # Pass ids to redo just those visits. Set GECKODRIVER to skip Selenium Manager.
 # Usage: check.py <chrome> <firefox> XSLT-urls-<date>.csv [id,id,...]
-import asyncio, csv, datetime, urllib.parse, difflib, functools, glob, html, http.server, json, os, re, sys, threading, time, urllib.parse
+import asyncio, csv, datetime, difflib, functools, glob, html, http.server, json, os, re, sys, threading, time, urllib.parse
 from PIL import Image, ImageDraw
 
 chrome_exe, firefox_exe, csv_path = sys.argv[1:4]
@@ -43,6 +45,17 @@ INIT = """(() => {
   window.addEventListener('load', wrap);
 })();"""
 WAIT_MS = 5000
+INTERACT = {
+    # Catalog search for a common author name, then the first result's record card.
+    'https://opac.tverlib.ru/': ["""
+      document.getElementById('itemsimple').value = 'Пушкин';
+      document.querySelector('.simplebutton').dispatchEvent(new MouseEvent('mousedown', {bubbles: true}));
+    """, """
+      const el = [...document.querySelectorAll('*')].find(e => e.children.length === 0 && e.textContent.trim() === 'Карточка');
+      for (const t of ['mousedown', 'mouseup', 'click']) el.dispatchEvent(new MouseEvent(t, {bubbles: true}));
+      setTimeout(() => el.scrollIntoView({block: 'start'}), 5000);
+    """],
+}
 MEASURE = """
 return (() => ({
   url: location.href,
@@ -53,6 +66,8 @@ return (() => ({
   text: (document.body ? document.body.innerText : document.documentElement ? document.documentElement.textContent : '').slice(0, 3000),
   xsltProcessor: typeof XSLTProcessor !== 'function' ? 'none' : window.__xsltNative || String(XSLTProcessor).includes('native code') ? 'native' : 'other',
   xsltLog: (window.__xsltLog || []).slice(0, 20),
+  textLength: document.body ? document.body.innerText.length : 0,
+  textHash: document.body ? [...document.body.innerText].reduce((h, c) => (h * 31 + c.codePointAt(0)) >>> 0, 7) : 0,
   navStatus: (performance.getEntriesByType('navigation')[0] || {}).responseStatus,
 }))()
 """
@@ -92,6 +107,17 @@ async def strip_origin_trial(route):
     await route.fulfill(status=resp.status, headers=headers, body=body)
 
 
+async def chrome_frames(page):
+    frames = []
+    for fr in page.frames[1:20]:
+        try:
+            fm = await fr.evaluate('() => {' + MEASURE + '}')
+            frames.append({k: fm[k] for k in FRAME_KEYS} | {'text': fm['text'][:200]})
+        except Exception as e:
+            frames.append({'url': fr.url, 'error': str(e)[:100]})
+    return frames
+
+
 async def chrome_visit(browsers, url, tag, shot):
     rec = {'tag': tag, 'console': [], 'pageErrors': []}
     ctx = await browsers.new_context(viewport={'width': 1366, 'height': 768}, ignore_https_errors=True)
@@ -121,16 +147,15 @@ async def chrome_visit(browsers, url, tag, shot):
                                             'matchSubDomains': (k.get('parsedToken') or {}).get('matchSubDomains')}
                                            for k in t['tokensWithStatus']]}
                                for t in trials]
-        frames = []
-        for fr in page.frames[1:20]:
-            try:
-                fm = await fr.evaluate('() => {' + MEASURE + '}')
-                frames.append({k: fm[k] for k in FRAME_KEYS} | {'text': fm['text'][:200]})
-            except Exception as e:
-                frames.append({'url': fr.url, 'error': str(e)[:100]})
-        rec['frames'] = frames
+        rec['frames'] = await chrome_frames(page)
         await page.screenshot(path=shot, timeout=20000)
         rec['shot'] = shot
+        rec['after'] = []
+        for n, step in enumerate(INTERACT.get(url, [])):
+            await page.evaluate('() => {' + step + '}')
+            await page.wait_for_timeout(2 * WAIT_MS)
+            rec['after'].append(await page.evaluate('() => {' + MEASURE + '}') | {'frames': await chrome_frames(page)})
+            await page.screenshot(path=shot.replace('.png', f'-after{n}.png'), timeout=20000)
     except Exception as e:
         rec['error'] = str(e).splitlines()[0][:300]
     finally:
@@ -170,20 +195,29 @@ def firefox_visit_sync(url, tag, shot, holder):
         time.sleep(WAIT_MS / 1000)
         rec.update(d.execute_script(MEASURE))
         rec['status'] = rec['navStatus'] or None
-        frames = []
-        for i, _ in enumerate(d.find_elements(By.CSS_SELECTOR, 'iframe, frame')[:19]):
-            try:
-                d.switch_to.frame(i)
-                fm = d.execute_script(MEASURE)
-                frames.append({k: fm[k] for k in FRAME_KEYS} | {'text': fm['text'][:200]})
-            except Exception as e:
-                frames.append({'error': str(e).splitlines()[0][:100]})
-            finally:
-                d.switch_to.default_content()
-        rec['frames'] = frames
+        def firefox_frames():
+            frames = []
+            for el in d.find_elements(By.CSS_SELECTOR, 'iframe, frame, object')[:19]:
+                try:
+                    d.switch_to.frame(el)
+                    fm = d.execute_script(MEASURE)
+                    frames.append({k: fm[k] for k in FRAME_KEYS} | {'text': fm['text'][:200]})
+                except Exception as e:
+                    frames.append({'error': str(e).splitlines()[0][:100]})
+                finally:
+                    d.switch_to.default_content()
+            return frames
+        rec['frames'] = firefox_frames()
         with open(shot, 'wb') as f:
             f.write(d.get_screenshot_as_png())
         rec['shot'] = shot
+        rec['after'] = []
+        for n, step in enumerate(INTERACT.get(url, [])):
+            d.execute_script(step)
+            time.sleep(2 * WAIT_MS / 1000)
+            rec['after'].append(d.execute_script(MEASURE) | {'frames': firefox_frames()})
+            with open(shot.replace('.png', f'-after{n}.png'), 'wb') as f:
+                f.write(d.get_screenshot_as_png())
     except Exception as e:
         rec['error'] = str(e).splitlines()[0][:300]
     finally:
@@ -212,8 +246,8 @@ async def visit(browsers, url, tag, shot):
         return {'tag': tag, 'error': 'visit timed out after 120s', 'pageErrors': [], 'console': []}
 
 
-def review_image(rid):
-    shots = [f'{OUT}/shots/{rid}-{t}.png' for t in TAGS]
+def review_image(rid, suffix=''):
+    shots = [f'{OUT}/shots/{rid}-{t}{suffix}.png' for t in TAGS]
     imgs = [Image.open(s).convert('RGB') if os.path.exists(s) else Image.new('RGB', (1366, 768), 'gray') for s in shots]
     w, h = max(i.width for i in imgs), max(i.height for i in imgs)
     im = Image.new('RGB', (4 * w + 3 * 12, h + 40), 'red')
@@ -222,7 +256,7 @@ def review_image(rid):
         im.paste(i, (n * (w + 12), 40))
         draw.text((n * (w + 12) + 8, 8), t, fill='white', font_size=28)
     im.thumbnail((2800, 1000))
-    im.save(f'{OUT}/review/{rid}.png')
+    im.save(f'{OUT}/review/{rid}{suffix}.png')
 
 
 def text_ratio(a, b):
@@ -233,12 +267,13 @@ def auto_rating(r):
     c, f = r['C'], r['F']
     if any('error' in r[t] for t in TAGS) or (c.get('status') or 0) >= 400:
         return 'not assessable', 'auto: a setup failed to load or C got HTTP 4xx/5xx'
-    used = lambda x: bool(x.get('xsltLog') or any(fr.get('xsltLog') for fr in x.get('frames', [])))
-    if not used(c) and not used(r['F1']):
-        return '', 'auto: no XSLTProcessor use at load in C or F1'
-    raw = lambda x: x.get('xmlViewer') or any(fr.get('xmlViewer') for fr in x.get('frames', []))
+    states = lambda x: [x] + x.get('after', [])
+    raw = lambda x: any(m.get('xmlViewer') or any(fr.get('xmlViewer') for fr in m.get('frames', [])) for m in states(x))
     if raw(f) and not raw(c):
         return '', 'auto: F shows raw XML in the page or a frame, C does not'
+    used = lambda x: any(m.get('xsltLog') or any(fr.get('xsltLog') for fr in m.get('frames', [])) for m in states(x))
+    if not used(c) and not used(r['F1']):
+        return '', 'auto: no XSLTProcessor use in C or F1'
     if r['textRatioCF'] >= 0.98 and not raw(f):
         return '', 'auto: F text matches C'
     return '', 'auto: needs review'
@@ -300,6 +335,8 @@ async def main():
             with open(results_path, 'a') as f:
                 f.write(json.dumps(res) + '\n')
             review_image(r['id'])
+            for n, _ in enumerate(INTERACT.get(r['URL'], [])):
+                review_image(r['id'], f'-after{n}')
             print(r['id'], r['URL'], res['textRatioCF'], [res[t].get('xsltProcessor') for t in TAGS], flush=True)
 
         await asyncio.gather(*(one(r) for r in rows))

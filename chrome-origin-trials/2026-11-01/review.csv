@@ -10,4 +10,4 @@ id,page,rating,note
 08,https://rdg125726.nextgenmcs.com/RDWeb/Pages/en-US/password.aspx,not assessable,HTTP 503 from the load balancer in every setup
 09,https://rdg126712.nextgenmcs.com/,not assessable,HTTP 503 from the load balancer in every setup
 10,https://rdg126712.nextgenmcs.com/RDWeb/Pages/en-US/password.aspx,not assessable,HTTP 503 from the load balancer in every setup
-11,https://opac.tverlib.ru/,same in both,catalog home; its script passes .xsl names to the search service (server-side); no XSLTProcessor use at load
+11,https://opac.tverlib.ru/,broken in Firefox only,search results are the same; a result's record card (Карточка) loads XML with an xml-stylesheet PI (bibcard.xsl) in a frame and shows it untransformed in F and C0
