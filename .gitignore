@@ -4,3 +4,4 @@ out*/shots/
 followup-2025/shots/
 chrome-origin-trials/*/shots/
 .publish-terms
+.DS_Store
