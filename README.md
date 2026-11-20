@@ -330,3 +330,7 @@ were scrubbed the same way before `ext-analyze.py` and `summarize.py` ran; strip
 Chrome had 74 flagged pages before scrubbing. `chrome-origin-trials/*/results.jsonl` were scrubbed the same way, also
 stripping `;` parameters (as in ad-frame URLs). The extension runs used Playwright 1.64.1, Selenium
 4.52.0, and geckodriver 0.37.1.
+
+## License
+
+MIT, see [LICENSE](LICENSE), for the scripts, analysis and text written for this research. Content from the crawl and the live web (`queries/`, `crawl/`, screenshots, page snippets) and third-party code (`vendor/`) belongs to its owners and isn't covered.
